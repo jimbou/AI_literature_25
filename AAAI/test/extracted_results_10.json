@@ -1,0 +1,42 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/AAAI/test/raw_batches_10.jsonl",
+  "batches_total": 10,
+  "batches_with_kept": 3,
+  "parse_failures": 0,
+  "kept_total": 3,
+  "kept": [
+    {
+      "batch_id": "batch_00004",
+      "paper_id": "article-33658",
+      "title": "A Logical Analysis of Hanabi",
+      "relevance_score": 3,
+      "reason": "Formal logical analysis of multi-agent epistemic reasoning, relevant to structured agent reasoning.",
+      "tags": [
+        "FORMAL_METHODS",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00007",
+      "paper_id": "article-33635",
+      "title": "A Syntactic Approach to Computing Complete and Sound Abstraction in the Situation Calculus",
+      "relevance_score": 3,
+      "reason": "Syntactic method for sound/complete abstraction in Situation Calculus; relates to formal reasoning about actions and programs.",
+      "tags": [
+        "FORMAL_METHODS",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "article-33224",
+      "title": "A Complete Algorithm for Optimization Modulo Nonlinear Real Arithmetic",
+      "relevance_score": 3,
+      "reason": "Complete algorithm for Optimization Modulo Nonlinear Real Arithmetic, applicable to program verification.",
+      "tags": [
+        "FORMAL_METHODS",
+        "VERIFICATION"
+      ]
+    }
+  ]
+}

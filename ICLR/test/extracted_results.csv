@@ -1,0 +1,5 @@
+batch_id,paper_id,title,relevance_score,reason,tags
+batch_00001,09FiNmvNMw,Divide and Translate: Compositional First-Order Logic Translation and Verification for Complex Logical Reasoning,4,"Neurosymbolic method using LLMs for formal logic translation, verified by SAT solver for reliable reasoning.",FORMAL_METHODS;NEUROSYMBOLIC
+batch_00002,0K1OaL6XuK,Planning Anything with Rigor: General-Purpose Zero-Shot Planning with LLM-based Formalized Programming,4,"LLM tool-use for formal planning; frames problems as code-based optimization, aligning with structured reasoning for correctness.",AGENTS;TOOL_USE;PROGRAM_REASONING
+batch_00003,0bmGL4q7vJ,Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage,3,"Presents method for tuning VLM agents for tool use, relevant to LLM-based agents for code tasks.",AGENTS;TOOL_USE
+batch_00005,0yvZm2AjUr,Monitoring Latent World States in Language Models with Propositional Probes,3,Probes extract latent logical propositions from LM states; connects to monitoring faithfulness for code correctness.,OTHER

@@ -1,0 +1,426 @@
+[
+  {
+    "batch_id": "batch_00349",
+    "paper_id": "wN3KaUXA5X",
+    "title": "Diffusion On Syntax Trees For Program Synthesis",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic diffusion model for program synthesis; reasons over syntax trees and execution results for debugging.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00283",
+    "paper_id": "ljAS7cPAU0",
+    "title": "Symbolic regression via MDLformer-guided search: from minimizing prediction error to minimizing description length",
+    "relevance_score": 3,
+    "reason": "Symbolic regression via MDL; neuro-symbolic search for formulas aligns with structured reasoning themes.",
+    "tags": [
+      "SYMBOLIC_EXEC",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00228",
+    "paper_id": "cfGpIcOIa5",
+    "title": "GeoILP: A Synthetic Dataset to Guide Large-Scale Rule Induction",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic dataset for rule induction from geometry problems, aligning with hybrid reasoning interests.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00106",
+    "paper_id": "HEXtydywnE",
+    "title": "LASER: A Neuro-Symbolic Framework for Learning Spatio-Temporal Scene Graphs with Weak Supervision",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic framework using LLMs to extract logical specs from text for structured reasoning.",
+    "tags": [
+      "NEURO_SYMBOLIC",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00076",
+    "paper_id": "C25SgeXWjE",
+    "title": "Large Language Models Meet Symbolic Provers for Logical Reasoning Evaluation",
+    "relevance_score": 3,
+    "reason": "LLMs + symbolic provers for FOL reasoning; intermediate steps align with structured reasoning theme.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00062",
+    "paper_id": "9qS3HzSDNv",
+    "title": "Integrating Protein Dynamics into Structure-Based Drug Design via Full-Atom Stochastic Flows",
+    "relevance_score": 1,
+    "reason": "Uses generative modeling for structure-based drug design, but domain is bio/pharma, not software engineering or code reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00008",
+    "paper_id": "10.1145/3729328",
+    "title": "Efficient Linearizability Monitoring.",
+    "relevance_score": 1,
+    "reason": "Uses LLM to learn heuristics for program lifting into DSLs, a synthesis/compilation task.",
+    "tags": [
+      "PL_LLMS",
+      "SYNTHESIS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_pldi.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00019",
+    "paper_id": "10.1145/3763163",
+    "title": "Large Language Model Powered Symbolic Execution.",
+    "relevance_score": 5,
+    "reason": "LLMs directly integrated with symbolic execution for program analysis, using path constraints and semantic reasoning.",
+    "tags": [
+      "PL_LLMS",
+      "PROGRAM_REASONING",
+      "SYMBOLIC_EXEC",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "10.1145/3720482",
+    "title": "Multi-Language Probabilistic Programming.",
+    "relevance_score": 2,
+    "reason": "Multi-language PPL foundation; uses neural network for soft evidence in program analysis.",
+    "tags": [
+      "PL_LLMS",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00204",
+    "paper_id": "MLprqOvAAK",
+    "title": "Teaching Transformers to Solve Combinatorial Problems through Efficient Trial & Error",
+    "relevance_score": 4,
+    "reason": "LLM with explicit DFS for Sudoku/SAT; neuro-symbolic reasoning via backtracking & guessing.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00396",
+    "paper_id": "ggP2r9S9wY",
+    "title": "Skill-Driven Neurosymbolic State Abstractions",
+    "relevance_score": 3,
+    "reason": "Neurosymbolic state abstractions for MDPs; connects symbolic reasoning to RL, relevant to hybrid neuro-symbolic methods.",
+    "tags": [
+      "SYMBOLIC_EXEC",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00339",
+    "paper_id": "aZooxbW63m",
+    "title": "A Semantic Parsing Framework for End-to-End Time Normalization",
+    "relevance_score": 3,
+    "reason": "LLM code generation for semantic parsing of time expressions, aligns with structured reasoning via symbolic operators.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00261",
+    "paper_id": "SAbQLqf8XL",
+    "title": "NeuSymEA: Neuro-symbolic Entity Alignment via Variational Inference",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic framework (logic rules + neural model) for structured reasoning, aligns with hybrid neuro-symbolic theme.",
+    "tags": [
+      "NEURO_SYMBOLIC",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00248",
+    "paper_id": "QzE4SDwcCr",
+    "title": "Curriculum Abductive Learning",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic learning with logical reasoning loop; connects to hybrid reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00187",
+    "paper_id": "KQoVgPOM1S",
+    "title": "Hybrid Boundary Physics-Informed Neural Networks for Solving Navier-Stokes Equations with Complex Boundary",
+    "relevance_score": 1,
+    "reason": "Uses PINNs for solving Navier-Stokes equations; peripheral connection to neuro-symbolic methods for complex systems.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00107",
+    "paper_id": "BZ0igCEeoU",
+    "title": "Fractional Langevin Dynamics for Combinatorial Optimization via Polynomial-Time Escape",
+    "relevance_score": 1,
+    "reason": "Applies fractional Langevin dynamics to combinatorial optimization, which is a form of structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00105",
+    "paper_id": "BKLS9IMrNZ",
+    "title": "Dynamic View Synthesis as an Inverse Problem",
+    "relevance_score": 1,
+    "reason": "Method for structured latent manipulation (inverse problem) could be loosely related to reasoning about program states.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00245",
+    "paper_id": "article-34855",
+    "title": "Planning in the Dark: LLM-Symbolic Planning Pipeline Without Experts",
+    "relevance_score": 4,
+    "reason": "Automated LLM-symbolic planning pipeline for NL specs; addresses ambiguity, validates schemas without expert input.",
+    "tags": [
+      "FORMAL_METHODS",
+      "AMBIGUITY",
+      "SYMBOLIC_EXEC"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00113",
+    "paper_id": "article-34198",
+    "title": "Enhancing SQL Query Generation with Neurosymbolic Reasoning",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic SQL generation with symbolic reasoning, backtracking, and early query checking for correctness.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00264",
+    "paper_id": "article-33777",
+    "title": "Relational Neurosymbolic Markov Models",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic AI with logical constraints for sequential models, directly aligns with hybrid neuro-symbolic approaches for reliability.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00301",
+    "paper_id": "article-32117",
+    "title": "Symbolic Functional Decomposition: A Reconfiguration Approach",
+    "relevance_score": 4,
+    "reason": "Presents a symbolic framework using OBDDs and circuits for functional decomposition, aligning with formal methods and program analysis.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00125",
+    "paper_id": "article-35469",
+    "title": "FIND: A Framework for Discovering Formulas in Data",
+    "relevance_score": 3,
+    "reason": "Proposes a neuro-symbolic framework for formula discovery, aligning with hybrid reasoning for scientific laws.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00042",
+    "paper_id": "article-35157",
+    "title": "BoolXAI: Explainable AI Using Expressive Boolean Formulas",
+    "relevance_score": 3,
+    "reason": "Uses expressive Boolean formulas for interpretable ML, relevant to hybrid neuro-symbolic reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00019",
+    "paper_id": "article-35106",
+    "title": "Advancements in AI for Reasoning with Complex Data",
+    "relevance_score": 3,
+    "reason": "Presents hybrid SQL-text reasoning (H-STAR) and symbolic query generation for structured data, aligning with neuro-symbolic methods.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00308",
+    "paper_id": "article-34874",
+    "title": "Temporal Task and Motion Planning with Metric Time for Multiple Object Navigation",
+    "relevance_score": 3,
+    "reason": "Integrates SMT solving for temporal reasoning in task/motion planning, a symbolic neuro-symbolic angle.",
+    "tags": [
+      "SYMBOLIC_EXEC",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00143",
+    "paper_id": "article-34679",
+    "title": "GNS: Solving Plane Geometry Problems by Neural-Symbolic Reasoning with Multi-Modal LLMs",
+    "relevance_score": 3,
+    "reason": "Neural-symbolic reasoning for geometry problems with symbolic parsing and solving, related to structured reasoning.",
+    "tags": [
+      "SYMBOLIC_EXEC",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00262",
+    "paper_id": "article-34674",
+    "title": "Reasoning over Uncertain Text by Generative Large Language Models",
+    "relevance_score": 3,
+    "reason": "Uses LLM-generated Python code & probabilistic logic for reasoning, a hybrid neuro-symbolic approach for reliability.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00251",
+    "paper_id": "article-34564",
+    "title": "Promoting Knowledge Base Question Answering by Directing LLMs to Generate Task-relevant Logical Forms",
+    "relevance_score": 3,
+    "reason": "LLM fine-tuned to generate logical forms for KBQA, improving executable reasoning over structured knowledge.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00193",
+    "paper_id": "article-34510",
+    "title": "LightPROF: A Lightweight Reasoning Framework for Large Language Model on Knowledge Graph",
+    "relevance_score": 3,
+    "reason": "LLM reasoning on structured KGs; uses program-like symbolic reasoning graphs, relates to structured reasoning.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00089",
+    "paper_id": "article-33947",
+    "title": "Dimension Reduction for Symbolic Regression",
+    "relevance_score": 3,
+    "reason": "Presents a symbolic regression method using dimension reduction via variable substitution, aligning with structured reasoning and neuro-symbolic approaches.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00060",
+    "paper_id": "article-33665",
+    "title": "Column-Oriented Datalog on the GPU",
+    "relevance_score": 3,
+    "reason": "Presents a high-performance Datalog engine for knowledge representation and reasoning, relevant to symbolic methods for program analysis.",
+    "tags": [
+      "OTHER",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00208",
+    "paper_id": "article-34915",
+    "title": "MetaSymNet: A Tree-like Symbol Network with Adaptive Architecture and Activation Functions",
+    "relevance_score": 1,
+    "reason": "Symbolic regression with neural networks; peripheral connection to neuro-symbolic methods for formula discovery.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00217",
+    "paper_id": "article-34652",
+    "title": "Multi-View Empowered Structural Graph Wordification for Language Models",
+    "relevance_score": 1,
+    "reason": "Aligns LLMs with graph-structured data for explainable reasoning, touching on structured knowledge integration.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "SYMBOLIC_EXECUTION"
+  }
+]

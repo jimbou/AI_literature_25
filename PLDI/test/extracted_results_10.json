@@ -1,0 +1,56 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/PLDI/raw_batches_10.jsonl",
+  "batches_total": 5,
+  "batches_with_kept": 4,
+  "parse_failures": 0,
+  "kept_total": 4,
+  "kept": [
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "10.1145/3729274",
+      "title": "Type-Constrained Code Generation with Language Models.",
+      "relevance_score": 5,
+      "reason": "LLM code generation with type system constraints for semantic correctness and reduced compilation errors",
+      "tags": [
+        "PL_LLMS",
+        "TYPE_SYSTEMS",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "batch_id": "batch_00005",
+      "paper_id": "10.1145/3729265",
+      "title": "DR.FIX: Automatically Fixing Data Races at Industry Scale.",
+      "relevance_score": 4,
+      "reason": "LLMs + program analysis for automated data race fixing, integrated into industrial workflows for semantic correctness.",
+      "tags": [
+        "PL_LLMS",
+        "REPAIR",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "batch_id": "batch_00003",
+      "paper_id": "10.1145/3729300",
+      "title": "Membership Testing for Semantic Regular Expressions.",
+      "relevance_score": 3,
+      "reason": "Integrates LLMs as semantic oracles for formal language membership testing, combining formal methods (SemREs) with modern AI.",
+      "tags": [
+        "PL_LLMS",
+        "FORMAL_METHODS",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00004",
+      "paper_id": "10.1145/3729289",
+      "title": "A Hybrid Approach to Semi-automated Rust Verification.",
+      "relevance_score": 1,
+      "reason": "Hybrid Rust verifier (Gillian-Rust) integrates automated reasoning; LLMs not mentioned but adjacent to verifier-guided synthesis.",
+      "tags": [
+        "VERIFICATION",
+        "OTHER"
+      ]
+    }
+  ]
+}

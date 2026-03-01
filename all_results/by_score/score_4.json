@@ -1,0 +1,1083 @@
+[
+  {
+    "batch_id": "batch_00113",
+    "paper_id": "article-34198",
+    "title": "Enhancing SQL Query Generation with Neurosymbolic Reasoning",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic SQL generation with symbolic reasoning, backtracking, and early query checking for correctness.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00233",
+    "paper_id": "article-33227",
+    "title": "Online Prompt Selection for Program Synthesis",
+    "relevance_score": 4,
+    "reason": "Online selection of LLMs, prompts, and symbolic solvers for program synthesis to optimize correctness and cost.",
+    "tags": [
+      "RELIABILITY",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00245",
+    "paper_id": "article-34855",
+    "title": "Planning in the Dark: LLM-Symbolic Planning Pipeline Without Experts",
+    "relevance_score": 4,
+    "reason": "Automated LLM-symbolic planning pipeline for NL specs; addresses ambiguity, validates schemas without expert input.",
+    "tags": [
+      "FORMAL_METHODS",
+      "AMBIGUITY",
+      "SYMBOLIC_EXEC"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00264",
+    "paper_id": "article-33777",
+    "title": "Relational Neurosymbolic Markov Models",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic AI with logical constraints for sequential models, directly aligns with hybrid neuro-symbolic approaches for reliability.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00301",
+    "paper_id": "article-32117",
+    "title": "Symbolic Functional Decomposition: A Reconfiguration Approach",
+    "relevance_score": 4,
+    "reason": "Presents a symbolic framework using OBDDs and circuits for functional decomposition, aligning with formal methods and program analysis.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00334",
+    "paper_id": "article-34604",
+    "title": "VERSE: Verification-based Self-Play for Code Instructions",
+    "relevance_score": 4,
+    "reason": "Verification-based self-play for Code LLMs ensures functional correctness of generated code.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00001",
+    "paper_id": "09FiNmvNMw",
+    "title": "Divide and Translate: Compositional First-Order Logic Translation and Verification for Complex Logical Reasoning",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic method using LLMs for logic translation, verified by SAT solver for reliable reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "NEUROSYMBOLIC",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "0K1OaL6XuK",
+    "title": "Planning Anything with Rigor: General-Purpose Zero-Shot Planning with LLM-based Formalized Programming",
+    "relevance_score": 4,
+    "reason": "LLM-based formalized programming for general-purpose planning, solving optimization problems as code, tool-use for complex constraints.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00023",
+    "paper_id": "3ogIALgghF",
+    "title": "Automatic Curriculum Expert Iteration for Reliable LLM Reasoning",
+    "relevance_score": 4,
+    "reason": "Addresses LLM reasoning reliability, hallucination reduction, and aligning assertiveness with capabilities for code-adjacent tasks.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00025",
+    "paper_id": "48WAZhwHHw",
+    "title": "Planning in Natural Language Improves LLM Search for Code Generation",
+    "relevance_score": 4,
+    "reason": "Proposes PlanSearch, a method using natural language planning for diverse code generation, directly improving LLM reliability for programming.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00026",
+    "paper_id": "4FWAwZtd2n",
+    "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+    "relevance_score": 4,
+    "reason": "Scales test-time compute for reasoning, uses verifier reward models to improve LLM code output correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00035",
+    "paper_id": "5X5Z7Ffrjb",
+    "title": "Steering Large Language Models between Code Execution and Textual Reasoning",
+    "relevance_score": 4,
+    "reason": "Explicitly studies steering LLMs between code execution and textual reasoning for complex tasks, aligning with our focus on code-based agents and reliability.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00039",
+    "paper_id": "6H4jRWKFc3",
+    "title": "MotherNet: Fast Training and Inference via Hyper-Network Transformers",
+    "relevance_score": 4,
+    "reason": "Proposes hypernetwork for in-context learning on tabular data, relevant to structured reasoning and reliability of LLM workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00064",
+    "paper_id": "A6Y7AqlzLW",
+    "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+    "relevance_score": 4,
+    "reason": "Process reward models (PRMs) for LLM reasoning, aligns with verifier-guided decoding and reliability for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00078",
+    "paper_id": "Ccwp4tFEtE",
+    "title": "Generative Verifiers: Reward Modeling as Next-Token Prediction",
+    "relevance_score": 4,
+    "reason": "Proposes generative verifiers for LLM reasoning, aligns with reliability methods like verifier-guided decoding for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00094",
+    "paper_id": "FDimWzmcWn",
+    "title": "AgentRefine: Enhancing Agent Generalization through Refinement Tuning",
+    "relevance_score": 4,
+    "reason": "LLM agent framework with self-refinement for error correction, directly applicable to code debugging and program repair.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00096",
+    "paper_id": "FiyS0ecSm0",
+    "title": "Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning",
+    "relevance_score": 4,
+    "reason": "Neuro-symbolic integration of LLMs with symbolic methods for theorem proving on inequalities, aligning with hybrid reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00127",
+    "paper_id": "KmmNb7631I",
+    "title": "Learning to Plan Before Answering: Self-Teaching LLMs to Learn Abstract Plans for Problem Solving",
+    "relevance_score": 4,
+    "reason": "LLM self-training for abstract plans, aligns with structured intermediate reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00144",
+    "paper_id": "NiNIthntx7",
+    "title": "RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code",
+    "relevance_score": 4,
+    "reason": "Benchmark for stateful LM agents on complex, multi-file code refactoring tasks; directly evaluates reasoning for code.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00156",
+    "paper_id": "PY56Wur7S0",
+    "title": "Execution-guided within-prompt search for programming-by-example",
+    "relevance_score": 4,
+    "reason": "LLM-guided search using program execution results to synthesize code, combining syntactic and semantic reasoning.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00170",
+    "paper_id": "SOWZ59UyNc",
+    "title": "Lean-STaR: Learning to Interleave Thinking and Proving",
+    "relevance_score": 4,
+    "reason": "LLM reasoning for theorem proving with structured informal thoughts, directly relates to formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00178",
+    "paper_id": "Tb8RiXOc3N",
+    "title": "Epistemic Monte Carlo Tree Search",
+    "relevance_score": 4,
+    "reason": "Epistemic MCTS for code generation in SUBLEQ; uses uncertainty-guided search for program synthesis.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00190",
+    "paper_id": "VQwI055flA",
+    "title": "CARTS: Advancing Neural Theorem Proving with Diversified Tactic Calibration and Bias-Resistant Tree Search",
+    "relevance_score": 4,
+    "reason": "LLM + tree search for neural theorem proving; directly connects formal reasoning (theorem proving) with LLM-based agents.",
+    "tags": [
+      "AGENTS",
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00200",
+    "paper_id": "XLMAMmowdY",
+    "title": "ToolGen: Unified Tool Retrieval and Calling via Generation",
+    "relevance_score": 4,
+    "reason": "ToolGen integrates tool calling directly into LLM generation, a strong signal for LLM agents in programming tasks.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00202",
+    "paper_id": "XmProj9cPs",
+    "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+    "relevance_score": 4,
+    "reason": "Evaluates LLM agents on complex real-world SQL workflows, directly testing code agent capabilities for enterprise programming tasks.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00257",
+    "paper_id": "hUb2At2DsQ",
+    "title": "Rethinking and Improving Autoformalization: Towards a Faithful Metric and a Dependency Retrieval-based Approach",
+    "relevance_score": 4,
+    "reason": "Directly addresses LLMs + formal verification for autoformalization, a core theme of formal methods+LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00290",
+    "paper_id": "n2NidsYDop",
+    "title": "Transformers Provably Solve Parity Efficiently with Chain of Thought",
+    "relevance_score": 4,
+    "reason": "Theoretical analysis of CoT for parity; shows self-consistency checking improves multi-step reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00295",
+    "paper_id": "o1Et3MogPw",
+    "title": "Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence",
+    "relevance_score": 4,
+    "reason": "LLM-based multi-agent framework for collaboration; validates on tasks requiring reasoning, relevant for agent workflows for code.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00330",
+    "paper_id": "tcsZt9ZNKD",
+    "title": "Scaling and evaluating sparse autoencoders",
+    "relevance_score": 4,
+    "reason": "Evaluates cybersecurity capabilities of LM agents on vulnerability identification and exploit execution tasks.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00349",
+    "paper_id": "wN3KaUXA5X",
+    "title": "Diffusion On Syntax Trees For Program Synthesis",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic diffusion model for program synthesis; reasons over syntax trees and execution results for debugging.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00008",
+    "paper_id": "0pbUfmwNTy",
+    "title": "DyFlow: Dynamic Workflow Framework for Agentic Reasoning",
+    "relevance_score": 4,
+    "reason": "Dynamic workflow framework for LLM agents with code generation evaluation, adapts based on feedback.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00019",
+    "paper_id": "1vSLxdJNq8",
+    "title": "Bringing SAM to new heights: leveraging elevation data for tree crown segmentation from drone imagery",
+    "relevance_score": 4,
+    "reason": "Investigates mechanisms for reliable LM code generation by identifying and steering sound components, applicable to program correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00024",
+    "paper_id": "2Xn8h68mP3",
+    "title": "Bootstrapping Hierarchical Autoregressive Formal Reasoner with Chain-of-Proxy-Autoformalization",
+    "relevance_score": 4,
+    "reason": "LLM-based formal theorem proving pipeline (HAR) for deductive problem-solving, aligning with formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00035",
+    "paper_id": "3Sxby0hH1q",
+    "title": "Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning",
+    "relevance_score": 4,
+    "reason": "Process reward model for LLM reasoning; min-form credit assignment improves code generation reliability.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00036",
+    "paper_id": "3Z8fWHKqlu",
+    "title": "VeriThoughts: Enabling Automated Verilog Code Generation using Reasoning and Formal Verification",
+    "relevance_score": 4,
+    "reason": "Combines LLM-based Verilog code generation with formal verification for correctness guarantees.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00045",
+    "paper_id": "4MvqmXnCEr",
+    "title": "Self-Verifying Reflection Helps Transformers with CoT Reasoning",
+    "relevance_score": 4,
+    "reason": "Studies self-verifying reflection for reasoning tasks, including Sudoku, connecting LLM reasoning to formal verification concepts.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00054",
+    "paper_id": "5W5mFU4oMO",
+    "title": "MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering",
+    "relevance_score": 4,
+    "reason": "LLM agents for iterative ML engineering workflows including code debugging and refinement",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00062",
+    "paper_id": "6Mah2bx7ZI",
+    "title": "Logic.py: Bridging the Gap between LLMs and Constraint Solvers",
+    "relevance_score": 4,
+    "reason": "LLM formalizes problems into DSL for constraint solvers, strong FORMAL_METHODS+LLMs signal for program-like reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00079",
+    "paper_id": "8LMwwt8E2s",
+    "title": "Probabilistic Token Alignment for Large Language Model Fusion",
+    "relevance_score": 4,
+    "reason": "LLM agents for robotic planning, connects procedural knowledge graphs to code-like action sequences for complex tasks.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00101",
+    "paper_id": "At8OUlyTOu",
+    "title": "Afterburner: Reinforcement Learning Facilitates Self-Improving Code Efficiency Optimization",
+    "relevance_score": 4,
+    "reason": "LLM-based iterative code refinement using RL and execution feedback to improve code efficiency.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00120",
+    "paper_id": "D1PeGJtVEu",
+    "title": "ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning",
+    "relevance_score": 4,
+    "reason": "RL for LLM reasoning with verifiable reward and bootstrapping, improving correctness on hard tasks like MATH.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00153",
+    "paper_id": "Gf4oPoluAV",
+    "title": "TAI3: Testing Agent Integrity in Interpreting User Intent",
+    "relevance_score": 4,
+    "reason": "Tests LLM agent integrity for API-calling, addresses ambiguity in NL specs for programming tasks",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING",
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00154",
+    "paper_id": "Gp2vgxWROE",
+    "title": "Rethinking Verification for LLM Code Generation: From Generation to Testing",
+    "relevance_score": 4,
+    "reason": "Systematic method for improving test-case generation to rigorously evaluate LLM-generated code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00164",
+    "paper_id": "I5qDL315bQ",
+    "title": "GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents",
+    "relevance_score": 4,
+    "reason": "Benchmark for evaluating LLM-based agents on software optimization tasks, directly assessing code performance improvement.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00165",
+    "paper_id": "IA9RmaP0aw",
+    "title": "Evaluating Program Semantics Reasoning with Type Inference in System $F$",
+    "relevance_score": 4,
+    "reason": "Evaluates LLM reasoning on program semantics via type inference in System F, directly assessing semantic understanding.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00166",
+    "paper_id": "IDSTtDw4Cs",
+    "title": "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning",
+    "relevance_score": 4,
+    "reason": "Self-improving multi-agent LLM system that bootstraps reasoning trajectories, directly relevant to LLM agents for reasoning.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00168",
+    "paper_id": "IKVkpjSJzJ",
+    "title": "EnCompass: Enhancing Agent Programming with Search Over Program Execution Paths",
+    "relevance_score": 4,
+    "reason": "Introduces programming model for LLM agent workflows with inference-time search strategies to improve reliability.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00169",
+    "paper_id": "IQ513IX1G5",
+    "title": "Beyond Oracle: Verifier-Supervision for Instruction Hierarchy in Reasoning and Instruction-Tuned LLMs",
+    "relevance_score": 4,
+    "reason": "Introduces verifier-supervision for reasoning LLMs, using programmatic checkers to improve correctness and reliability.",
+    "tags": [
+      "VERIFICATION",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00178",
+    "paper_id": "JRkFZl0TJ2",
+    "title": "RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning",
+    "relevance_score": 4,
+    "reason": "RL co-training of LLM generator and verifier for reasoning; directly addresses reliability via process-level verification.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00191",
+    "paper_id": "KtaHv0YUyh",
+    "title": "miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward",
+    "relevance_score": 4,
+    "reason": "Analyzes LLM pipeline for formal theorem proving (autoformalization + verification), directly relevant to formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00204",
+    "paper_id": "MLprqOvAAK",
+    "title": "Teaching Transformers to Solve Combinatorial Problems through Efficient Trial & Error",
+    "relevance_score": 4,
+    "reason": "LLM with explicit DFS for Sudoku/SAT; neuro-symbolic reasoning via backtracking & guessing.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00209",
+    "paper_id": "MjJyAvQaxp",
+    "title": "",
+    "relevance_score": 4,
+    "reason": "Autoformalization using LLMs to translate math to Lean 4, directly linking LLMs to formal verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00217",
+    "paper_id": "NUDaln2vCe",
+    "title": "BREAD: Branched Rollouts from Expert Anchors Bridge SFT & RL for Reasoning",
+    "relevance_score": 4,
+    "reason": "Proposes RL method with expert-guided rollouts to improve small LLM reasoning, directly addressing reliability for code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00221",
+    "paper_id": "NzPwDutzz8",
+    "title": "rStar-Coder: Scaling Competitive Code Reasoning with a Large-Scale Verified Dataset",
+    "relevance_score": 4,
+    "reason": "Creates a large-scale verified dataset for rigorous code reasoning & test-case validation, directly improving LLM code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00229",
+    "paper_id": "Ox3U97Svtl",
+    "title": "MPS-Prover: Advancing Stepwise Theorem Proving by Multi-Perspective Search and Data Curation",
+    "relevance_score": 4,
+    "reason": "LLM-based theorem prover using structured search for formal reasoning; aligns with formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00242",
+    "paper_id": "QQhQIqons0",
+    "title": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+    "relevance_score": 4,
+    "reason": "Benchmarks LLM agents on real-world software security tasks (PoC generation, patching), directly relevant to code reliability.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00243",
+    "paper_id": "QXEhBMNrCW",
+    "title": "Group-in-Group Policy Optimization for LLM Agent Training",
+    "relevance_score": 4,
+    "reason": "Novel RL algorithm for fine-grained credit assignment in multi-turn LLM agents for code/tool-use tasks.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00244",
+    "paper_id": "Qh458ZamHm",
+    "title": "Synthesizing Performance Constraints for Evaluating and Improving Code Efficiency",
+    "relevance_score": 4,
+    "reason": "Generates performance-stressing tests via constraint synthesis for LLM code optimization, aligning with reliability and program analysis.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00255",
+    "paper_id": "Rdz6ESQYkK",
+    "title": "GraphChain: Large Language Models for Large-scale Graph Analysis via Tool Chaining",
+    "relevance_score": 4,
+    "reason": "LLM agents (GraphChain) for large-scale graph analysis via tool chaining, directly relevant to tool-using agents for structured reasoning.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00293",
+    "paper_id": "VaC4sa96EI",
+    "title": "Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning",
+    "relevance_score": 4,
+    "reason": "Neuro-symbolic framework for LLM code-as-policies with verification, improving reliability for embodied task planning.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "RELIABILITY",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00295",
+    "paper_id": "VkicTqszOn",
+    "title": "Distilling LLM Agent into Small Models with Retrieval and Code Tools",
+    "relevance_score": 4,
+    "reason": "Distills LLM agents with code tools for code reasoning tasks, directly matching our focus on agents for code.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00303",
+    "paper_id": "WdL3O58gde",
+    "title": "Self-Generated In-Context Examples Improve LLM Agents for Sequential Decision-Making Tasks",
+    "relevance_score": 4,
+    "reason": "LLM agent self-improvement via self-generated trajectories for sequential tasks, directly relevant to agent reliability.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "TOOL_USE"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00308",
+    "paper_id": "XBMjXb6f4w",
+    "title": "CTRL-ALT-DECEIT Sabotage Evaluations for Automated AI R&D",
+    "relevance_score": 4,
+    "reason": "Studies AI agents sabotaging ML code tasks, directly relevant to reliability of code-generating agents.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00312",
+    "paper_id": "XdwPWKbxd9",
+    "title": "RvLLM: LLM Runtime Verification with Domain Knowledge",
+    "relevance_score": 4,
+    "reason": "Runtime verification framework (RvLLM) for LLMs using domain-specific constraints to ensure output correctness.",
+    "tags": [
+      "VERIFICATION",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00335",
+    "paper_id": "aEAbRPXV37",
+    "title": "Majority of the Bests: Improving Best-of-N via Bootstrapping",
+    "relevance_score": 4,
+    "reason": "Novel consensus mechanism (MoB) for LLM output selection, directly improves code reliability via bootstrapping",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00337",
+    "paper_id": "aSfBbhUJAa",
+    "title": "RepoMaster: Autonomous Exploration and Understanding of GitHub Repositories for Complex Task Solving",
+    "relevance_score": 4,
+    "reason": "Autonomous agent for exploring and reusing GitHub repositories to solve complex programming tasks.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00370",
+    "paper_id": "dye9w8IOV0",
+    "title": "Collaborative Reasoner: Self-Improving Social Agents with Synthetic Conversations",
+    "relevance_score": 4,
+    "reason": "LLM agents for collaborative reasoning on coding tasks, with multi-turn conversation for correctness.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00375",
+    "paper_id": "eLHIERUitQ",
+    "title": "FAME: Adaptive Functional Attention with Expert Routing for Function-on-Function Regression",
+    "relevance_score": 4,
+    "reason": "Tool use RL for LLMs; systematic reward design for robust tool selection/application.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00380",
+    "paper_id": "f3sZjkQbv2",
+    "title": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs",
+    "relevance_score": 4,
+    "reason": "Process Reward Model for LLM reasoning trajectories; improves code correctness via step-level supervision and selection.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00388",
+    "paper_id": "ft971e7HH5",
+    "title": "IneqSearch: Hybrid Reasoning for Olympiad Inequality Proofs",
+    "relevance_score": 4,
+    "reason": "Hybrid neuro-symbolic LLM agent for theorem proving, combining symbolic solver with LLM-based reasoning for structured proof search.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00418",
+    "paper_id": "isATAFP71B",
+    "title": "SE-Agent: Self-Evolution Trajectory Optimization in Multi-Step Reasoning with LLM-Based Agents",
+    "relevance_score": 4,
+    "reason": "LLM agent for code repair on SWE-bench; self-evolution optimizes reasoning trajectory for program debugging.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00431",
+    "paper_id": "kRZVz1qEqa",
+    "title": "Teaching Language Models to Reason with Tools",
+    "relevance_score": 4,
+    "reason": "Teaches LLMs to reason with code interpreters (tools) for math, directly addressing tool-using agents for reasoning tasks.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00446",
+    "paper_id": "ly5DnRIgCZ",
+    "title": "QiMeng-CodeV-R1: Reasoning-Enhanced Verilog Generation",
+    "relevance_score": 4,
+    "reason": "RL with verifiable reward for Verilog code generation; uses equivalence checking for reliability.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00467",
+    "paper_id": "oLGtPYdRzU",
+    "title": "Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools",
+    "relevance_score": 4,
+    "reason": "Studies LLM agent security via tool metadata manipulation, directly relevant to reliability of tool-using code agents.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00476",
+    "paper_id": "pIsP4lMlFd",
+    "title": "BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems",
+    "relevance_score": 4,
+    "reason": "Benchmarks AI agents on real-world code vulnerabilities (detect/exploit/patch), directly relevant to LLM agents for code and reliability.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00484",
+    "paper_id": "qBPb7g1SEa",
+    "title": "Let a Neural Network be Your Invariant",
+    "relevance_score": 4,
+    "reason": "Neural inductive invariants for safety verification of systems; connects formal methods (verification) with neural networks.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00485",
+    "paper_id": "qF5IrJfJDS",
+    "title": "Scaling Epidemic Inference on Contact Networks: Theory and Algorithms",
+    "relevance_score": 4,
+    "reason": "Theoretical analysis of transformers learning multi-step reasoning via chain-of-thought, including symbolic path-finding tasks with generalization guarantees.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00518",
+    "paper_id": "tY8ctrD4W2",
+    "title": "Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning",
+    "relevance_score": 4,
+    "reason": "Reinforcement Learning agent for compiler auto-tuning, directly applies LLM reasoning to code optimization.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00546",
+    "paper_id": "wPdBe9zxNr",
+    "title": "CURE: Co-Evolving Coders and Unit Testers via Reinforcement Learning",
+    "relevance_score": 4,
+    "reason": "RL framework co-evolving code and test generation; improves test-time scaling and agentic testing for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00566",
+    "paper_id": "yRxXTdElLv",
+    "title": "SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications",
+    "relevance_score": 4,
+    "reason": "LLM agent for SQL debugging with tool use, formal verification (SQL-Rewind), and training improvements for code correctness.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00566",
+    "paper_id": "yTFJmGFsEy",
+    "title": "Reviving DSP for Advanced Theorem Proving in the Era of Reasoning Models",
+    "relevance_score": 4,
+    "reason": "Neuro-symbolic theorem proving framework (LLMs + symbolic provers) for program reasoning and verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "VERIFICATION",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00004",
+    "paper_id": "10.1145/3720488",
+    "title": "Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis.",
+    "relevance_score": 4,
+    "reason": "Uses LLM-assisted static taint analysis for detecting SSRF vulnerabilities, integrating AI with program analysis for semantic correctness.",
+    "tags": [
+      "PL_LLMS",
+      "PROGRAM_REASONING",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_oopsla.json"
+  },
+  {
+    "batch_id": "batch_00006",
+    "paper_id": "10.1145/3720471",
+    "title": "Verification of Bit-Flip Attacks against Quantized Neural Networks.",
+    "relevance_score": 4,
+    "reason": "Formal verification (abstract interpretation, MILP) of neural network robustness against bit-flip attacks, integrating PL/formal methods with AI model security.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_oopsla.json"
+  },
+  {
+    "batch_id": "batch_00010",
+    "paper_id": "10.1145/3763079",
+    "title": "Interleaving Large Language Models for Compiler Testing.",
+    "relevance_score": 4,
+    "reason": "LLMs generate code for compiler testing; method focuses on semantic correctness via miscompilation bug finding.",
+    "tags": [
+      "PL_LLMS",
+      "RELIABILITY",
+      "SYNTHESIS"
+    ],
+    "source_file": "extracted_results_oopsla.json"
+  },
+  {
+    "batch_id": "batch_00011",
+    "paper_id": "10.1145/3763090",
+    "title": "Memory-Safety Verification of Open Programs with Angelic Assumptions.",
+    "relevance_score": 4,
+    "reason": "LLM mines code patterns for formal synthesis of angelic assumptions in memory-safety verification, integrating AI with program analysis.",
+    "tags": [
+      "PL_LLMS",
+      "VERIFICATION",
+      "SYNTHESIS"
+    ],
+    "source_file": "extracted_results_oopsla.json"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "10.1145/3729274",
+    "title": "Type-Constrained Code Generation with Language Models.",
+    "relevance_score": 4,
+    "reason": "LLM code generation guided by formal type systems for semantic correctness and reduced errors.",
+    "tags": [
+      "PL_LLMS",
+      "TYPE_SYSTEMS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_pldi.json"
+  }
+]

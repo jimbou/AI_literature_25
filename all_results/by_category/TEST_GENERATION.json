@@ -1,0 +1,94 @@
+[
+  {
+    "batch_id": "batch_00010",
+    "paper_id": "10.1145/3763079",
+    "title": "Interleaving Large Language Models for Compiler Testing.",
+    "relevance_score": 4,
+    "reason": "LLMs generate code for compiler testing; method focuses on semantic correctness via miscompilation bug finding.",
+    "tags": [
+      "PL_LLMS",
+      "RELIABILITY",
+      "SYNTHESIS"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "TEST_GENERATION"
+  },
+  {
+    "batch_id": "batch_00546",
+    "paper_id": "wPdBe9zxNr",
+    "title": "CURE: Co-Evolving Coders and Unit Testers via Reinforcement Learning",
+    "relevance_score": 4,
+    "reason": "RL framework co-evolving code and test generation; improves test-time scaling and agentic testing for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "TEST_GENERATION"
+  },
+  {
+    "batch_id": "batch_00244",
+    "paper_id": "Qh458ZamHm",
+    "title": "Synthesizing Performance Constraints for Evaluating and Improving Code Efficiency",
+    "relevance_score": 4,
+    "reason": "Generates performance-stressing tests via constraint synthesis for LLM code optimization, aligning with reliability and program analysis.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "TEST_GENERATION"
+  },
+  {
+    "batch_id": "batch_00154",
+    "paper_id": "Gp2vgxWROE",
+    "title": "Rethinking Verification for LLM Code Generation: From Generation to Testing",
+    "relevance_score": 4,
+    "reason": "Systematic method for improving test-case generation to rigorously evaluate LLM-generated code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "TEST_GENERATION"
+  },
+  {
+    "batch_id": "batch_00319",
+    "paper_id": "YJx8AofTF5",
+    "title": "Program Synthesis via Test-Time Transduction",
+    "relevance_score": 3,
+    "reason": "Uses LLM in test-time transductive synthesis, improving code robustness via active hypothesis elimination.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "TEST_GENERATION"
+  },
+  {
+    "batch_id": "batch_00193",
+    "paper_id": "L1m5124sNQ",
+    "title": "Dimension-Reduction Attack! Video Generative Models are Experts on Controllable Image Synthesis",
+    "relevance_score": 3,
+    "reason": "Proposes test-time reasoning method (world models) for spatial reasoning, related to structured reasoning for correctness.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "TEST_GENERATION"
+  },
+  {
+    "batch_id": "batch_00254",
+    "paper_id": "article-35246",
+    "title": "QAagent: A Multiagent System for Unit Test Generation via Natural Language Pseudocode (Student Abstract)",
+    "relevance_score": 3,
+    "reason": "Multi-agent LLM system for automated unit test generation, directly addressing code reliability.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "TEST_GENERATION"
+  }
+]

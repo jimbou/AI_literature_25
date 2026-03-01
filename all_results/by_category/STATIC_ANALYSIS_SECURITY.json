@@ -1,0 +1,158 @@
+[
+  {
+    "batch_id": "batch_00059",
+    "paper_id": "9LdJDU7E91",
+    "title": "IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities",
+    "relevance_score": 5,
+    "reason": "Neuro-symbolic approach combining LLMs with static analysis for security vulnerability detection (program reasoning).",
+    "tags": [
+      "NEURO_SYMBOLIC",
+      "PROGRAM_REASONING",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00003",
+    "paper_id": "10.1145/3729255",
+    "title": "",
+    "relevance_score": 3,
+    "reason": "LLMs integrated with compiler analysis for input-centric optimization, combining PL and AI",
+    "tags": [
+      "PL_LLMS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_pldi.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00004",
+    "paper_id": "10.1145/3720488",
+    "title": "Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis.",
+    "relevance_score": 4,
+    "reason": "Uses LLM-assisted static taint analysis for detecting SSRF vulnerabilities, integrating AI with program analysis for semantic correctness.",
+    "tags": [
+      "PL_LLMS",
+      "PROGRAM_REASONING",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00115",
+    "paper_id": "CIeWaq0JDl",
+    "title": "ProfiX: Improving Profile-Guided Optimization in Compilers with Graph Neural Networks",
+    "relevance_score": 3,
+    "reason": "GNNs for compiler optimization (PGO) relates to program analysis, a peripheral but relevant neuro-symbolic angle.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00159",
+    "paper_id": "HMVQ00vabY",
+    "title": "Probabilistic Reasoning with LLMs for Privacy Risk Estimation",
+    "relevance_score": 2,
+    "reason": "LLM probabilistic reasoning for risk estimation; method involves structured reasoning but not directly applied to code/programs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00050",
+    "paper_id": "article-34689",
+    "title": "CLNX: Bridging Code and Natural Language for C/C++ Vulnerability-Contributing Commits Identification",
+    "relevance_score": 3,
+    "reason": "LLM-based method for code analysis (vulnerability detection) using structured code representations.",
+    "tags": [
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00072",
+    "paper_id": "article-34618",
+    "title": "CyberPal.AI: Empowering LLMs with Expert-Driven Cybersecurity Instructions",
+    "relevance_score": 3,
+    "reason": "Fine-tunes LLMs for cybersecurity, a domain-specific reasoning task; relates to reliability of LLMs on complex instructions.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00284",
+    "paper_id": "article-34537",
+    "title": "Security Attacks on LLM-based Code Completion Tools",
+    "relevance_score": 3,
+    "reason": "Studies security vulnerabilities (jailbreaking, data extraction) specific to LLM-based code completion tools.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00071",
+    "paper_id": "article-33979",
+    "title": "Crossfire: An Elastic Defense Framework for Graph Neural Networks Under Bit Flip Attacks",
+    "relevance_score": 3,
+    "reason": "Defense for GNNs against bit-flip attacks; relates to reliability and verifiable restoration of model integrity.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00201",
+    "paper_id": "article-33664",
+    "title": "MTVHunter: Smart Contracts Vulnerability Detection Based on Multi-Teacher Knowledge Translation",
+    "relevance_score": 3,
+    "reason": "Detects smart contract vulnerabilities via program analysis; connects LLMs/analysis to code correctness.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00035",
+    "paper_id": "article-32090",
+    "title": "BERT-Based Code Learning for Exception Localization and Type Prediction",
+    "relevance_score": 3,
+    "reason": "Uses BERT and Bi-LSTM for program analysis (exception localization/type prediction), relates to code reliability.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  },
+  {
+    "batch_id": "batch_00273",
+    "paper_id": "article-32026",
+    "title": "SCALM: Detecting Bad Practices in Smart Contracts Through LLMs",
+    "relevance_score": 3,
+    "reason": "LLM-based framework (SCALM) for detecting bad practices in smart contracts, connecting LLMs to program analysis.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "STATIC_ANALYSIS_SECURITY"
+  }
+]

@@ -1,0 +1,4 @@
+batch_id,paper_id,title,relevance_score,reason,tags
+batch_00002,10.1145/3720509,Automated Verification of Soundness of DNN Certifiers.,5,"Automates soundness verification of DNN certifiers using SMT solvers, directly linking formal methods (abstract interpretation) with AI model reliability.",FORMAL_METHODS;VERIFICATION;SMT
+batch_00001,10.1145/3720499,Laurel: Unblocking Automated Verification with Large Language Models.,5,"LLMs generate assertions for Dafny program verifier, integrating AI with SMT solvers for formal verification.",PL_LLMS;VERIFICATION;SMT;FORMAL_METHODS
+batch_00004,10.1145/3720488,Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis.,3,"Uses LLM-assisted taint analysis for SSRF vulnerability detection, integrating program analysis with AI.",PL_LLMS;PROGRAM_REASONING;OTHER

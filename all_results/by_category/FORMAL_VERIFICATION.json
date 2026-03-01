@@ -1,0 +1,1080 @@
+[
+  {
+    "batch_id": "batch_00165",
+    "paper_id": "R2834dhBlo",
+    "title": "Neural Interactive Proofs",
+    "relevance_score": 5,
+    "reason": "Neural interactive proofs for code validation with LLMs; directly combines formal verification (prover-verifier games) with code tasks.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00110",
+    "paper_id": "I4YAIwrsXa",
+    "title": "DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search",
+    "relevance_score": 5,
+    "reason": "LLM agents for formal theorem proving using Lean proof assistant feedback, RL, and MCTS for proof search.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00257",
+    "paper_id": "hUb2At2DsQ",
+    "title": "Rethinking and Improving Autoformalization: Towards a Faithful Metric and a Dependency Retrieval-based Approach",
+    "relevance_score": 4,
+    "reason": "Directly addresses LLMs + formal verification for autoformalization, a core theme of formal methods+LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00190",
+    "paper_id": "VQwI055flA",
+    "title": "CARTS: Advancing Neural Theorem Proving with Diversified Tactic Calibration and Bias-Resistant Tree Search",
+    "relevance_score": 4,
+    "reason": "LLM + tree search for neural theorem proving; directly connects formal reasoning (theorem proving) with LLM-based agents.",
+    "tags": [
+      "AGENTS",
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00170",
+    "paper_id": "SOWZ59UyNc",
+    "title": "Lean-STaR: Learning to Interleave Thinking and Proving",
+    "relevance_score": 4,
+    "reason": "LLM reasoning for theorem proving with structured informal thoughts, directly relates to formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00096",
+    "paper_id": "FiyS0ecSm0",
+    "title": "Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning",
+    "relevance_score": 4,
+    "reason": "Neuro-symbolic integration of LLMs with symbolic methods for theorem proving on inequalities, aligning with hybrid reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00001",
+    "paper_id": "09FiNmvNMw",
+    "title": "Divide and Translate: Compositional First-Order Logic Translation and Verification for Complex Logical Reasoning",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic method using LLMs for logic translation, verified by SAT solver for reliable reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "NEUROSYMBOLIC",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00350",
+    "paper_id": "wNobG8bV5Q",
+    "title": "LLM-based Typed Hyperresolution for Commonsense Reasoning with Knowledge Bases",
+    "relevance_score": 3,
+    "reason": "LLM integrated with logical reasoner, theory resolution for error repair/verification, connects to formal methods.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00337",
+    "paper_id": "uUsL07BsMA",
+    "title": "Learning Splitting Heuristics in Divide-and-Conquer SAT Solvers with Reinforcement Learning",
+    "relevance_score": 3,
+    "reason": "Uses RL+GNN for SAT solver heuristics; symbolic reasoning core is adjacent to formal methods/verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00254",
+    "paper_id": "h0vC0fm1q7",
+    "title": "Sensitivity Verification for Additive Decision Tree Ensembles",
+    "relevance_score": 3,
+    "reason": "Formal verification framework for tree ensembles using SAT/pseudo-Boolean constraints, relates to symbolic reasoning for ML models.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00215",
+    "paper_id": "aWLQTbfFgV",
+    "title": "Training Neural Networks as Recognizers of Formal Languages",
+    "relevance_score": 3,
+    "reason": "Connects neural networks (transformers) to formal language recognition, relevant to formal methods + LLMs theme.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00211",
+    "paper_id": "Zes7Wyif8G",
+    "title": "KLay: Accelerating Arithmetic Circuits for Neurosymbolic AI",
+    "relevance_score": 3,
+    "reason": "Neurosymbolic AI with arithmetic circuits for enforcing symbolic constraints on neural networks.",
+    "tags": [
+      "NEUROSYMBOLIC_AI",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00187",
+    "paper_id": "UvTo3tVBk2",
+    "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
+    "relevance_score": 3,
+    "reason": "Improves LRNN state-tracking for code evaluation; links formal language theory to program reasoning.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00184",
+    "paper_id": "US9k5TXVLZ",
+    "title": "Circuit Representation Learning with Masked Gate Modeling and Verilog-AIG Alignment",
+    "relevance_score": 3,
+    "reason": "Uses LLMs to understand Verilog code functionality to constrain/guide circuit representation learning, aligning with formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00172",
+    "paper_id": "Se6MgCtRhz",
+    "title": "Herald: A Natural Language Annotated Lean 4 Dataset",
+    "relevance_score": 3,
+    "reason": "LLMs for formal verification (Lean 4); connects natural language specs to formal code proofs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00124",
+    "paper_id": "KIgaAqEFHW",
+    "title": "miniCTX: Neural Theorem Proving with (Long-)Contexts",
+    "relevance_score": 3,
+    "reason": "Neural theorem proving for formal math; connects LLMs to formal reasoning with code context, but domain is math not software.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00107",
+    "paper_id": "HQHnhVQznF",
+    "title": "Certifying Counterfactual Bias in LLMs",
+    "relevance_score": 3,
+    "reason": "Proposes framework to certify counterfactual bias in LLM responses, aligning with reliability/formal methods for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00103",
+    "paper_id": "GfXMTAJaxZ",
+    "title": "How to Verify Any (Reasonable) Distribution Property: Computationally Sound Argument Systems for Distributions",
+    "relevance_score": 3,
+    "reason": "Presents interactive verification protocol for distribution properties, relevant to formal methods for statistical correctness.",
+    "tags": [
+      "VERIFICATION",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00089",
+    "paper_id": "EW6bNEqalF",
+    "title": "Offline RL in Regular Decision Processes: Sample Efficiency via Language Metrics",
+    "relevance_score": 3,
+    "reason": "Offline RL in non-Markovian processes using formal language theory; connects symbolic automata reasoning to decision-making.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00046",
+    "paper_id": "7NL74jUiMg",
+    "title": "Alchemy: Amplifying Theorem-Proving Capability Through Symbolic Mutation",
+    "relevance_score": 3,
+    "reason": "Synthetic data generation for neural theorem proving, aligns with formal methods + LLMs theme.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00016",
+    "paper_id": "2hcfoCHKoB",
+    "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
+    "relevance_score": 3,
+    "reason": "Unified LLM for Verilog understanding/generation; aligns code with specs, relates to formal methods for hardware.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00014",
+    "paper_id": "2MLvV7fvAz",
+    "title": "Spectro-Riemannian Graph Neural Networks",
+    "relevance_score": 3,
+    "reason": "Uses LLM self-evolution with symbolic verifier for automated proof generation in Rust code.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00277",
+    "paper_id": "kpq3IIjUD3",
+    "title": "Learning local equivariant representations for quantum operators",
+    "relevance_score": 1,
+    "reason": "Generates logical circuits with strict equivalence; relates to formal methods for code synthesis.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00004",
+    "paper_id": "10.1145/3729294",
+    "title": "Verified Foundations for Differential Privacy.",
+    "relevance_score": 3,
+    "reason": "Verified DP foundation (Lean) with production use; adjacent to formal verification but lacks LLM/AI component.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_pldi.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00007",
+    "paper_id": "10.1145/3729309",
+    "title": "First-Class Verification Dialects for MLIR.",
+    "relevance_score": 1,
+    "reason": "Uses SMT solvers for formal verification of compiler IR semantics, but lacks a core LLM/AI component.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SMT",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_pldi.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00001",
+    "paper_id": "10.1145/3720499",
+    "title": "Laurel: Unblocking Automated Verification with Large Language Models.",
+    "relevance_score": 5,
+    "reason": "LLMs generate assertions to unblock SMT-based program verifiers (Dafny), integrating formal verification with AI.",
+    "tags": [
+      "PL_LLMS",
+      "PROGRAM_REASONING",
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "SMT"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00011",
+    "paper_id": "10.1145/3763090",
+    "title": "Memory-Safety Verification of Open Programs with Angelic Assumptions.",
+    "relevance_score": 4,
+    "reason": "LLM mines code patterns for formal synthesis of angelic assumptions in memory-safety verification, integrating AI with program analysis.",
+    "tags": [
+      "PL_LLMS",
+      "VERIFICATION",
+      "SYNTHESIS"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00006",
+    "paper_id": "10.1145/3720471",
+    "title": "Verification of Bit-Flip Attacks against Quantized Neural Networks.",
+    "relevance_score": 4,
+    "reason": "Formal verification (abstract interpretation, MILP) of neural network robustness against bit-flip attacks, integrating PL/formal methods with AI model security.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00014",
+    "paper_id": "10.1145/3763121",
+    "title": "Automated Discovery of Tactic Libraries for Interactive Theorem Proving.",
+    "relevance_score": 3,
+    "reason": "Automates discovery of custom tactics for ITPs (Lean, Rocq), a formal tool, using learned proof strategies.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00013",
+    "paper_id": "10.1145/3763112",
+    "title": "What's in the Box: Ergonomic and Expressive Capture Tracking over Generic Data Structures.",
+    "relevance_score": 3,
+    "reason": "Presents a formal type system (capture tracking) for effect/resource safety, with mechanized proofs. LLM connection is weak, but PL/formal methods contribution is strong.",
+    "tags": [
+      "FORMAL_METHODS",
+      "TYPE_SYSTEMS"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00389",
+    "paper_id": "fxDCgOruk0",
+    "title": "APOLLO: Automated LLM and Lean Collaboration for Advanced Formal Reasoning",
+    "relevance_score": 5,
+    "reason": "LLM agent (APOLLO) for formal theorem proving in Lean, using compiler-guided repair and sub-lemma isolation to improve correctness.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00244",
+    "paper_id": "QfKpJ00t2L",
+    "title": "Grammars of Formal Uncertainty: When to Trust LLMs in Automated Reasoning Tasks",
+    "relevance_score": 5,
+    "reason": "Uses SMT-based autoformalization & selective verification for LLM-generated formal artifacts, directly matching formal methods + reliability themes.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00171",
+    "paper_id": "IbOacMF5qd",
+    "title": "CLEVER: A Curated Benchmark for Formally Verified Code Generation",
+    "relevance_score": 5,
+    "reason": "Direct hit on formal verification + LLMs for code generation. CLEVER benchmark for end-to-end verified code.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00118",
+    "paper_id": "Cl45XdnCoK",
+    "title": "SpecMAS: A Multi-Agent System for Self-Verifying System Generation via Formal Model Checking",
+    "relevance_score": 5,
+    "reason": "Multi-agent LLM system for formal verification, generates & corrects models via temporal logic model checking.",
+    "tags": [
+      "AGENTS",
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00566",
+    "paper_id": "yTFJmGFsEy",
+    "title": "Reviving DSP for Advanced Theorem Proving in the Era of Reasoning Models",
+    "relevance_score": 4,
+    "reason": "Neuro-symbolic theorem proving framework (LLMs + symbolic provers) for program reasoning and verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "VERIFICATION",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00484",
+    "paper_id": "qBPb7g1SEa",
+    "title": "Let a Neural Network be Your Invariant",
+    "relevance_score": 4,
+    "reason": "Neural inductive invariants for safety verification of systems; connects formal methods (verification) with neural networks.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00446",
+    "paper_id": "ly5DnRIgCZ",
+    "title": "QiMeng-CodeV-R1: Reasoning-Enhanced Verilog Generation",
+    "relevance_score": 4,
+    "reason": "RL with verifiable reward for Verilog code generation; uses equivalence checking for reliability.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00312",
+    "paper_id": "XdwPWKbxd9",
+    "title": "RvLLM: LLM Runtime Verification with Domain Knowledge",
+    "relevance_score": 4,
+    "reason": "Runtime verification framework (RvLLM) for LLMs using domain-specific constraints to ensure output correctness.",
+    "tags": [
+      "VERIFICATION",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00229",
+    "paper_id": "Ox3U97Svtl",
+    "title": "MPS-Prover: Advancing Stepwise Theorem Proving by Multi-Perspective Search and Data Curation",
+    "relevance_score": 4,
+    "reason": "LLM-based theorem prover using structured search for formal reasoning; aligns with formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00209",
+    "paper_id": "MjJyAvQaxp",
+    "title": "",
+    "relevance_score": 4,
+    "reason": "Autoformalization using LLMs to translate math to Lean 4, directly linking LLMs to formal verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00191",
+    "paper_id": "KtaHv0YUyh",
+    "title": "miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward",
+    "relevance_score": 4,
+    "reason": "Analyzes LLM pipeline for formal theorem proving (autoformalization + verification), directly relevant to formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00062",
+    "paper_id": "6Mah2bx7ZI",
+    "title": "Logic.py: Bridging the Gap between LLMs and Constraint Solvers",
+    "relevance_score": 4,
+    "reason": "LLM formalizes problems into DSL for constraint solvers, strong FORMAL_METHODS+LLMs signal for program-like reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00045",
+    "paper_id": "4MvqmXnCEr",
+    "title": "Self-Verifying Reflection Helps Transformers with CoT Reasoning",
+    "relevance_score": 4,
+    "reason": "Studies self-verifying reflection for reasoning tasks, including Sudoku, connecting LLM reasoning to formal verification concepts.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00036",
+    "paper_id": "3Z8fWHKqlu",
+    "title": "VeriThoughts: Enabling Automated Verilog Code Generation using Reasoning and Formal Verification",
+    "relevance_score": 4,
+    "reason": "Combines LLM-based Verilog code generation with formal verification for correctness guarantees.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00024",
+    "paper_id": "2Xn8h68mP3",
+    "title": "Bootstrapping Hierarchical Autoregressive Formal Reasoner with Chain-of-Proxy-Autoformalization",
+    "relevance_score": 4,
+    "reason": "LLM-based formal theorem proving pipeline (HAR) for deductive problem-solving, aligning with formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00528",
+    "paper_id": "uWEcZkrSkZ",
+    "title": "MuSLR: Multimodal Symbolic Logical Reasoning",
+    "relevance_score": 3,
+    "reason": "Modular framework LogiCAM applies formal logical rules to multimodal reasoning, relevant to neuro-symbolic approaches.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00488",
+    "paper_id": "qTUZJUXt0J",
+    "title": "3D-Prover: Diversity Driven Theorem Proving With Determinantal Point Processes",
+    "relevance_score": 3,
+    "reason": "LLM-augmented theorem proving uses formal reasoning; connects to program verification via proof tactics.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00471",
+    "paper_id": "omyNP89YW6",
+    "title": "Tree-Based Premise Selection for Lean4",
+    "relevance_score": 3,
+    "reason": "Premise selection for Lean4 theorem proving uses formal methods and structural reasoning on expression trees.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00450",
+    "paper_id": "mQlX8ZF6vW",
+    "title": "Learning Simple Interpolants for Linear Integer Arithmetic",
+    "relevance_score": 3,
+    "reason": "Learning-based generation of interpolants for LIA, used for program verification and invariant generation.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00441",
+    "paper_id": "lJSAtyx9Uc",
+    "title": "HYPRL: Reinforcement Learning of Control Policies for Hyperproperties",
+    "relevance_score": 3,
+    "reason": "Formal methods (HyperLTL) for multi-agent RL policy synthesis; connects verification to agent behavior.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00309",
+    "paper_id": "XFP5jntOdx",
+    "title": "SymRTLO: Enhancing RTL Code Optimization with LLMs and Neuron-Inspired Symbolic Reasoning",
+    "relevance_score": 3,
+    "reason": "LLMs integrated with symbolic reasoning for code optimization, includes formal verification pipeline.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "SYMBOLIC_EXEC"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00266",
+    "paper_id": "Sct4sajCi6",
+    "title": "SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning",
+    "relevance_score": 3,
+    "reason": "Uses SAT/SMT reasoning to train LLMs, aligning with formal methods + LLMs for structured reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00163",
+    "paper_id": "HuSSR12Yot",
+    "title": "Clip-and-Verify: Linear Constraint-Driven Domain Clipping for Accelerating Neural Network Verification",
+    "relevance_score": 3,
+    "reason": "Formal verification method (branch-and-bound with clipping) for neural networks; relates to formal methods for AI safety.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00123",
+    "paper_id": "DLt2Ep1S3q",
+    "title": "Automaton Constrained Q-Learning",
+    "relevance_score": 3,
+    "reason": "Combines RL with formal methods (LTL/automata) for complex task specs, relevant to neuro-symbolic reasoning for agents.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00076",
+    "paper_id": "812rmogRgf",
+    "title": "FRN: Fractal-Based Recursive Spectral Reconstruction Network",
+    "relevance_score": 3,
+    "reason": "Uses formal state space model for structured reasoning; method treats spectral reconstruction as progressive, recursive process.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00029",
+    "paper_id": "2t5IfPAzbX",
+    "title": "Model Reconciliation via Cost-Optimal Explanations in Probabilistic Logic Programming",
+    "relevance_score": 3,
+    "reason": "Probabilistic model reconciliation framework for human-AI alignment, relevant to ambiguity detection in specifications",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00026",
+    "paper_id": "2bbDg587uh",
+    "title": "Improving Formal Reasoning of Transformer with State Stack",
+    "relevance_score": 3,
+    "reason": "Enhances Transformer reasoning with a differentiable stack, improving formal language recognition and structured state tracking.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00181",
+    "paper_id": "article-34597",
+    "title": "LLM+AL: Bridging Large Language Models and Action Languages for Complex Reasoning About Actions",
+    "relevance_score": 5,
+    "reason": "Bridges LLMs with symbolic action languages for complex reasoning, directly matching neuro-symbolic & structured reasoning themes.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00334",
+    "paper_id": "article-34604",
+    "title": "VERSE: Verification-based Self-Play for Code Instructions",
+    "relevance_score": 4,
+    "reason": "Verification-based self-play for Code LLMs ensures functional correctness of generated code.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00224",
+    "paper_id": "article-34966",
+    "title": "Neural Continuous-Time Supermartingale Certificates",
+    "relevance_score": 3,
+    "reason": "Neural certificate framework for probabilistic verification of dynamical systems, relates to formal methods + reliability.",
+    "tags": [
+      "FORMAL_METHODS",
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00098",
+    "paper_id": "article-34949",
+    "title": "Dynamic Back-Substitution in Bound-Propagation-Based Neural Network Verification",
+    "relevance_score": 3,
+    "reason": "Improves bound-propagation-based neural network verification via dynamic ReLU stability analysis.",
+    "tags": [
+      "VERIFICATION",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00098",
+    "paper_id": "article-34946",
+    "title": "Dynamic Algorithm Termination for Branch-and-Bound-based Neural Network Verification",
+    "relevance_score": 3,
+    "reason": "Dynamic termination for Branch-and-Bound-based neural network verification, improving formal verification efficiency.",
+    "tags": [
+      "VERIFICATION",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00318",
+    "paper_id": "article-34847",
+    "title": "Towards Practical Classical Planning Compilations of Numeric Planning",
+    "relevance_score": 3,
+    "reason": "Compiles numeric planning to classical planning; connects symbolic reasoning (planning, axioms) which is adjacent to formal methods.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00106",
+    "paper_id": "article-33905",
+    "title": "Efficient Rectification of Neuro-Symbolic Reasoning Inconsistencies by Abductive Reflection",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic reasoning with abductive reflection for error correction, aligns with hybrid neuro-symbolic methods.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00289",
+    "paper_id": "article-33660",
+    "title": "Shield Synthesis for LTL Modulo Theories",
+    "relevance_score": 3,
+    "reason": "Extends shielding (runtime enforcement) to LTL modulo theories, relevant to formal methods for ML model safety.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00261",
+    "paper_id": "article-33647",
+    "title": "Reasoning About Actual Causes in Nondeterministic Domains",
+    "relevance_score": 3,
+    "reason": "Formal reasoning about causes in nondeterministic domains using situation calculus; aligns with structured program reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00183",
+    "paper_id": "article-33640",
+    "title": "LTLf Synthesis Under Unreliable Input",
+    "relevance_score": 3,
+    "reason": "LTLf synthesis for unreliable inputs relates to formal methods and robust agent behavior, adjacent to our reliability themes.",
+    "tags": [
+      "FORMAL_METHODS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00307",
+    "paper_id": "article-33639",
+    "title": "Temporal Causal Reasoning with (Non-Recursive) Structural Equation Models",
+    "relevance_score": 3,
+    "reason": "Introduces temporal logic (CPLTL) for causal reasoning with structural equation models, relevant to formal methods for program semantics.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00007",
+    "paper_id": "article-33635",
+    "title": "A Syntactic Approach to Computing Complete and Sound Abstraction in the Situation Calculus",
+    "relevance_score": 3,
+    "reason": "Syntactic computation of sound/complete abstraction in Situation Calculus; relates to formal reasoning about actions/programs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00167",
+    "paper_id": "article-33405",
+    "title": "Improving Complex Reasoning over Knowledge Graph with Logic-Aware Curriculum Tuning",
+    "relevance_score": 3,
+    "reason": "LLM-based logical reasoning over structured knowledge graphs, relates to symbolic reasoning for code.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00272",
+    "paper_id": "article-33394",
+    "title": "Rule-Guided Graph Neural Networks for Explainable Knowledge Graph Reasoning",
+    "relevance_score": 3,
+    "reason": "Rule-guided GNNs for symbolic-neural reasoning; aligns with hybrid neuro-symbolic approaches for structured reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00092",
+    "paper_id": "article-33228",
+    "title": "DiverSAT: A Novel and Effective Local Search Algorithm for Diverse SAT Problem",
+    "relevance_score": 3,
+    "reason": "Solves Diverse SAT problem for formal verification, relevant to symbolic methods and formal reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00168",
+    "paper_id": "article-33226",
+    "title": "Improving the Lower Bound in Branch-and-Bound Algorithms for MaxSAT",
+    "relevance_score": 3,
+    "reason": "Improves Branch-and-Bound for MaxSAT; core unlocking mechanism is a formal method for constraint solving.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "article-33224",
+    "title": "A Complete Algorithm for Optimization Modulo Nonlinear Real Arithmetic",
+    "relevance_score": 3,
+    "reason": "Presents a complete algorithm for optimization modulo nonlinear real arithmetic, relevant to formal methods and SMT solvers for program verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00255",
+    "paper_id": "article-33213",
+    "title": "Quantified Linear and Polynomial Arithmetic Satisfiability via Template-based Skolemization",
+    "relevance_score": 3,
+    "reason": "Novel quantifier elimination method for LRA/NRA formulas using Skolemization; applicable to program analysis and verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00148",
+    "paper_id": "article-32813",
+    "title": "Geometry-Aware 3D Salient Object Detection Network",
+    "relevance_score": 3,
+    "reason": "Addresses inconsistency localization, a key concept for program verification and debugging workflows.",
+    "tags": [
+      "VERIFICATION",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00322",
+    "paper_id": "article-32614",
+    "title": "Training Verification-Friendly Neural Networks via Neuron Behavior Consistency",
+    "relevance_score": 3,
+    "reason": "Trains neural networks for easier formal verification, connecting formal methods to AI reliability.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00291",
+    "paper_id": "article-32547",
+    "title": "Skip Mamba Diffusion for Monocular 3D Semantic Scene Completion",
+    "relevance_score": 3,
+    "reason": "Uses formal reasoning (LTL synthesis) to generate a generalized plan for a data structure manipulation problem.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00136",
+    "paper_id": "article-32101",
+    "title": "Formal Synthesis of Barrier Certificates Using Fourier Kolmogorov-Arnold Network",
+    "relevance_score": 3,
+    "reason": "Uses neural networks for formal verification of barrier certificates, a hybrid neuro-symbolic approach.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00281",
+    "paper_id": "article-31976",
+    "title": "Scalable Surrogate Verification of Image-Based Neural Network Control Systems Using Composition and Unrolling",
+    "relevance_score": 3,
+    "reason": "Verifies NN control systems with images using cGAN surrogate & composition/unrolling. Relates to formal methods + neuro-symbolic verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00168",
+    "paper_id": "article-34934",
+    "title": "In Search of Trees: Decision-Tree Policy Synthesis for Black-Box Systems via Search",
+    "relevance_score": 2,
+    "reason": "Synthesizes decision-tree policies for black-box systems; relates to structured reasoning and verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "FORMAL_VERIFICATION"
+  }
+]

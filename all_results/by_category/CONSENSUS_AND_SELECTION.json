@@ -1,0 +1,3343 @@
+[
+  {
+    "batch_id": "batch_00027",
+    "paper_id": "4O0v4s3IzY",
+    "title": "On the self-verification limitations of large language models on reasoning and planning tasks",
+    "relevance_score": 5,
+    "reason": "Directly studies LLM self-verification for reasoning/planning; shows external verification boosts code-like task correctness.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00290",
+    "paper_id": "n2NidsYDop",
+    "title": "Transformers Provably Solve Parity Efficiently with Chain of Thought",
+    "relevance_score": 4,
+    "reason": "Theoretical analysis of CoT for parity; shows self-consistency checking improves multi-step reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00078",
+    "paper_id": "Ccwp4tFEtE",
+    "title": "Generative Verifiers: Reward Modeling as Next-Token Prediction",
+    "relevance_score": 4,
+    "reason": "Proposes generative verifiers for LLM reasoning, aligns with reliability methods like verifier-guided decoding for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00064",
+    "paper_id": "A6Y7AqlzLW",
+    "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+    "relevance_score": 4,
+    "reason": "Process reward models (PRMs) for LLM reasoning, aligns with verifier-guided decoding and reliability for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00026",
+    "paper_id": "4FWAwZtd2n",
+    "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+    "relevance_score": 4,
+    "reason": "Scales test-time compute for reasoning, uses verifier reward models to improve LLM code output correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00023",
+    "paper_id": "3ogIALgghF",
+    "title": "Automatic Curriculum Expert Iteration for Reliable LLM Reasoning",
+    "relevance_score": 4,
+    "reason": "Addresses LLM reasoning reliability, hallucination reduction, and aligning assertiveness with capabilities for code-adjacent tasks.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00347",
+    "paper_id": "w6rHCuN3YG",
+    "title": "In-Context Editing: Learning Knowledge from Self-Induced Distributions",
+    "relevance_score": 3,
+    "reason": "Studies knowledge editing for LLMs, relevant to reliability and updating code-related knowledge without retraining.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00328",
+    "paper_id": "tPNHOoZFl9",
+    "title": "Learning Dynamics of LLM Finetuning",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM finetuning dynamics, explains hallucination causes; relevant to reliability/hallucination reduction for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00326",
+    "paper_id": "t6QHYUOQL7",
+    "title": "Breaking Mental Set to Improve Reasoning through Diverse Multi-Agent Debate",
+    "relevance_score": 3,
+    "reason": "Multi-agent debate for LLM reasoning improvement, aligns with reliability/consensus mechanisms for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00323",
+    "paper_id": "sfQ6XpApfS",
+    "title": "PiCO: Peer Review in LLMs based on Consistency Optimization",
+    "relevance_score": 3,
+    "reason": "Unsupervised peer review for LLMs based on consistency; relates to consensus/abstention for reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00316",
+    "paper_id": "rlgplAuN2p",
+    "title": "OCEAN: Offline Chain-of-thought Evaluation and Alignment in Large Language Models",
+    "relevance_score": 3,
+    "reason": "Offline KG-aligned CoT reasoning via MDP/RL; connects structured reasoning to LLM reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00307",
+    "paper_id": "q5EZ7gKcnW",
+    "title": "Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision",
+    "relevance_score": 3,
+    "reason": "Proposes iterative label refinement for unreliable human feedback on coding tasks, addressing reliability in LM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00304",
+    "paper_id": "pUbbLHjCPM",
+    "title": "Think Thrice Before You Act: Progressive Thought Refinement in Large Language Models",
+    "relevance_score": 3,
+    "reason": "Progressive refinement method for LLM reasoning, improves reliability on diverse tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00303",
+    "paper_id": "pHe4P1IVnb",
+    "title": "Bayesian WeakS-to-Strong from Text Classification to Generation",
+    "relevance_score": 3,
+    "reason": "Extends Weak-to-Strong to generation with Bayesian ensembling for reliability, applicable to code generation.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00302",
+    "paper_id": "p74CpDzw1Y",
+    "title": "Varying Shades of Wrong: Aligning LLMs with Wrong Answers Only",
+    "relevance_score": 3,
+    "reason": "Aligns LLMs using wrong-over-wrong preferences to improve calibration and correctness, a reliability mechanism.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00289",
+    "paper_id": "msEr27EejF",
+    "title": "Correlated Proxies: A New Definition and Improved Mitigation for Reward Hacking",
+    "relevance_score": 3,
+    "reason": "Addresses reward hacking in RLHF; relevant to reliability and alignment of LLM-generated outputs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00276",
+    "paper_id": "keu6sxrPWn",
+    "title": "Adaptive Deployment of Untrusted LLMs Reduces Distributed Threats",
+    "relevance_score": 3,
+    "reason": "LLM safety for code generation via trusted model monitoring/verification, reducing subtle errors in untrusted LLMs.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00272",
+    "paper_id": "jxo70B9fQo",
+    "title": "Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation",
+    "relevance_score": 3,
+    "reason": "Proposes output-free self-evaluation method for LLM reliability using internal hidden state dynamics.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00271",
+    "paper_id": "jkUp3lybXf",
+    "title": "Preference Optimization for Reasoning with Pseudo Feedback",
+    "relevance_score": 3,
+    "reason": "Uses test cases for pseudo feedback to improve LLM code generation reliability via preference optimization.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00258",
+    "paper_id": "hmDt068MoZ",
+    "title": "Can Knowledge Editing Really Correct Hallucinations?",
+    "relevance_score": 3,
+    "reason": "Benchmarks knowledge editing for correcting LLM hallucinations, a core reliability mechanism.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00256",
+    "paper_id": "hPpyUv1XyQ",
+    "title": "Uncertainty-Aware Decoding with Minimum Bayes Risk",
+    "relevance_score": 3,
+    "reason": "Presents MBR decoding for uncertainty-aware generation, applicable to LLM reliability/hallucination reduction.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00251",
+    "paper_id": "gc8QAQfXv6",
+    "title": "Unlocking the Power of Function Vectors for Characterizing and Mitigating Catastrophic Forgetting in Continual Instruction Tuning",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM forgetting via function vectors; proposes mitigation for instruction tuning, relevant to reliability of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00249",
+    "paper_id": "gGWYecsK1U",
+    "title": "Integrative Decoding: Improving Factuality via Implicit Self-consistency",
+    "relevance_score": 3,
+    "reason": "Proposes self-consistency decoding method to improve factuality, relevant to reliability/hallucination reduction themes.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00248",
+    "paper_id": "fvkElsJOsN",
+    "title": "Eliminating Position Bias of Language Models: A Mechanistic Approach",
+    "relevance_score": 3,
+    "reason": "Addresses LM reliability and bias, validates on math reasoning; connects to verifier-guided evaluation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00247",
+    "paper_id": "frsg32u0rO",
+    "title": "Block Verification Accelerates Speculative Decoding",
+    "relevance_score": 3,
+    "reason": "Improves speculative decoding verification; relates to reliability and efficiency of LLM code generation workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00243",
+    "paper_id": "fAAaT826Vv",
+    "title": "BIRD: A Trustworthy Bayesian Inference Framework for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Proposes Bayesian framework (BIRD) for trustworthy probability estimation in LLM reasoning/planning, improving reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00210",
+    "paper_id": "ZV7CLf0RHK",
+    "title": "Fine-tuning with Reserved Majority for Noise Reduction",
+    "relevance_score": 3,
+    "reason": "Presents a fine-tuning method (NoRM) that reduces noise/hallucination and improves code generation performance.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00200",
+    "paper_id": "XKv29sMyjF",
+    "title": "Query-based Knowledge Transfer for Heterogeneous Learning Environments",
+    "relevance_score": 3,
+    "reason": "Proposes query-based knowledge transfer for code-like tasks, relevant for reliability in LLM workflows for heterogeneous data.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00195",
+    "paper_id": "WWXjMYZxfH",
+    "title": "MA-RLHF: Reinforcement Learning from Human Feedback with Macro Actions",
+    "relevance_score": 3,
+    "reason": "MA-RLHF improves RLHF for program synthesis; addresses credit assignment, relevant to reliability of LLM code generation.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00195",
+    "paper_id": "WQvkqarwXi",
+    "title": "Towards Synergistic Path-based Explanations for Knowledge Graph Completion: Exploration and Evaluation",
+    "relevance_score": 3,
+    "reason": "Presents a method (KGExplainer) for finding synergistic reasoning paths, relevant to structured reasoning for code correctness.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00194",
+    "paper_id": "WJaUkwci9o",
+    "title": "Self-Improvement in Language Models: The Sharpening Mechanism",
+    "relevance_score": 3,
+    "reason": "Theoretical analysis of LLM self-improvement as verifier, relevant to reliability and correctness workflows.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00193",
+    "paper_id": "W5yIKliMot",
+    "title": "",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM reasoning failures via attention intervention; improves CoT correctness on AQuA (math reasoning), relevant to reliability.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00189",
+    "paper_id": "VIUisLx8lQ",
+    "title": "TypedThinker: Diversify Large Language Model Reasoning with Typed Thinking",
+    "relevance_score": 3,
+    "reason": "Introduces structured reasoning typology (inductive, abductive) to improve LLM problem-solving for logical/mathematical tasks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00183",
+    "paper_id": "UHPnqSTBPO",
+    "title": "Trust or Escalate: LLM Judges with Provable Guarantees for Human Agreement",
+    "relevance_score": 3,
+    "reason": "LLM judge with selective abstention for reliability; provable guarantees align with statistical correctness themes.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00162",
+    "paper_id": "QVj3kUvdvl",
+    "title": "Unsupervised Model Tree Heritage Recovery",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM heritage via weight space for reproducibility, relevant to workflow statistical correctness.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00159",
+    "paper_id": "PyjZO7oSw2",
+    "title": "SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction",
+    "relevance_score": 3,
+    "reason": "Self-correction framework for LLM reasoning, improves reliability on math tasks via error detection.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00151",
+    "paper_id": "OoNazl6T7D",
+    "title": "Non-myopic Generation of Language Models for Reasoning and Planning",
+    "relevance_score": 3,
+    "reason": "LLM reasoning method for planning in coding/math tasks; improves reliability via non-myopic control.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00141",
+    "paper_id": "N6pbLYLeej",
+    "title": "Chain-of-Thought Provably Enables Learning the (Otherwise) Unlearnable",
+    "relevance_score": 3,
+    "reason": "Formal analysis of CoT's ability to decompose complex tasks; relevant to structured reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00136",
+    "paper_id": "MCHuGOkExF",
+    "title": "SFS: Smarter Code Space Search improves LLM Inference Scaling",
+    "relevance_score": 3,
+    "reason": "LLM code generation via search algorithms (MCTS, evolutionary) improving correctness and diversity on coding benchmarks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00122",
+    "paper_id": "K2jOacHUlO",
+    "title": "To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts",
+    "relevance_score": 3,
+    "reason": "Proposes confidence reasoning methods (SCR/RCR) for LLMs to resolve knowledge conflicts, improving reliability for QA.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00118",
+    "paper_id": "JBXO05r4AV",
+    "title": "From Few to Many: Self-Improving Many-Shot Reasoners Through Iterative Optimization and Generation",
+    "relevance_score": 3,
+    "reason": "Proposes iterative optimization for many-shot ICL, explicitly validating on code generation tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00115",
+    "paper_id": "IssPhpUsKt",
+    "title": "Improving Reasoning Performance in Large Language Models via Representation Engineering",
+    "relevance_score": 3,
+    "reason": "Improves LLM reasoning via inference-time activation control, directly relevant to structured reasoning for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00091",
+    "paper_id": "ErQPdaD5wJ",
+    "title": "AutoUAD: Hyper-parameter Optimization for Unsupervised Anomaly Detection",
+    "relevance_score": 3,
+    "reason": "Hyper-parameter optimization for unsupervised anomaly detection; relates to reliability & statistical correctness of ML workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00085",
+    "paper_id": "Dl6nkKKvlX",
+    "title": "Balancing Act: Diversity and Consistency in Large Language Model Ensembles",
+    "relevance_score": 3,
+    "reason": "LLM ensemble strategy for reasoning tasks, includes consensus/abstention mechanism for reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00081",
+    "paper_id": "D2hhkU5O48",
+    "title": "QA-Calibration of Language Model Confidence Scores",
+    "relevance_score": 3,
+    "reason": "Introduces QA-calibration for LLM confidence scores, relevant to reliability and abstention for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00080",
+    "paper_id": "CvGqMD5OtX",
+    "title": "CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL",
+    "relevance_score": 3,
+    "reason": "Uses multi-agent LLM reasoning and test-time candidate selection for Text-to-SQL, improving code correctness.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00074",
+    "paper_id": "BpIbnXWfhL",
+    "title": "RuAG: Learned-rule-augmented Generation for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Augments LLM reasoning with learned logic rules; connects to structured reasoning for downstream tasks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00065",
+    "paper_id": "AJpUZd8Clb",
+    "title": "Conformal Language Model Reasoning with Coherent Factuality",
+    "relevance_score": 3,
+    "reason": "Conformal prediction for LM reasoning correctness; applies to logical arguments, relates to reliability/consistency checks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00055",
+    "paper_id": "8rvqpiTTFv",
+    "title": "Sharpness-Aware Minimization: General Analysis and Improved Rates",
+    "relevance_score": 3,
+    "reason": "Method for guaranteed constraint satisfaction in LLM outputs via rejection sampling; relates to reliability/abstention mechanisms.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00050",
+    "paper_id": "7xCSK9BLPy",
+    "title": "Better Instruction-Following Through Minimum Bayes Risk",
+    "relevance_score": 3,
+    "reason": "MBR decoding for output selection is a reliability/consensus method applicable to code generation tasks.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00044",
+    "paper_id": "77gQUdQhE7",
+    "title": "Inference-Aware Fine-Tuning for Best-of-N Sampling in Large Language Models",
+    "relevance_score": 3,
+    "reason": "BoN sampling with verifier selection improves LLM code correctness, aligning with reliability methods.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00041",
+    "paper_id": "6aHUmotXaw",
+    "title": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solver",
+    "relevance_score": 3,
+    "reason": "Self-play mutual reasoning for code-like problem-solving; uses consensus/verification to improve reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00039",
+    "paper_id": "6HcnC3pPkp",
+    "title": "Token-Supervised Value Models for Enhancing Mathematical Problem-Solving Capabilities of Large Language Models",
+    "relevance_score": 3,
+    "reason": "Token-level value models for tree search in math problem-solving; relates to verifier-guided decoding and reliability for code.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00031",
+    "paper_id": "51WraMid8K",
+    "title": "A Probabilistic Perspective on Unlearning and Alignment for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Probabilistic framework for LLM evaluation, addressing reliability and sampling semantics for unlearning/alignment.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00030",
+    "paper_id": "4ub9gpx9xw",
+    "title": "Walk the Talk? Measuring the Faithfulness of Large Language Model Explanations",
+    "relevance_score": 3,
+    "reason": "Measures faithfulness of LLM explanations using counterfactuals, relevant to reliability and semantic consistency.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00022",
+    "paper_id": "3baOKeI2EU",
+    "title": "UniCoTT: A Unified Framework for Structural Chain-of-Thought Distillation",
+    "relevance_score": 3,
+    "reason": "Focuses on structured CoT (chain, tree, graph) for reasoning, aligning with structured reasoning themes for LLMs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00007",
+    "paper_id": "1Iuw1jcIrf",
+    "title": "MathCoder2: Better Math Reasoning from Continued Pretraining on Model-translated Mathematical Code",
+    "relevance_score": 3,
+    "reason": "Generates code to capture mathematical reasoning steps, aligning with structured reasoning for code correctness.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00369",
+    "paper_id": "zfeso8ceqr",
+    "title": "Deconstructing What Makes a Good Optimizer for Autoregressive Language Models",
+    "relevance_score": 2,
+    "reason": "Weakly touches LLM reliability via optimizer analysis for code generation models.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00345",
+    "paper_id": "vo4AHjowKi",
+    "title": "Training-free LLM-generated Text Detection by Mining Token Probability Sequences",
+    "relevance_score": 2,
+    "reason": "Training-free detection of LLM-generated text via token probability analysis; relates to reliability and hallucination detection.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00322",
+    "paper_id": "sb1HgVDLjN",
+    "title": "Offline Model-Based Optimization by Learning to Rank",
+    "relevance_score": 2,
+    "reason": "Proposes learning-to-rank for offline optimization; relates to consensus/selection for improving output reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00313",
+    "paper_id": "rJ5g8ueQaI",
+    "title": "SEMDICE: Off-policy State Entropy Maximization via Stationary Distribution Correction Estimation",
+    "relevance_score": 2,
+    "reason": "Presents an algorithm for policy learning via stationary distribution optimization; weakly related to structured reasoning about program states.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00239",
+    "paper_id": "eU39PDsZtT",
+    "title": "GraphRouter: A Graph-based Router for LLM Selections",
+    "relevance_score": 2,
+    "reason": "LLM selection for cost/performance trade-offs; weak signal for reliability via workflow optimization.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00045",
+    "paper_id": "7GKbQ1WT1C",
+    "title": "Prompting Fairness: Integrating Causality to Debias Large Language Models",
+    "relevance_score": 2,
+    "reason": "Causality-guided prompting for debiasing LLMs; weak connection to code reliability via decision-making frameworks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00370",
+    "paper_id": "zqtql1YmlS",
+    "title": "Fewer May Be Better: Enhancing Offline Reinforcement Learning with Reduced Dataset",
+    "relevance_score": 1,
+    "reason": "Method for selecting data subsets to improve offline RL; weak link to code agent reliability via data efficiency.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00230",
+    "paper_id": "cyPMEXdqQ2",
+    "title": "Overcoming Lower-Level Constraints in Bilevel Optimization: A Novel Approach with Regularized Gap Functions",
+    "relevance_score": 1,
+    "reason": "Bilevel optimization applied to constrained meta-learning; peripheral connection to reliability in learning workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00221",
+    "paper_id": "bc2H72hGxB",
+    "title": "Human-Aligned Chess With a Bit of Search",
+    "relevance_score": 1,
+    "reason": "Uses MCTS for inference-time scaling/calibration, a potential reliability mechanism for agent decision-making.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00146",
+    "paper_id": "O9YTt26r2P",
+    "title": "Arithmetic Without Algorithms: Language Models Solve Math with a Bag of Heuristics",
+    "relevance_score": 1,
+    "reason": "Mechanistic analysis of LLM reasoning for arithmetic; relates to reliability and understanding code reasoning failures.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00133",
+    "paper_id": "LvDwwAgMEW",
+    "title": "Eliciting Human Preferences with Language Models",
+    "relevance_score": 1,
+    "reason": "LM-based method for eliciting programming spec ambiguity; weakly touches our theme of ambiguity in NL prompts.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00012",
+    "paper_id": "10.1145/3763102",
+    "title": "Active Learning for Neurosymbolic Program Synthesis.",
+    "relevance_score": 5,
+    "reason": "Active learning for neurosymbolic program synthesis; handles neural mispredictions via conformal evaluation for semantic correctness.",
+    "tags": [
+      "PL_LLMS",
+      "SYNTHESIS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_oopsla.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00485",
+    "paper_id": "qF5IrJfJDS",
+    "title": "Scaling Epidemic Inference on Contact Networks: Theory and Algorithms",
+    "relevance_score": 4,
+    "reason": "Theoretical analysis of transformers learning multi-step reasoning via chain-of-thought, including symbolic path-finding tasks with generalization guarantees.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00380",
+    "paper_id": "f3sZjkQbv2",
+    "title": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs",
+    "relevance_score": 4,
+    "reason": "Process Reward Model for LLM reasoning trajectories; improves code correctness via step-level supervision and selection.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00335",
+    "paper_id": "aEAbRPXV37",
+    "title": "Majority of the Bests: Improving Best-of-N via Bootstrapping",
+    "relevance_score": 4,
+    "reason": "Novel consensus mechanism (MoB) for LLM output selection, directly improves code reliability via bootstrapping",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00217",
+    "paper_id": "NUDaln2vCe",
+    "title": "BREAD: Branched Rollouts from Expert Anchors Bridge SFT & RL for Reasoning",
+    "relevance_score": 4,
+    "reason": "Proposes RL method with expert-guided rollouts to improve small LLM reasoning, directly addressing reliability for code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00178",
+    "paper_id": "JRkFZl0TJ2",
+    "title": "RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning",
+    "relevance_score": 4,
+    "reason": "RL co-training of LLM generator and verifier for reasoning; directly addresses reliability via process-level verification.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00169",
+    "paper_id": "IQ513IX1G5",
+    "title": "Beyond Oracle: Verifier-Supervision for Instruction Hierarchy in Reasoning and Instruction-Tuned LLMs",
+    "relevance_score": 4,
+    "reason": "Introduces verifier-supervision for reasoning LLMs, using programmatic checkers to improve correctness and reliability.",
+    "tags": [
+      "VERIFICATION",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00120",
+    "paper_id": "D1PeGJtVEu",
+    "title": "ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning",
+    "relevance_score": 4,
+    "reason": "RL for LLM reasoning with verifiable reward and bootstrapping, improving correctness on hard tasks like MATH.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00035",
+    "paper_id": "3Sxby0hH1q",
+    "title": "Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning",
+    "relevance_score": 4,
+    "reason": "Process reward model for LLM reasoning; min-form credit assignment improves code generation reliability.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00019",
+    "paper_id": "1vSLxdJNq8",
+    "title": "Bringing SAM to new heights: leveraging elevation data for tree crown segmentation from drone imagery",
+    "relevance_score": 4,
+    "reason": "Investigates mechanisms for reliable LM code generation by identifying and steering sound components, applicable to program correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00582",
+    "paper_id": "zzUXS4f91r",
+    "title": "DisCO: Reinforcing Large Reasoning Models with Discriminative Constrained Optimization",
+    "relevance_score": 3,
+    "reason": "Method for reinforcing reasoning models; relevant to reliability and structured reasoning for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00580",
+    "paper_id": "zswylB4Wnt",
+    "title": "RAST: Reasoning Activation in LLMs via Small-model Transfer",
+    "relevance_score": 3,
+    "reason": "Improves LLM reasoning via RL-based decoding, a reliability method for code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00579",
+    "paper_id": "zlMupLoKRf",
+    "title": "Causality Meets the Table: Debiasing LLMs for Faithful TableQA via Front-Door Intervention",
+    "relevance_score": 3,
+    "reason": "Applies causal reasoning (front-door adjustment) to reduce spurious correlations in LLM-based TableQA, aligning with reliability/consistency themes.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00573",
+    "paper_id": "z9oeQrcNh9",
+    "title": "ARM: Adaptive Reasoning Model",
+    "relevance_score": 3,
+    "reason": "Proposes adaptive reasoning formats (incl. Code) and consensus-guided mode for LLM reliability on tasks.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00570",
+    "paper_id": "yqKfMr0yvY",
+    "title": "Neither Valid nor Reliable? Investigating the Use of LLMs as Judges",
+    "relevance_score": 3,
+    "reason": "Investigates LLM reliability as evaluators (judges), relevant to our focus on reliability and statistical correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00560",
+    "paper_id": "xud9JYzgSp",
+    "title": "Unlocking SLM Potential for Data Analysis Code Generation via Non-Parametric Knowledge Distillation",
+    "relevance_score": 3,
+    "reason": "LLM-to-SLM distillation for data analysis code generation with reasoning-guided orchestration.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00556",
+    "paper_id": "xUBgfvyip3",
+    "title": "Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective",
+    "relevance_score": 3,
+    "reason": "Includes 'Code' as a reasoning domain with verifiers, aligning with reliability and correctness checks for LLM-generated code.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00555",
+    "paper_id": "xQfZprbSWL",
+    "title": "Spectral Compressive Imaging via Chromaticity-Intensity Decomposition",
+    "relevance_score": 3,
+    "reason": "Method for optimal test-time search/resource allocation to improve LLM reasoning correctness.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00552",
+    "paper_id": "x7fCiuCCAu",
+    "title": "Two Experts Are All You Need for Steering Thinking: Reinforcing Cognitive Effort in MoE Reasoning Models Without Additional Training",
+    "relevance_score": 3,
+    "reason": "Inference-time method to improve reasoning depth/efficiency in MoE models, relevant to structured reasoning & reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00548",
+    "paper_id": "wiWNpjcYWH",
+    "title": "Performative Risk Control: Calibrating Models for Reliable Deployment under Performativity",
+    "relevance_score": 3,
+    "reason": "Risk control framework for reliable model deployment; relates to reliability and statistical correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00545",
+    "paper_id": "wNMK5o0Vfg",
+    "title": "S-GRPO: Early Exit via Reinforcement Learning in Reasoning Models",
+    "relevance_score": 3,
+    "reason": "RL method for early exit in CoT reasoning; improves code correctness via structured intermediate reasoning steps.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00544",
+    "paper_id": "wCbOKbZ7kf",
+    "title": "SpecReason: Fast and Accurate Inference-Time Compute via Speculative Reasoning",
+    "relevance_score": 3,
+    "reason": "Accelerates LLM reasoning workflows via speculative execution; relates to reliability and efficiency of multi-step program reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00539",
+    "paper_id": "vpp3FGNLi6",
+    "title": "NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval",
+    "relevance_score": 3,
+    "reason": "LLM-driven reasoning framework with structured path tracking for multi-hop QA, relates to structured reasoning workflows",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00536",
+    "paper_id": "vO8LLoNWWk",
+    "title": "Learning to Reason under Off-Policy Guidance",
+    "relevance_score": 3,
+    "reason": "RL framework for reasoning models (RLVR) with verifiable rewards, aligns with reliability and correctness for multi-step reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00535",
+    "paper_id": "vIaNnnQxcl",
+    "title": "SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment",
+    "relevance_score": 3,
+    "reason": "Aligns chain-of-thought reasoning for safety, relevant to reliability/hallucination reduction for structured reasoning tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00530",
+    "paper_id": "ugaepulZyA",
+    "title": "Influence Guided Context Selection for Effective Retrieval-Augmented Generation",
+    "relevance_score": 3,
+    "reason": "Improves RAG via context selection to reduce LLM hallucinations, relevant to reliability/consensus for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00524",
+    "paper_id": "uBEiZd2P0K",
+    "title": "Conformal Risk Training: End-to-End Optimization of Conformal Risk Control",
+    "relevance_score": 3,
+    "reason": "End-to-end conformal risk training for provable guarantees on tail risks like CVaR, relevant to LLM reliability.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00520",
+    "paper_id": "thc972q5a9",
+    "title": "Scalable and adaptive prediction bands with kernel sum-of-squares",
+    "relevance_score": 3,
+    "reason": "Kernel SoS method for adaptive conformal prediction; potential for uncertainty-aware code correctness verification.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00519",
+    "paper_id": "tfbu0ITAez",
+    "title": "SIGMA: Refining Large Language Model Reasoning via Sibling-Guided Monte Carlo Augmentation",
+    "relevance_score": 3,
+    "reason": "Refines LLM reasoning via structured search (MCTS) and sibling-node feedback, improving correctness on math/code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00516",
+    "paper_id": "tKPqbamNb9",
+    "title": "Does Thinking More Always Help? Mirage of Test-Time Scaling in Reasoning Models",
+    "relevance_score": 3,
+    "reason": "Analyzes test-time reasoning scaling and proposes consensus-based selection (parallel thinking) for improved reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00513",
+    "paper_id": "t49olghJ3w",
+    "title": "From Self-Check to Consensus: Bayesian Strategic Decoding in Large Language Models",
+    "relevance_score": 3,
+    "reason": "Game-theoretic consensus for LLM self-checking, improving correctness & consistency in multi-turn inference.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00512",
+    "paper_id": "t0cpjJxj1s",
+    "title": "Analyzing the Power of Chain of Thought through Memorization Capabilities",
+    "relevance_score": 3,
+    "reason": "Theoretical analysis of Chain-of-Thought reasoning power for algorithms/Turing machines, connecting to structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00511",
+    "paper_id": "stpe7UeETz",
+    "title": "Corrector Sampling in Language Models",
+    "relevance_score": 3,
+    "reason": "Proposes RPT sampling to correct errors in autoregressive LM code generation, improving coding benchmarks.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00509",
+    "paper_id": "siPeAstQLq",
+    "title": "C-LoRA: Contextual Low-Rank Adaptation for Uncertainty Estimation in Large Language Models",
+    "relevance_score": 3,
+    "reason": "Proposes uncertainty-aware fine-tuning (C-LoRA) for LLMs, relevant to reliability and calibration of LLM outputs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00505",
+    "paper_id": "sJd4DpYOis",
+    "title": "SpecEM: Training-Free LLM Ensembling via Iterative Drafting, Verification, and Online Feedback",
+    "relevance_score": 3,
+    "reason": "Ensemble method for LLMs with online feedback for model selection, improving output reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00498",
+    "paper_id": "rZ2nSt1X58",
+    "title": "Optimization Inspired Few-Shot Adaptation for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Method improves LLM reliability for few-shot adaptation via optimization-inspired preconditioning, reducing overfitting.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00487",
+    "paper_id": "qPQUrjiA0q",
+    "title": "Rollout Roulette: A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods",
+    "relevance_score": 3,
+    "reason": "Inference-time scaling with particle filtering improves LLM reliability on reasoning tasks, connecting to test-time correctness.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00479",
+    "paper_id": "pcwI5cNFJK",
+    "title": "What Does It Take to Build a Performant Selective Classifier?",
+    "relevance_score": 3,
+    "reason": "Analyzes abstention/ranking for reliable classifiers; connects to reliability/abstention for code LLMs.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00472",
+    "paper_id": "ooiHIklvN5",
+    "title": "Is PRM Necessary? Problem-Solving RL Implicitly Induces PRM Capability in LLMs",
+    "relevance_score": 3,
+    "reason": "Self-PRM framework for solution reranking in LLM reasoning, improving reliability",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00461",
+    "paper_id": "nn51ewu5k2",
+    "title": "Efficiently Scaling LLM Reasoning Programs with Certaindex",
+    "relevance_score": 3,
+    "reason": "Introduces Certaindex for early exit in LLM reasoning programs, directly related to reliability and efficiency of test-time reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00459",
+    "paper_id": "nZ4mFzCZIx",
+    "title": "Towards Generalizable 3D Human Pose Estimation via Ensembles on Flat Loss Landscapes",
+    "relevance_score": 3,
+    "reason": "Ensemble method for reliability on a structured prediction task; relates to consensus/abstention for improving correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00456",
+    "paper_id": "nGQLYn13Xf",
+    "title": "FlyLoRA: Boosting Task Decoupling and Parameter Efficiency via Implicit Rank-Wise Mixture-of-Experts",
+    "relevance_score": 3,
+    "reason": "Presents parameter-efficient fine-tuning method validated on code generation, improving reliability for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00429",
+    "paper_id": "k8Mim6RI5O",
+    "title": "Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization",
+    "relevance_score": 3,
+    "reason": "Unsupervised LLM reasoning incentivization via entropy minimization; could inform code reliability methods.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00428",
+    "paper_id": "k1sAEsMeyV",
+    "title": "Bayesian Optimization with Preference Exploration using a Monotonic Neural Network Ensemble",
+    "relevance_score": 3,
+    "reason": "Proposes a method for interactive preference learning, relevant to ambiguity detection/repair in NL specs for programming tasks.",
+    "tags": [
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00427",
+    "paper_id": "jvVQeSMeGM",
+    "title": "Rethinking Fine-Tuning when Scaling Test-Time Compute: Limiting Confidence Improves Mathematical Reasoning",
+    "relevance_score": 3,
+    "reason": "Studies test-time compute (pass@N) for LLM reasoning, linking training overconfidence to code/math correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00422",
+    "paper_id": "jOsuKwiCL0",
+    "title": "Value-Guided Search for Efficient Chain-of-Thought Reasoning",
+    "relevance_score": 3,
+    "reason": "Value-guided search for Chain-of-Thought reasoning; improves reliability via test-time consensus and selection.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00421",
+    "paper_id": "jFaFCc5978",
+    "title": "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
+    "relevance_score": 3,
+    "reason": "Optimizes LLM reasoning under token budget constraints; connects to test-time compute for code reasoning reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00417",
+    "paper_id": "ir8u0crTcA",
+    "title": "UniGen: Enhanced Training & Test-Time Strategies for Unified Multimodal Understanding and Generation",
+    "relevance_score": 3,
+    "reason": "Proposes test-time Best-of-N strategy with Chain-of-Thought Verification for image generation, a reliability mechanism transferable to code.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00416",
+    "paper_id": "ifsyZYYDNs",
+    "title": "SCAN: Self-Denoising Monte Carlo Annotation for Robust Process Reward Learning",
+    "relevance_score": 3,
+    "reason": "Process reward models (PRMs) for LLM reasoning steps; improves reliability for complex tasks like math, relevant to code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00414",
+    "paper_id": "iY1zuKydO0",
+    "title": "DISC: Dynamic Decomposition Improves LLM Inference Scaling",
+    "relevance_score": 3,
+    "reason": "Dynamic decomposition for LLM inference on code benchmarks (APPS, LiveCodeBench) to improve correctness via step subdivision.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00413",
+    "paper_id": "iUjGNJzrF1",
+    "title": "Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?",
+    "relevance_score": 3,
+    "reason": "Analyzes multi-agent LLM consensus mechanisms (debate vs voting) for decision reliability, directly relevant to consensus methods for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00409",
+    "paper_id": "hzMkfIrdDT",
+    "title": "Know What You Don't Know: Uncertainty Calibration of Process Reward Models",
+    "relevance_score": 3,
+    "reason": "Calibrates process reward models for LLM reasoning, enabling dynamic compute allocation to improve reliability.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00395",
+    "paper_id": "gcAGeE8Cch",
+    "title": "Jury-and-Judge Chain-of-Thought for Uncovering Toxic Data in 3D Visual Grounding",
+    "relevance_score": 3,
+    "reason": "LLM-as-a-Judge for data quality in 3DVG; structured reasoning (Chain-of-Thought) to detect annotation ambiguities.",
+    "tags": [
+      "RELIABILITY",
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00393",
+    "paper_id": "gOwqPdBlRB",
+    "title": "Robust Hallucination Detection in LLMs via Adaptive Token Selection",
+    "relevance_score": 3,
+    "reason": "Proposes adaptive token selection for hallucination detection, a reliability method applicable to code generation.",
+    "tags": [
+      "RELIABILITY",
+      "HALLUCINATION_DETECTION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00392",
+    "paper_id": "gFFgCWiXWI",
+    "title": "Tapered Off-Policy REINFORCE - Stable and efficient reinforcement learning for large language models",
+    "relevance_score": 3,
+    "reason": "Uses RL to train a generative verifier for math/code reasoning benchmarks, aligning with reliability methods for LLM-generated code.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00391",
+    "paper_id": "gA3fFAEXNT",
+    "title": "Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards",
+    "relevance_score": 3,
+    "reason": "Self-verification RL for LLM reasoning; improves correctness via online verification, aligning with reliability themes.",
+    "tags": [
+      "RELIABILITY",
+      "LLM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00388",
+    "paper_id": "ftVlLG9cks",
+    "title": "The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning",
+    "relevance_score": 3,
+    "reason": "RL method for LLM reasoning that uses verifiable rewards to improve correctness, relevant to reliability for code generation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00387",
+    "paper_id": "fmnxunacr4",
+    "title": "Enigmata: Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles",
+    "relevance_score": 3,
+    "reason": "Synthetic logical puzzles with rule-based verifier for RL training; relates to structured reasoning and verifiable correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00386",
+    "paper_id": "fleQlZ2VTx",
+    "title": "When Less Language is More: Language-Reasoning Disentanglement Makes LLMs Better Multilingual Reasoners",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM reasoning structure; disentanglement method improves reliability for multilingual code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00385",
+    "paper_id": "fgfftCWPrn",
+    "title": "Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization",
+    "relevance_score": 3,
+    "reason": "Proposes RRPO for hallucination reduction in LVLMs, addressing reliability for structured outputs.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00380",
+    "paper_id": "ezOfR26pGQ",
+    "title": "Incentivizing Dual Process Thinking for Efficient Large Language Model Reasoning",
+    "relevance_score": 3,
+    "reason": "LLM reasoning efficiency via adaptive cognitive allocation; connects structured reasoning to code task difficulty.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00377",
+    "paper_id": "eb71SNTjux",
+    "title": "Right for the Right Reasons: Avoiding Reasoning Shortcuts via Prototypical Neurosymbolic AI",
+    "relevance_score": 3,
+    "reason": "Neurosymbolic AI method to avoid reasoning shortcuts; aligns with hybrid neuro-symbolic approaches for reliable reasoning.",
+    "tags": [
+      "NEUROSYMBOLIC",
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00371",
+    "paper_id": "e4IlBqhbTO",
+    "title": "C3PO: Optimized Large Language Model Cascades with Probabilistic Cost Constraints for Reasoning",
+    "relevance_score": 3,
+    "reason": "Cascaded LLM inference with cost control for reasoning tasks; aligns with reliability/workflow efficiency themes.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00366",
+    "paper_id": "dRjt4vlYVQ",
+    "title": "Weaver: Shrinking the Generation-Verification Gap by Scaling Compute for Verification",
+    "relevance_score": 3,
+    "reason": "Weaver framework for verifier ensembles to improve code generation correctness via test-time reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00362",
+    "paper_id": "cxb5EsQHW3",
+    "title": "Rethinking Optimal Verification Granularity for Compute-Efficient Test-Time Scaling",
+    "relevance_score": 3,
+    "reason": "Investigates verifier-guided decoding for LLM reasoning, directly relevant to reliability and test-time reasoning for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00354",
+    "paper_id": "cGkfMGQdCy",
+    "title": "Enhancing the Outcome Reward-based RL Training of MLLMs with Self-Consistency Sampling",
+    "relevance_score": 3,
+    "reason": "Self-consistency sampling for outcome-reward RL addresses unfaithful reasoning chains, a reliability mechanism for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00353",
+    "paper_id": "c6RDAutyNE",
+    "title": "GPO: Learning from Critical Steps to Improve LLM Reasoning",
+    "relevance_score": 3,
+    "reason": "Fine-tuning method (GPO) improves LLM reasoning by focusing on critical steps in reasoning trajectories.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00348",
+    "paper_id": "baNBqpzvMT",
+    "title": "Mixing Expert Knowledge: Bring Human Thoughts Back To the Game of Go",
+    "relevance_score": 3,
+    "reason": "LLM reasoning with structured CoT and RL for strategic gameplay; method for integrating expert knowledge into LLMs.",
+    "tags": [
+      "LLM_REASONING",
+      "REINFORCEMENT_LEARNING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00347",
+    "paper_id": "bTssV4Cnjn",
+    "title": "Incremental Sequence Classification with Temporal Consistency",
+    "relevance_score": 3,
+    "reason": "Incremental sequence classification for verifying LLM-generated math solutions; relates to reliability and correctness checking.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00344",
+    "paper_id": "b7bOWd3kUL",
+    "title": "Scaling Code-Assisted Chain-of-Thoughts and Instructions for Model Reasoning",
+    "relevance_score": 3,
+    "reason": "Code-assisted CoT generation with executable verification for reliable reasoning, directly improving LLM code reliability.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00341",
+    "paper_id": "ariVQf0KZx",
+    "title": "Thinkless: LLM Learns When to Think",
+    "relevance_score": 3,
+    "reason": "LLM learns to switch reasoning modes (short/long) based on task complexity, improving efficiency for code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00338",
+    "paper_id": "aXpbgG5z6I",
+    "title": "AI Debate Aids Assessment of Controversial Claims",
+    "relevance_score": 3,
+    "reason": "AI debate for scalable oversight on factuality claims; relates to consensus/abstention mechanisms for LLM reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00335",
+    "paper_id": "aDTcN3yZGE",
+    "title": "Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models",
+    "relevance_score": 3,
+    "reason": "Reinforcement learning for code generation via diffusion language models, improving correctness on HumanEval/MBPP",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00332",
+    "paper_id": "ZwBtDbuzjY",
+    "title": "InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models",
+    "relevance_score": 3,
+    "reason": "LLM preference optimization for code/math/reasoning; improves coding task performance via model fusion.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00326",
+    "paper_id": "ZK7dqwWxex",
+    "title": "Learning to Solve Complex Problems via Dataset Decomposition",
+    "relevance_score": 3,
+    "reason": "Proposes dataset decomposition for code generation, aligning with structured reasoning for improving LLM reliability.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00320",
+    "paper_id": "YPsJha5HXQ",
+    "title": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models",
+    "relevance_score": 3,
+    "reason": "Uses RL with verifiable rewards to improve LLM reasoning, connecting to reliability for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00316",
+    "paper_id": "Y1bt0YIS6Y",
+    "title": "VeriThinker: Learning to Verify Makes Reasoning Model Efficient",
+    "relevance_score": 3,
+    "reason": "LLM reasoning verification for CoT compression, improves reliability and reduces hallucination.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00315",
+    "paper_id": "XsQNqRdcdh",
+    "title": "Once Upon an Input: Reasoning via Per-Instance Program Synthesis",
+    "relevance_score": 3,
+    "reason": "Per-instance program synthesis for LLMs, uses structural feedback and confidence-based selection to improve code reasoning.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00299",
+    "paper_id": "W8xcKoJcrl",
+    "title": "Strategic Costs of Perceived Bias in Fair Selection",
+    "relevance_score": 3,
+    "reason": "Game-theoretic model of strategic effort in selection; connects to reliability and statistical correctness of LLM workflows.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00296",
+    "paper_id": "Vusd1Hw2D9",
+    "title": "Multi-Agent Debate for LLM Judges with Adaptive Stability Detection",
+    "relevance_score": 3,
+    "reason": "Multi-agent debate with adaptive stopping for LLM judges; relates to consensus/reliability mechanisms for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00292",
+    "paper_id": "VUoY5kacG5",
+    "title": "PurpCode: Reasoning for Safer Code Generation",
+    "relevance_score": 3,
+    "reason": "Post-training method for code safety using rule-based reasoning & RL, aligns with reliability for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00284",
+    "paper_id": "UfFTBEsLgI",
+    "title": "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning",
+    "relevance_score": 3,
+    "reason": "Entropy minimization for code correctness; improves LLM reliability on coding tasks without labeled data.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00273",
+    "paper_id": "TS128AgTRw",
+    "title": "Quantile Reward Policy Optimization: Alignment with Pointwise Regression and Exact Partition Functions",
+    "relevance_score": 3,
+    "reason": "Alignment method for LLMs using pointwise rewards, validated on coding tasks (LeetCode). Touches reliability for code generation.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00270",
+    "paper_id": "T3ReIjtbYy",
+    "title": "Latent Principle Discovery for Language Model Self-Improvement",
+    "relevance_score": 3,
+    "reason": "Automates discovery of reasoning principles for self-correction, aligning with LLM reliability and workflow correctness themes.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00268",
+    "paper_id": "SsHCyEBMLz",
+    "title": "$\\texttt{BetaConform}$: Efficient MAP Estimation of LLM Ensemble Judgment Performance with Prior Transfer",
+    "relevance_score": 3,
+    "reason": "Estimates LLM ensemble judgment performance; relates to reliability and statistical correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00260",
+    "paper_id": "S3GhJooWIC",
+    "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+    "relevance_score": 3,
+    "reason": "Scales test-time compute for LLM reasoning; explicitly validates on coding tasks to improve performance.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00256",
+    "paper_id": "RfNiN2rENM",
+    "title": "Uncertainty-quantified Rollout Policy Adaptation for Unlabelled Cross-domain Video Temporal Grounding",
+    "relevance_score": 3,
+    "reason": "Uses RL-based rollout policy for fine-grained reasoning; method for uncertainty-guided consensus is related to reliability mechanisms.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00250",
+    "paper_id": "R7HJj1YvJH",
+    "title": "Beyond Expectations: Quantile-Guided Alignment for Risk-Calibrated Language Models",
+    "relevance_score": 3,
+    "reason": "Quantile-guided alignment for risk-calibrated LLMs, validated on code-generation tasks to control rare catastrophic outputs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00249",
+    "paper_id": "R2ZJSjLDJC",
+    "title": "Less is More: Improving LLM Alignment via Preference Data Selection",
+    "relevance_score": 3,
+    "reason": "Proposes a data selection method for DPO to improve LLM alignment, relevant to reliability and correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00241",
+    "paper_id": "QPJjiNCRq1",
+    "title": "Improving Generalization of Neural Combinatorial Optimization for Vehicle Routing Problems via Test-Time Projection Learning",
+    "relevance_score": 3,
+    "reason": "Uses LLMs to improve neural combinatorial optimization generalization via test-time projection, a reliability method for code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00232",
+    "paper_id": "PHu9xJeAum",
+    "title": "SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement",
+    "relevance_score": 3,
+    "reason": "Uses MCTS to guide reasoning for self-improvement; method for structured intermediate reasoning applicable to code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00231",
+    "paper_id": "PBy1Ew1ihV",
+    "title": "Improving Task-Specific Multimodal Sentiment Analysis with General MLLMs via Prompting",
+    "relevance_score": 3,
+    "reason": "Uses MLLM for structured reasoning (prompting) to guide a student model, aligning with neuro-symbolic & reliability themes.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00227",
+    "paper_id": "OkHC30LLpO",
+    "title": "AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions",
+    "relevance_score": 3,
+    "reason": "Studies LLM abstention on unanswerable questions, directly relevant to reliability/hallucination reduction themes.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00219",
+    "paper_id": "NhAi1w3s8Z",
+    "title": "How Far Are We from Optimal Reasoning Efficiency?",
+    "relevance_score": 3,
+    "reason": "Optimizes LLM reasoning efficiency for mathematical problem-solving, relevant to structured reasoning for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00214",
+    "paper_id": "NFM8F5cV0V",
+    "title": "Open-Reasoner-Zero: An Open Source Approach to Scaling Up Reinforcement Learning on the Base Model",
+    "relevance_score": 3,
+    "reason": "Scales RL for LLM reasoning; focuses on improving base model reasoning, relevant to reliability for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00210",
+    "paper_id": "MrRdupucYb",
+    "title": "$Q\\sharp$: Provably Optimal Distributional RL for LLM Post-Training",
+    "relevance_score": 3,
+    "reason": "Value-based RL method for LLM post-training, validated on math reasoning; connects to reliability via provable policy improvement.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00208",
+    "paper_id": "MgN8Px0NA5",
+    "title": "Keeping an Eye on LLM Unlearning: The Hidden Risk and Remedy",
+    "relevance_score": 3,
+    "reason": "Studies reliability of LLM unlearning; connects to robustness and unintended utility degradation for code models.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00207",
+    "paper_id": "MaJ3ASZ0NI",
+    "title": "Lost in Transmission: When and Why LLMs Fail to Reason Globally",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM reasoning failures via communication complexity; links to structured reasoning & reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00205",
+    "paper_id": "MNqBFIGT8l",
+    "title": "The Nuclear Route: Sharp Asymptotics of ERM in Overparameterized Quadratic Networks",
+    "relevance_score": 3,
+    "reason": "Analyzes ERM in neural networks via mapping to convex matrix sensing with nuclear norm, linking to low-rank structure and generalization.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00203",
+    "paper_id": "M8zmlixh9y",
+    "title": "Breaking the Batch Barrier (B3) of Contrastive Learning via Smart Batch Mining",
+    "relevance_score": 3,
+    "reason": "LLM self-verification framework for correctness, uses RL to unify generation & verification",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00201",
+    "paper_id": "M0U8wUow8c",
+    "title": "A Implies B: Circuit Analysis in LLMs for Propositional Logical Reasoning",
+    "relevance_score": 3,
+    "reason": "Mechanistic interpretability of LLMs solving propositional logic; identifies reasoning circuits, relevant to structured reasoning.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00199",
+    "paper_id": "Lq4nneD2xX",
+    "title": "$\\texttt{G1}$: Teaching LLMs to Reason on Graphs with Reinforcement Learning",
+    "relevance_score": 3,
+    "reason": "Uses RL to teach LLMs graph reasoning; relevant for structured reasoning on code-like graphs (CFGs).",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00198",
+    "paper_id": "LjtgTpWH71",
+    "title": "Hybrid Latent Reasoning via Reinforcement Learning",
+    "relevance_score": 3,
+    "reason": "RL method for hybrid latent reasoning in LLMs, integrates hidden states for structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00195",
+    "paper_id": "LNWyf2RR1V",
+    "title": "Wisdom is Knowing What not to Say: Hallucination-Free LLMs Unlearning via Attention Shifting",
+    "relevance_score": 3,
+    "reason": "LLM unlearning method for hallucination reduction, improving reliability in knowledge-intensive tasks.",
+    "tags": [
+      "RELIABILITY",
+      "HALLUCINATION_REDUCTION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00194",
+    "paper_id": "LAflniLUwx",
+    "title": "Enhancing Vision-Language Model Reliability with Uncertainty-Guided Dropout Decoding",
+    "relevance_score": 3,
+    "reason": "Uncertainty-guided decoding for hallucination reduction in multimodal models; reliability mechanism potentially transferable to code LLMs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00179",
+    "paper_id": "JWmfbzw8ur",
+    "title": "Harnessing Feature Resonance under Arbitrary Target Alignment for Out-of-Distribution Node Detection",
+    "relevance_score": 3,
+    "reason": "Proposes a reliability method (feature resonance) for OOD detection, relevant to statistical correctness and hallucination reduction themes.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00172",
+    "paper_id": "Igq7Dyc3OL",
+    "title": "Reasoning Models Hallucinate More: Factuality-Aware Reinforcement Learning for Large Reasoning Models",
+    "relevance_score": 3,
+    "reason": "RL fine-tuning with factuality verification for LLMs, reducing hallucinations in reasoning tasks.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00166",
+    "paper_id": "IBrRNLr6JA",
+    "title": "Reinforcement Learning for Reasoning in Large Language Models with One Training Example",
+    "relevance_score": 3,
+    "reason": "Uses RL with verifiable reward to improve LLM math reasoning, aligning with reliability methods for LLM reasoning.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00156",
+    "paper_id": "GuvQJGgbLm",
+    "title": "Let Me Think! A Long Chain of Thought Can Be Worth Exponentially Many Short Ones",
+    "relevance_score": 3,
+    "reason": "Theoretical analysis of sequential vs parallel test-time scaling for reasoning, relevant to reliability of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00149",
+    "paper_id": "GBMzJLhsRj",
+    "title": "Provable Scaling Laws for the Test-Time Compute of Large Language Models",
+    "relevance_score": 3,
+    "reason": "Proposes test-time compute scaling laws for LLM correctness via consensus/knockout algorithms, aligning with reliability mechanisms.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00138",
+    "paper_id": "Eyis2h3tba",
+    "title": "Set-LLM: A Permutation-Invariant LLM",
+    "relevance_score": 3,
+    "reason": "Addresses LLM reliability via permutation invariance, relevant to consensus/abstention mechanisms for code evaluation.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00133",
+    "paper_id": "ESELaMThLN",
+    "title": "Controlling Thinking Speed in Reasoning Models",
+    "relevance_score": 3,
+    "reason": "Controls LLM reasoning speed for accuracy-efficiency trade-offs, relevant to structured reasoning workflows.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00130",
+    "paper_id": "E8adS5srds",
+    "title": "Anchored Diffusion Language Model",
+    "relevance_score": 3,
+    "reason": "Anchoring mechanism improves reasoning for math/logic tasks, aligning with structured reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00127",
+    "paper_id": "DpeJYRFRQY",
+    "title": "R2R: Efficiently Navigating Divergent Reasoning Paths with Small-Large Model Token Routing",
+    "relevance_score": 3,
+    "reason": "Efficient routing for code generation; uses LLM/SLM consensus on critical tokens to improve reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00126",
+    "paper_id": "DlkM0q4Cvk",
+    "title": "Dependency Matters: Enhancing LLM Reasoning with Explicit Knowledge Grounding",
+    "relevance_score": 3,
+    "reason": "Introduces GRiD, a dependency-aware reasoning framework with step-wise verification for logical consistency in LLM reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00119",
+    "paper_id": "CsXKGIqZtr",
+    "title": "Searching Latent Program Spaces",
+    "relevance_score": 3,
+    "reason": "Proposes test-time gradient search in latent program space for generalization, aligning with structured reasoning for code tasks.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00109",
+    "paper_id": "BneVLr7iis",
+    "title": "Reducing the Probability of Undesirable Outputs in Language Models Using Probabilistic Inference",
+    "relevance_score": 3,
+    "reason": "Method (RePULSe) reduces probability of undesired LLM outputs, relates to reliability and abstention for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00108",
+    "paper_id": "BcKYVmh3yH",
+    "title": "Sampling-Efficient Test-Time Scaling: Self-Estimating the Best-of-N Sampling in Early Decoding",
+    "relevance_score": 3,
+    "reason": "Improves reliability of LLM-generated code via efficient best-of-N sampling, a test-time reasoning method.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00099",
+    "paper_id": "AYqtMLRwzj",
+    "title": "Belief-Calibrated Multi-Agent Consensus Seeking for Complex NLP Tasks",
+    "relevance_score": 3,
+    "reason": "Multi-agent consensus for complex tasks; method improves reliability via belief-calibration, applicable to code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00092",
+    "paper_id": "9osvTOYbT4",
+    "title": "Segment Policy Optimization: Effective Segment-Level Credit Assignment in RL for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Improves LLM reasoning via structured segment-level RL credit assignment, validated on code-like math reasoning tasks (GSM8K, MATH).",
+    "tags": [
+      "RELIABILITY",
+      "STRUCTURED_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00081",
+    "paper_id": "8RMs5San6e",
+    "title": "Representation Consistency for Accurate and Coherent LLM Answer Aggregation",
+    "relevance_score": 3,
+    "reason": "Uses internal activations for consensus/abstention on reasoning tasks, improving LLM answer reliability.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00077",
+    "paper_id": "894Yo61h1P",
+    "title": "Reasoning Path Compression: Compressing Generation Trajectories for Efficient LLM Reasoning",
+    "relevance_score": 3,
+    "reason": "Method for efficient LLM reasoning via KV cache compression, directly applicable to test-time compute scaling for code generation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00069",
+    "paper_id": "7Eh2SK6Mo7",
+    "title": "Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning",
+    "relevance_score": 3,
+    "reason": "Value-based RL for LLM reasoning, improving correctness on math benchmarks; connects to reliability for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00068",
+    "paper_id": "77eEDRhPkQ",
+    "title": "DAPO : Improving Multi-Step Reasoning Abilities of Large Language Models with Direct Advantage-Based Policy Optimization",
+    "relevance_score": 3,
+    "reason": "Step-level RL for LLM reasoning on code problems; improves code capabilities via dense reward signals.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00057",
+    "paper_id": "5k0AHYc4MJ",
+    "title": "Generalizable Reasoning through Compositional Energy Minimization",
+    "relevance_score": 3,
+    "reason": "Proposes compositional energy minimization for reasoning generalization, a test-time inference method applicable to complex problems.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00056",
+    "paper_id": "5eZ0iykpDU",
+    "title": "Diversity-Aware Policy Optimization for Large Language Model Reasoning",
+    "relevance_score": 3,
+    "reason": "LLM reasoning policy optimization for diversity, linked to improving code generation robustness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00053",
+    "paper_id": "5NkfjxMpWe",
+    "title": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+    "relevance_score": 3,
+    "reason": "Presents formal PAC-learning framework for verifiers of step-by-step reasoning, relevant to reliability of LLM reasoning chains.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00042",
+    "paper_id": "49Rc51iCso",
+    "title": "Mitigating Overthinking in Large Reasoning Models via Manifold Steering",
+    "relevance_score": 3,
+    "reason": "Mitigates overthinking in reasoning models for math/code; uses mechanistic interpretability to improve efficiency.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00041",
+    "paper_id": "41mBrhy6U4",
+    "title": "Provably Efficient Online RLHF with One-Pass Reward Modeling",
+    "relevance_score": 3,
+    "reason": "Online RLHF for LLM alignment; connects to reliability and workflow-level correctness via preference modeling.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00033",
+    "paper_id": "3FxMJEj6t9",
+    "title": "Replicable Online pricing",
+    "relevance_score": 3,
+    "reason": "Introduces replicable algorithms for online pricing; relates to reliability/statistical correctness of LLM workflows via formal guarantees.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00021",
+    "paper_id": "29FRqmVQK8",
+    "title": "Scalable Best-of-N Selection for Large Language Models via Self-Certainty",
+    "relevance_score": 3,
+    "reason": "Proposes self-certainty for scalable Best-of-N selection, a reliability method for improving LLM reasoning performance.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00010",
+    "paper_id": "14B5d6NEaH",
+    "title": "Reinforcement Learning with Backtracking Feedback",
+    "relevance_score": 3,
+    "reason": "LLM safety alignment via RL with backtracking; relates to reliability/hallucination reduction for code generation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00007",
+    "paper_id": "0i8ClSr3kQ",
+    "title": "Latent Chain-of-Thought for Visual Reasoning",
+    "relevance_score": 3,
+    "reason": "Methods for improving CoT reasoning reliability in LVLMs via variational inference, relevant to structured reasoning & reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00006",
+    "paper_id": "0Zri6HSYaK",
+    "title": "More Than Just Functional: LLM-as-a-Critique for Efficient Code Generation",
+    "relevance_score": 3,
+    "reason": "LLM-as-critique for code efficiency; activates model's knowledge for non-functional code properties without execution.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00004",
+    "paper_id": "0NdS4xCngO",
+    "title": "Reinforcement Learning Finetunes Small Subnetworks in Large Language Models",
+    "relevance_score": 3,
+    "reason": "Studies RL finetuning for LLMs, a reliability method for improving model correctness and alignment.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00307",
+    "paper_id": "X5B2yTT97A",
+    "title": "SimpleStrat: Diversifying Language Model Generation with Stratification",
+    "relevance_score": 2,
+    "reason": "Generates diverse code solutions for underspecified prompts; relates to ambiguity in specs.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00222",
+    "paper_id": "O8Ifwhylnr",
+    "title": "Conformal Online Learning of Deep Koopman Linear Embeddings",
+    "relevance_score": 2,
+    "reason": "Conformal online learning for model updates relates to reliability and workflow-level correctness for dynamical systems.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00106",
+    "paper_id": "BOEZYnC8nR",
+    "title": "Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs",
+    "relevance_score": 2,
+    "reason": "LLM used for adaptive kernel design in Bayesian optimization, a form of structured reasoning for task optimization.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00074",
+    "paper_id": "7kQjbCQwtT",
+    "title": "Discovering Important Experts for Mixture-of-Experts Models Pruning Through a Theoretical Perspective",
+    "relevance_score": 2,
+    "reason": "LLM pruning via Shapley values relates to reliability/statistical correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00576",
+    "paper_id": "zSrb8rtH9M",
+    "title": "On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of MoE expressive power; peripheral connection to structured reasoning architectures in LLMs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00543",
+    "paper_id": "w9gEF4Iwtx",
+    "title": "CLIPTTA: Robust Contrastive Vision-Language Test-Time Adaptation",
+    "relevance_score": 1,
+    "reason": "Method for test-time adaptation of vision-language models; weakly connects to reliability/robustness but not for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00322",
+    "paper_id": "Yhfx12Azz1",
+    "title": "Coreset for Robust Geometric Median: Eliminating Size Dependency on Outliers",
+    "relevance_score": 1,
+    "reason": "Barely relevant: coresets for robust median could theoretically relate to consensus/abstention for code reliability, but no explicit link.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00289",
+    "paper_id": "VD22PY0fZm",
+    "title": "Rethinking Out-of-Distribution Detection and Generalization with Collective Behavior Dynamics",
+    "relevance_score": 1,
+    "reason": "Theoretical OOD detection method; only tangentially related to LLM reliability for code via 'generalization' concept.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00252",
+    "paper_id": "REIo9ZLSYo",
+    "title": "Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling",
+    "relevance_score": 1,
+    "reason": "Uses LLM for sequential decoding; tangential connection to structured reasoning but application is fMRI, not code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00240",
+    "paper_id": "QIXdI207nq",
+    "title": "LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation",
+    "relevance_score": 1,
+    "reason": "Weak connection: caching for diffusion models; reliability/consistency angle is peripheral to code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00239",
+    "paper_id": "QBjuYL4gAX",
+    "title": "When and how can inexact generative models still sample from the data manifold?",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of generative model robustness; peripheral connection to reliability of model outputs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00230",
+    "paper_id": "P4xaLYXBRe",
+    "title": "SPACE: Noise Contrastive Estimation Stabilizes Self-Play Fine-Tuning for Large Language Models",
+    "relevance_score": 1,
+    "reason": "Method for stabilizing LLM fine-tuning; weak connection to code reliability via general LLM improvement.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00197",
+    "paper_id": "LZrRvYBqsJ",
+    "title": "Delta Attention: Fast and Accurate Sparse Attention Inference by Delta Correction",
+    "relevance_score": 1,
+    "reason": "Method improves LLM inference efficiency; tangential to reliability via sparse attention correction.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00183",
+    "paper_id": "JxxKj8pow1",
+    "title": "Scaling Speculative Decoding with Lookahead Reasoning",
+    "relevance_score": 1,
+    "reason": "Speculative decoding for reasoning LLMs; touches reliability via verification but not code-specific.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00157",
+    "paper_id": "H1NGlLNaVC",
+    "title": "CoCoA: A Minimum Bayes Risk Framework Bridging Confidence and Consistency for Uncertainty Quantification in LLMs",
+    "relevance_score": 1,
+    "reason": "Uncertainty quantification for LLMs; potential relevance to reliability/abstention for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00131",
+    "paper_id": "EJZKxsS1Bl",
+    "title": "Purest Quantum State Identification",
+    "relevance_score": 1,
+    "reason": "Barely relevant: quantum property learning framework for identifying 'purest' states, tangentially relates to reliability/selection themes.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00063",
+    "paper_id": "6X5NGHe35l",
+    "title": "Efficiently Verifiable Proofs of Data Attribution",
+    "relevance_score": 1,
+    "reason": "Presents verifiable ML for data attribution; weak link to reliability of LLM-generated code workflows.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00060",
+    "paper_id": "6AbM9UG4aD",
+    "title": "InfMasking: Unleashing Synergistic Information by Contrastive Multimodal Interactions",
+    "relevance_score": 1,
+    "reason": "Multimodal contrastive learning method; weak connection to code reliability via information theory concepts.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00020",
+    "paper_id": "22CqLfjiVl",
+    "title": "Learning to Think: Information-Theoretic Reinforcement Fine-Tuning for LLMs",
+    "relevance_score": 1,
+    "reason": "Optimizes LLM reasoning efficiency; weak connection to code generation reliability.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "0Az25lvdT2",
+    "title": "Theory-Driven Label-Specific Representation for Incomplete Multi-View Multi-Label Learning",
+    "relevance_score": 1,
+    "reason": "Framework for multi-view learning with theoretical guarantees on representation learning; weak connection to code reliability via 'generalization performance' analysis.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00233",
+    "paper_id": "article-33227",
+    "title": "Online Prompt Selection for Program Synthesis",
+    "relevance_score": 4,
+    "reason": "Online selection of LLMs, prompts, and symbolic solvers for program synthesis to optimize correctness and cost.",
+    "tags": [
+      "RELIABILITY",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00312",
+    "paper_id": "article-35094",
+    "title": "Things Machine Learning Models Know That They Don’t Know",
+    "relevance_score": 3,
+    "reason": "Surveys ML abstention and model selection, which connects to reliability/consensus for code LLMs.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00136",
+    "paper_id": "article-34879",
+    "title": "Formal Quality Measures for Predictors in Markov Decision Processes",
+    "relevance_score": 3,
+    "reason": "Studies formal quality measures for predictors in MDPs, connecting to reliability and statistical correctness of AI workflows.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00257",
+    "paper_id": "article-34876",
+    "title": "RATT: A Thought Structure for Coherent and Correct LLM Reasoning",
+    "relevance_score": 3,
+    "reason": "RATT structure for LLM reasoning combines factual checking (RAG) with strategic planning, improving logical coherence for reliable decisions.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00232",
+    "paper_id": "article-34813",
+    "title": "One Token Can Help! Learning Scalable and Pluggable Virtual Tokens for Retrieval-Augmented Large Language Models",
+    "relevance_score": 3,
+    "reason": "Enhances LLMs for RAG with pluggable tokens, preserving core capabilities; relevant to reliability methods.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00333",
+    "paper_id": "article-34812",
+    "title": "Utilize the Flow Before Stepping into the Same River Twice: Certainty Represented Knowledge Flow for Refusal-Aware Instruction Tuning",
+    "relevance_score": 3,
+    "reason": "Addresses LLM hallucination/reliability via refusal-aware tuning, relevant to reliability and abstention for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00259",
+    "paper_id": "article-34809",
+    "title": "RaDIO: Real-Time Hallucination Detection with Contextual Index Optimized Query Formulation for Dynamic Retrieval Augmented Generation",
+    "relevance_score": 3,
+    "reason": "Dynamic RAG method for real-time hallucination detection during LLM text generation; relates to reliability/consistency checks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00109",
+    "paper_id": "article-34793",
+    "title": "Enhancing Chain of Thought Prompting in Large Language Models via Reasoning Patterns",
+    "relevance_score": 3,
+    "reason": "Enhances Chain-of-Thought reasoning patterns for LLMs; relevant to structured reasoning for code tasks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00054",
+    "paper_id": "article-34777",
+    "title": "Causal Prompting: Debiasing Large Language Model Prompting Based on Front-Door Adjustment",
+    "relevance_score": 3,
+    "reason": "Uses causal prompting (front-door adjustment) to debias LLM reasoning, a reliability mechanism for structured outputs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00279",
+    "paper_id": "article-34749",
+    "title": "S^3cMath: Spontaneous Step-Level Self-Correction Makes Large Language Models Better Mathematical Reasoners",
+    "relevance_score": 3,
+    "reason": "Self-correction method for LLM reasoning errors; step-level correction improves reliability for mathematical code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00085",
+    "paper_id": "article-34744",
+    "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+    "relevance_score": 3,
+    "reason": "Fine-grained hallucination detection/mitigation for LVLMs; method is adjacent to reliability & hallucination reduction themes for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00175",
+    "paper_id": "article-34736",
+    "title": "Is There No Such Thing as a Bad Question? H4R: HalluciBot for Ratiocination, Rewriting, Ranking, and Routing",
+    "relevance_score": 3,
+    "reason": "Presents a query-level hallucination detection and rewriting framework for improving LLM output accuracy and consensus.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00202",
+    "paper_id": "article-34732",
+    "title": "MaFeRw: Query Rewriting with Multi-Aspect Feedbacks for Retrieval-Augmented Large Language Models",
+    "relevance_score": 3,
+    "reason": "Improves RAG for ambiguous queries using feedback from retrieval & generation; relates to reliability/consistency.",
+    "tags": [
+      "RELIABILITY",
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00081",
+    "paper_id": "article-34723",
+    "title": "Decoupling Metacognition from Cognition: A Framework for Quantifying Metacognitive Ability in LLMs",
+    "relevance_score": 3,
+    "reason": "Quantifies LLM metacognition for correctness evaluation, relates to reliability and hallucination reduction for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00194",
+    "paper_id": "article-34719",
+    "title": "LiteSearch: Efficient Tree Search with Dynamic Exploration Budget for Math Reasoning",
+    "relevance_score": 3,
+    "reason": "Presents guided tree search for LLM math reasoning, relates to structured reasoning and reliability for code-like tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00325",
+    "paper_id": "article-34710",
+    "title": "Tuning-Free Accountable Intervention for LLM Deployment – a Metacognitive Approach",
+    "relevance_score": 3,
+    "reason": "Metacognitive LLM approach for self-aware error identification/correction; relates to reliability/hallucination reduction.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00064",
+    "paper_id": "article-34699",
+    "title": "Confidence Estimation for Error Detection in Text-to-SQL Systems",
+    "relevance_score": 3,
+    "reason": "LLM confidence estimation and error detection for Text-to-SQL, aligns with reliability/abstention for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "ABSTENTION"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00341",
+    "paper_id": "article-34663",
+    "title": "What Are Step-Level Reward Models Rewarding? Counterintuitive Findings from MCTS-Boosted Mathematical Reasoning",
+    "relevance_score": 3,
+    "reason": "Analyzes step-level reward models (SRMs) for reasoning, using MCTS for preference annotation; relates to structured reasoning and reliability for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00079",
+    "paper_id": "article-34658",
+    "title": "Debate on Graph: A Flexible and Reliable Reasoning Framework for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Proposes LLM reasoning framework (DoG) for KGQA with debate for reliability, relevant to structured reasoning/consensus.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00121",
+    "paper_id": "article-34638",
+    "title": "Explore What LLM Does Not Know in Complex Question Answering",
+    "relevance_score": 3,
+    "reason": "Proposes framework to evaluate LLM knowledge gaps & utility of retrieved docs for robust QA, related to reliability & consistency checks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00101",
+    "paper_id": "article-34622",
+    "title": "ELDER: Enhancing Lifelong Model Editing with Mixture-of-LoRA",
+    "relevance_score": 3,
+    "reason": "Lifelong model editing for LLMs; relates to reliability and workflow correctness for knowledge updates.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00048",
+    "paper_id": "article-34560",
+    "title": "CDW-CoT: Clustered Distance-Weighted Chain-of-Thoughts Reasoning",
+    "relevance_score": 3,
+    "reason": "Presents CDW-CoT, a structured reasoning method for LLMs that dynamically tailors prompts, improving reliability on complex tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00204",
+    "paper_id": "article-34540",
+    "title": "Mapping from Meaning: Addressing the Miscalibration of Prompt-Sensitive Language Models",
+    "relevance_score": 3,
+    "reason": "Addresses prompt ambiguity and uncertainty calibration for LLMs, relevant to reliability and ambiguity detection.",
+    "tags": [
+      "RELIABILITY",
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00063",
+    "paper_id": "article-34259",
+    "title": "ConceptSearch: Towards Efficient Program Search Using LLMs for Abstraction and Reasoning Corpus (ARC)",
+    "relevance_score": 3,
+    "reason": "LLM-driven program synthesis for ARC using concept-based search, relates to structured reasoning for code.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00185",
+    "paper_id": "article-34213",
+    "title": "Latent Reward: LLM-Empowered Credit Assignment in Episodic Reinforcement Learning",
+    "relevance_score": 3,
+    "reason": "LLM for symbolic credit assignment in RL; uses code generation for interpretable rewards, relates to structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00103",
+    "paper_id": "article-34139",
+    "title": "Eco Search: A No-delay Best-First Search Algorithm for Program Synthesis",
+    "relevance_score": 3,
+    "reason": "Presents a best-first search algorithm for program synthesis, relating to structured reasoning and search for code correctness.",
+    "tags": [
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00052",
+    "paper_id": "article-34120",
+    "title": "Calibrating Large Language Models with Sample Consistency",
+    "relevance_score": 3,
+    "reason": "Calibrates LLM confidence via sample consistency, relates to reliability/abstention for reasoning tasks.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00211",
+    "paper_id": "article-34056",
+    "title": "MoLE:Decoding by Mixture of Layer Experts Alleviates Hallucination in Large Vision-Language Models",
+    "relevance_score": 3,
+    "reason": "Decoding method (MoLE) reduces hallucinations; relevant to reliability/consensus for LVLMs, potentially transferable to code generation.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00107",
+    "paper_id": "article-33669",
+    "title": "Eliciting Causal Abilities in Large Language Models for Reasoning Tasks",
+    "relevance_score": 3,
+    "reason": "Proposes causal inference method (SCIE) for prompt optimization to improve LLM reasoning performance.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00016",
+    "paper_id": "article-33380",
+    "title": "Adapting to Non-Stationary Environments: Multi-Armed Bandit Enhanced Retrieval-Augmented Generation on Knowledge Graphs",
+    "relevance_score": 3,
+    "reason": "Multi-armed bandit RAG framework for KGQA; adaptive retrieval selection relates to reliability/consensus mechanisms for code reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00327",
+    "paper_id": "article-32082",
+    "title": "Uncovering LLM-Generated Code: A Zero-Shot Synthetic Code Detector via Code Rewriting",
+    "relevance_score": 3,
+    "reason": "Proposes a method for detecting LLM-generated code via semantic similarity, relating to code reliability and hallucination detection.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00140",
+    "paper_id": "article-31985",
+    "title": "G2LDetect: A Global-to-Local Approach for Hallucination Detection",
+    "relevance_score": 3,
+    "reason": "Global-to-local hallucination detection method; relevant for reliability and hallucination reduction for LLM-generated text/code.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00165",
+    "paper_id": "article-34525",
+    "title": "Imitate Before Detect: Aligning Machine Stylistic Preference for Machine-Revised Text Detection",
+    "relevance_score": 2,
+    "reason": "Detects LLM-revised text by modeling stylistic preferences; weak link to code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00260",
+    "paper_id": "article-34079",
+    "title": "ReX: A Framework for Incorporating Temporal Information in Model-Agnostic Local Explanation Techniques",
+    "relevance_score": 2,
+    "reason": "Framework for model explanations on variable-length inputs; weakly relates to reliability of AI workflows.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00058",
+    "paper_id": "article-33434",
+    "title": "CoT4Rec: Revealing User Preferences Through Chain of Thought for Recommender Systems",
+    "relevance_score": 2,
+    "reason": "Uses LLM chain-of-thought for user preference analysis in recommendation; tangential connection to structured reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00150",
+    "paper_id": "article-32416",
+    "title": "Granularity-Adaptive Spatial Evidence Tokenization for Video Question Answering",
+    "relevance_score": 2,
+    "reason": "Multi-granular tokenization for video QA; weak link to structured reasoning for code via intermediate state handling.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  },
+  {
+    "batch_id": "batch_00275",
+    "paper_id": "article-34102",
+    "title": "SLR-MVTC: Smooth Low-Rank Multi-View Tensor Clustering",
+    "relevance_score": 1,
+    "reason": "Uses tensor methods for multi-view clustering; weak connection to structured reasoning via latent feature analysis.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSENSUS_AND_SELECTION"
+  }
+]

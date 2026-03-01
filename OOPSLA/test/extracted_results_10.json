@@ -1,0 +1,46 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/OOPSLA/raw_batches_10.jsonl",
+  "batches_total": 5,
+  "batches_with_kept": 3,
+  "parse_failures": 0,
+  "kept_total": 3,
+  "kept": [
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "10.1145/3720509",
+      "title": "Automated Verification of Soundness of DNN Certifiers.",
+      "relevance_score": 5,
+      "reason": "Automates soundness verification of DNN certifiers using SMT solvers, directly linking formal methods (abstract interpretation) with AI model reliability.",
+      "tags": [
+        "FORMAL_METHODS",
+        "VERIFICATION",
+        "SMT"
+      ]
+    },
+    {
+      "batch_id": "batch_00001",
+      "paper_id": "10.1145/3720499",
+      "title": "Laurel: Unblocking Automated Verification with Large Language Models.",
+      "relevance_score": 5,
+      "reason": "LLMs generate assertions for Dafny program verifier, integrating AI with SMT solvers for formal verification.",
+      "tags": [
+        "PL_LLMS",
+        "VERIFICATION",
+        "SMT",
+        "FORMAL_METHODS"
+      ]
+    },
+    {
+      "batch_id": "batch_00004",
+      "paper_id": "10.1145/3720488",
+      "title": "Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis.",
+      "relevance_score": 3,
+      "reason": "Uses LLM-assisted taint analysis for SSRF vulnerability detection, integrating program analysis with AI.",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "OTHER"
+      ]
+    }
+  ]
+}

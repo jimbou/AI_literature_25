@@ -1,0 +1,35 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/POPL/raw_batches_popl.jsonl",
+  "batches_total": 10,
+  "batches_with_kept": 2,
+  "parse_failures": 0,
+  "kept_total": 2,
+  "kept": [
+    {
+      "batch_id": "batch_00007",
+      "paper_id": "10.1145/3776708",
+      "title": "ChopChop: A Programmable Framework for Semantically Constraining the Output of Language Models.",
+      "relevance_score": 5,
+      "reason": "LLM constrained decoding for semantic program properties (type safety, equivalence) via realizability analysis",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "RELIABILITY",
+        "SYNTHESIS"
+      ]
+    },
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "10.1145/3776659",
+      "title": "Fuzzing Guided by Bayesian Program Analysis.",
+      "relevance_score": 3,
+      "reason": "Integrates Bayesian program analysis (PL) with fuzzing, using ML for target prioritization and adaptive guidance.",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "RELIABILITY",
+        "OTHER"
+      ]
+    }
+  ]
+}

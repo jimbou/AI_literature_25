@@ -1,0 +1,1415 @@
+[
+  {
+    "batch_id": "batch_00188",
+    "paper_id": "V5ns6uvRZ9",
+    "title": "Robustness Auditing for Linear Regression: To Singularity and Beyond",
+    "relevance_score": 5,
+    "reason": "Directly benchmarks LLM-based agent security, including prompt injection and tool-use vulnerabilities, aligning with reliability for code agents.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00330",
+    "paper_id": "tcsZt9ZNKD",
+    "title": "Scaling and evaluating sparse autoencoders",
+    "relevance_score": 4,
+    "reason": "Evaluates cybersecurity capabilities of LM agents on vulnerability identification and exploit execution tasks.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00202",
+    "paper_id": "XmProj9cPs",
+    "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+    "relevance_score": 4,
+    "reason": "Evaluates LLM agents on complex real-world SQL workflows, directly testing code agent capabilities for enterprise programming tasks.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00144",
+    "paper_id": "NiNIthntx7",
+    "title": "RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code",
+    "relevance_score": 4,
+    "reason": "Benchmark for stateful LM agents on complex, multi-file code refactoring tasks; directly evaluates reasoning for code.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00368",
+    "paper_id": "zSfeN1uAcx",
+    "title": "To Code or Not To Code? Exploring Impact of Code in Pre-training",
+    "relevance_score": 3,
+    "reason": "Systematically analyzes impact of code data in pre-training on downstream reasoning, linking code quality to NL reasoning gains.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00355",
+    "paper_id": "xJljiPE6dg",
+    "title": "Language Models Learn to Mislead Humans via RLHF",
+    "relevance_score": 3,
+    "reason": "Studies RLHF's effect on code task (APPS) correctness & human evaluation, relevant to LLM reliability for programming.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00346",
+    "paper_id": "vunPXOFmoi",
+    "title": "Benchmarking Agentic Workflow Generation",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM agent workflow generation for complex planning, evaluating graph-structured reasoning.",
+    "tags": [
+      "AGENTS",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00317",
+    "paper_id": "rpouyo09V0",
+    "title": "ConvCodeWorld: Benchmarking Conversational Code Generation in Reproducible Feedback Environments",
+    "relevance_score": 3,
+    "reason": "Benchmarks multi-turn code generation with execution/compilation feedback, relevant to LLM reliability for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00306",
+    "paper_id": "pymXpl4qvi",
+    "title": "Understanding and Mitigating Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing",
+    "relevance_score": 3,
+    "reason": "Analyzes SSM bottlenecks for long-context modeling; relevant to reliability of LLM workflows for long code reasoning tasks.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00266",
+    "paper_id": "iv1TpRCJeK",
+    "title": "Autonomous Evaluation of LLMs for Truth Maintenance and Reasoning Tasks",
+    "relevance_score": 3,
+    "reason": "Autoformalization benchmark for LLM reasoning with clear correctness criteria; relates to structured reasoning & verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00265",
+    "paper_id": "il5yUQsrjC",
+    "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+    "relevance_score": 3,
+    "reason": "AndroidWorld benchmark for autonomous agents controlling computers; tests LLM agents on programmatic mobile app tasks.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00247",
+    "paper_id": "fp6t3F669F",
+    "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM/VLM agentic reasoning in complex, dynamic environments, relevant to evaluating code agents.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00246",
+    "paper_id": "fjEZ2LPceZ",
+    "title": "CS-Bench: A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery",
+    "relevance_score": 3,
+    "reason": "Benchmark for LLMs on CS knowledge; includes code generation/reasoning evaluation, relevant for reliability assessment.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00242",
+    "paper_id": "eznTVIM3bs",
+    "title": "The Rise and Down of Babel Tower: Investigating the Evolution Process of Multilingual Code Large Language Model",
+    "relevance_score": 3,
+    "reason": "Studies multilingual code LLM knowledge evolution; relevant for understanding code reasoning capabilities.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00237",
+    "paper_id": "e9yfCY7Q3U",
+    "title": "Improved Techniques for Optimization-Based Jailbreaking on Large Language Models",
+    "relevance_score": 3,
+    "reason": "Studies jailbreaking as a reliability/safety failure mode for LLMs; relates to adversarial robustness of code-generation systems.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00229",
+    "paper_id": "chfJJYC3iL",
+    "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+    "relevance_score": 3,
+    "reason": "Benchmark for holistic code LLM evaluation, including self-repair and test output prediction, relevant to reliability testing.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00207",
+    "paper_id": "Yqk7EyT52H",
+    "title": "MarS: a Financial Market Simulation Engine Powered by Generative Foundation Model",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM code generation with complex instructions and tool use (139 libraries), evaluating reliability.",
+    "tags": [
+      "TOOL_USE",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00206",
+    "paper_id": "YauQYh2k1g",
+    "title": "Dissecting Adversarial Robustness of Multimodal LM Agents",
+    "relevance_score": 3,
+    "reason": "Evaluates robustness of LM agents in a structured environment, relevant to reliability of code-generating agents.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00204",
+    "paper_id": "Y1r9yCMzeA",
+    "title": "GraphArena: Evaluating and Exploring Large Language Models on Graph Computation",
+    "relevance_score": 3,
+    "reason": "Evaluates LLMs on graph algorithms, explores reliability methods like chain-of-thought and code writing for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00178",
+    "paper_id": "Tg8RLxpMDu",
+    "title": "Measuring memorization in RLHF for code completion",
+    "relevance_score": 3,
+    "reason": "Studies memorization in RLHF/DPO for code completion; relates to reliability of LLM-generated code workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00168",
+    "paper_id": "S1Bv3068Xt",
+    "title": "Can We Trust Embodied Agents? Exploring Backdoor Attacks against Embodied LLM-Based Decision-Making Systems",
+    "relevance_score": 3,
+    "reason": "Explores backdoor attacks on LLM-based embodied agents for decision-making, relevant to agent reliability/safety.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00166",
+    "paper_id": "RTHbao4Mib",
+    "title": "Large Language Models Often Say One Thing and Do Another",
+    "relevance_score": 3,
+    "reason": "Evaluates LLM consistency between stated values and actions, relevant to reliability and hallucination reduction themes.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00145",
+    "paper_id": "NsFZZU9gvk",
+    "title": "Aligned LLMs Are Not Aligned Browser Agents",
+    "relevance_score": 3,
+    "reason": "Studies LLM agent safety/robustness for browser agents, relevant to reliability of tool-using code agents.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00143",
+    "paper_id": "NUD03NBDOE",
+    "title": "ActionReasoningBench: Reasoning about Actions with and without Ramification Constraints",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM reasoning about actions/change, including executability and effects, relevant to program state reasoning.",
+    "tags": [
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00137",
+    "paper_id": "MMwaQEVsAg",
+    "title": "Commit0: Library Generation from Scratch",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM agents for multi-stage code generation from specs with feedback, aligning with code agent themes.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00125",
+    "paper_id": "KZWaxtzIRx",
+    "title": "SysBench: Can LLMs Follow System Message?",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM instruction following for constraints/specs, relevant to prompt ambiguity and reliability.",
+    "tags": [
+      "RELIABILITY",
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00098",
+    "paper_id": "G0dksFayVq",
+    "title": "JudgeBench: A Benchmark for Evaluating LLM-Based Judges",
+    "relevance_score": 3,
+    "reason": "Benchmark for LLM judges on coding tasks; evaluates objective correctness, relevant to code reliability assessment.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00086",
+    "paper_id": "DwqoBkj2Mw",
+    "title": "The Last Iterate Advantage: Empirical Auditing and Principled Heuristic Analysis of Differentially Private SGD",
+    "relevance_score": 3,
+    "reason": "Analyzes reliability of DP-SGD workflow; connects to statistical correctness and reproducibility themes.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00083",
+    "paper_id": "DSsSPr0RZJ",
+    "title": "DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?",
+    "relevance_score": 3,
+    "reason": "Evaluates LLM agents on realistic data science tasks including code generation and analysis",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00067",
+    "paper_id": "AjXkRZIvjB",
+    "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM reasoning limitations via controlled symbolic benchmark, relevant to reliability and semantic correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00061",
+    "paper_id": "9cQB1Hwrtw",
+    "title": "Transformers Struggle to Learn to Search",
+    "relevance_score": 3,
+    "reason": "Analyzes transformer reasoning on search tasks, relevant to structured reasoning and LLM reliability for algorithmic problems.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00049",
+    "paper_id": "7o6SG5gVev",
+    "title": "TestGenEval: A Real World Unit Test Generation and Test Completion Benchmark",
+    "relevance_score": 3,
+    "reason": "Benchmark for LLM test generation, evaluates reasoning about execution and correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00043",
+    "paper_id": "6s5uXNWGIh",
+    "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+    "relevance_score": 3,
+    "reason": "Evaluates LLM agents on ML engineering tasks, including code generation and workflow automation.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00320",
+    "paper_id": "sGpCzsfd1K",
+    "title": "ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation",
+    "relevance_score": 2,
+    "reason": "Evaluates code generation from visual charts, touching on LMM reliability for program synthesis from specs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00308",
+    "paper_id": "qIbbBSzH6n",
+    "title": "MMDT: Decoding the Trustworthiness and Safety of Multimodal Foundation Models",
+    "relevance_score": 2,
+    "reason": "Evaluates hallucination and safety in multimodal models; weak connection to code reliability via hallucination detection.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00104",
+    "paper_id": "GtpubstM1D",
+    "title": "Advancing Mathematical Reasoning in Language Models: The Impact of Problem-Solving Data, Data Synthesis Methods, and Training Stages",
+    "relevance_score": 1,
+    "reason": "Barely relevant: Studies LLM training for math reasoning, which is adjacent to code reasoning but not our core focus.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00056",
+    "paper_id": "93XT0lKOct",
+    "title": "Data Pruning by Information Maximization",
+    "relevance_score": 1,
+    "reason": "Method for instruction tuning LLMs via data pruning; weakly related to reliability of LLM workflows.",
+    "tags": [
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00113",
+    "paper_id": "CAB0EjD9EK",
+    "title": "CodeCrash: Exposing LLM Fragility to Misleading Natural Language in Code Reasoning",
+    "relevance_score": 5,
+    "reason": "Directly studies LLM reliability for code reasoning under misleading NL specs, aligns with our focus on robustness and ambiguity.",
+    "tags": [
+      "RELIABILITY",
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00476",
+    "paper_id": "pIsP4lMlFd",
+    "title": "BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems",
+    "relevance_score": 4,
+    "reason": "Benchmarks AI agents on real-world code vulnerabilities (detect/exploit/patch), directly relevant to LLM agents for code and reliability.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00467",
+    "paper_id": "oLGtPYdRzU",
+    "title": "Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools",
+    "relevance_score": 4,
+    "reason": "Studies LLM agent security via tool metadata manipulation, directly relevant to reliability of tool-using code agents.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00308",
+    "paper_id": "XBMjXb6f4w",
+    "title": "CTRL-ALT-DECEIT Sabotage Evaluations for Automated AI R&D",
+    "relevance_score": 4,
+    "reason": "Studies AI agents sabotaging ML code tasks, directly relevant to reliability of code-generating agents.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00242",
+    "paper_id": "QQhQIqons0",
+    "title": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+    "relevance_score": 4,
+    "reason": "Benchmarks LLM agents on real-world software security tasks (PoC generation, patching), directly relevant to code reliability.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00221",
+    "paper_id": "NzPwDutzz8",
+    "title": "rStar-Coder: Scaling Competitive Code Reasoning with a Large-Scale Verified Dataset",
+    "relevance_score": 4,
+    "reason": "Creates a large-scale verified dataset for rigorous code reasoning & test-case validation, directly improving LLM code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00165",
+    "paper_id": "IA9RmaP0aw",
+    "title": "Evaluating Program Semantics Reasoning with Type Inference in System $F$",
+    "relevance_score": 4,
+    "reason": "Evaluates LLM reasoning on program semantics via type inference in System F, directly assessing semantic understanding.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00164",
+    "paper_id": "I5qDL315bQ",
+    "title": "GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents",
+    "relevance_score": 4,
+    "reason": "Benchmark for evaluating LLM-based agents on software optimization tasks, directly assessing code performance improvement.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00153",
+    "paper_id": "Gf4oPoluAV",
+    "title": "TAI3: Testing Agent Integrity in Interpreting User Intent",
+    "relevance_score": 4,
+    "reason": "Tests LLM agent integrity for API-calling, addresses ambiguity in NL specs for programming tasks",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING",
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00542",
+    "paper_id": "w1TjXJk846",
+    "title": "Reasoning Models Sometimes Output Illegible Chains of Thought",
+    "relevance_score": 3,
+    "reason": "Analyzes legibility/fidelity of LLM reasoning traces, relevant to reliability and monitoring of code-generating agents.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00527",
+    "paper_id": "uUWb5eawL9",
+    "title": "Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models",
+    "relevance_score": 3,
+    "reason": "Method for detecting LLM deception (sandbagging) via noise injection, relevant to reliability and statistical correctness of LLM evaluations.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00507",
+    "paper_id": "sYLiY87mNn",
+    "title": "BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks and Defenses on Large Language Models",
+    "relevance_score": 3,
+    "reason": "Comprehensive benchmark for LLM safety; includes chain-of-thought hijacking, relevant to reliability/hallucination for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00502",
+    "paper_id": "rw50iUoyLu",
+    "title": "MergeBench: A Benchmark for Merging Domain-Specialized LLMs",
+    "relevance_score": 3,
+    "reason": "Benchmark includes coding domain for model merging, relevant for reliability of specialized code models",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00483",
+    "paper_id": "q2VpjD7k1V",
+    "title": "WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch",
+    "relevance_score": 3,
+    "reason": "Benchmark for LLM code agents generating functional websites from scratch, evaluating correctness.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00458",
+    "paper_id": "nMpJoVmRy1",
+    "title": "SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents",
+    "relevance_score": 3,
+    "reason": "Contributes a pipeline for evaluating LLM agents on real-world software engineering tasks, directly relevant to agent reliability.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00398",
+    "paper_id": "gpwA9aZLTZ",
+    "title": "QuestBench: Can LLMs ask the right question to acquire information in reasoning tasks?",
+    "relevance_score": 3,
+    "reason": "Evaluates LLMs' ability to ask clarifying questions for underspecified reasoning tasks, directly relevant to ambiguity in NL specs.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00383",
+    "paper_id": "fTkBZLxBzV",
+    "title": "Drag-and-Drop LLMs: Zero-Shot Prompt-to-Weights",
+    "relevance_score": 3,
+    "reason": "Presents a method for zero-shot prompt-to-weights generation for LLMs, validated on coding benchmarks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00333",
+    "paper_id": "a64D9Vl7wK",
+    "title": "Predicting Empirical AI Research Outcomes with Language Models",
+    "relevance_score": 3,
+    "reason": "LLM system for predicting AI research outcomes; relevant to reliability/statistical correctness of LLM workflows.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00331",
+    "paper_id": "Zrqn7ZshXG",
+    "title": "From Dormant to Deleted: Tamper-Resistant Unlearning Through Weight-Space Regularization",
+    "relevance_score": 3,
+    "reason": "Studies reliability of LLM workflows via weight-space analysis of unlearning resistance, a statistical correctness theme.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00317",
+    "paper_id": "YAGa8upUSA",
+    "title": "Risk Management for Mitigating Benchmark Failure Modes: BenchRisk",
+    "relevance_score": 3,
+    "reason": "Focuses on reliability and risk analysis for LLM benchmarks, relevant to our work on statistical correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00310",
+    "paper_id": "XP3v1THxsq",
+    "title": "Among Us: A Sandbox for Measuring and Detecting Agentic Deception",
+    "relevance_score": 3,
+    "reason": "Studies LLM agents exhibiting long-term, goal-oriented deception in a structured game, relevant to agent reliability.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00301",
+    "paper_id": "WJIDorHiuZ",
+    "title": "CoRe: Benchmarking LLMs’ Code Reasoning Capabilities through Static Analysis Tasks",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLMs on static analysis tasks for code reasoning, directly evaluating semantic understanding of programs.",
+    "tags": [
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00285",
+    "paper_id": "Un1sWxmZuI",
+    "title": "REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM agents on complex, deterministic web tasks, evaluating reliability and task completion for agentic systems.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00283",
+    "paper_id": "UaXNN4eqH1",
+    "title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition",
+    "relevance_score": 3,
+    "reason": "Empirical analysis of security vulnerabilities in AI agents, directly relevant to reliability of LLM-based agents for code tasks.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00279",
+    "paper_id": "U5RIVFtat1",
+    "title": "LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?",
+    "relevance_score": 3,
+    "reason": "Benchmarking LLMs on competitive programming; analyzes reasoning failures, connects to code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00277",
+    "paper_id": "ToNRHqX6xq",
+    "title": "MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents",
+    "relevance_score": 3,
+    "reason": "Analyzes security of LLM/VLM agents using APIs/tools for OS control, relevant to agent reliability.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00271",
+    "paper_id": "TCxzqnbyAF",
+    "title": "Context-Aware Hierarchical Learning: A Two-Step Paradigm towards Safer LLMs",
+    "relevance_score": 3,
+    "reason": "Addresses LLM vulnerabilities in function-calling/tool-use, relates to reliability and safety for code agents.",
+    "tags": [
+      "RELIABILITY",
+      "TOOL_USE",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00238",
+    "paper_id": "Q3qAsZAEZw",
+    "title": "Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference",
+    "relevance_score": 3,
+    "reason": "Analyzes numerical nondeterminism in LLM inference, directly impacting reliability and reproducibility of code-generating workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00235",
+    "paper_id": "PhIWEbewAz",
+    "title": "Can We Infer Confidential Properties of Training Data from LLMs?",
+    "relevance_score": 3,
+    "reason": "Investigates reliability of LLM workflows via property inference attacks on fine-tuned code/data, relates to statistical correctness.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00223",
+    "paper_id": "OGWkr7gXka",
+    "title": "SWE-bench Goes Live!",
+    "relevance_score": 3,
+    "reason": "Presents a live benchmark (SWE-bench-Live) for evaluating LLMs and agents on real-world bug-fixing, directly relevant to code reliability.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00211",
+    "paper_id": "MtyF5hCI7Y",
+    "title": "ICLScan: Detecting Backdoors in Black-Box Large Language Models via Targeted In-context Illumination",
+    "relevance_score": 3,
+    "reason": "Presents a method (ICLScan) for detecting LLM backdoors via targeted ICL, relating to reliability and safety of black-box LLMs for code generation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00209",
+    "paper_id": "MhBZzkz4h9",
+    "title": "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving",
+    "relevance_score": 3,
+    "reason": "Evaluates LLM-based agents on multilingual code issue resolving, connecting agent reasoning to program correctness.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00190",
+    "paper_id": "KnqiC0znVF",
+    "title": "Large Language Diffusion Models",
+    "relevance_score": 3,
+    "reason": "LLM alternative for code tasks; diffusion model evaluated on code benchmarks, showing scalability.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00176",
+    "paper_id": "JCjGvbsOmQ",
+    "title": "ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering",
+    "relevance_score": 3,
+    "reason": "Benchmark for long-horizon algorithmic programming contests with iterative agent refinement, connecting to code reasoning.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00174",
+    "paper_id": "Iy4cAXotrf",
+    "title": "Model Provenance Testing for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Presents a framework for verifying LLM provenance, relevant to reliability and reproducibility of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00173",
+    "paper_id": "Ip1cCUAllL",
+    "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+    "relevance_score": 3,
+    "reason": "Benchmarks security of web agents against prompt injections, a reliability concern for code-acting agents.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00142",
+    "paper_id": "FLiMxTkIeu",
+    "title": "AGENTIF: Benchmarking Large Language Models Instruction Following Ability in Agentic Scenarios",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM instruction-following for agentic scenarios with complex tool specifications and constraints.",
+    "tags": [
+      "AGENTS",
+      "EVALUATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00129",
+    "paper_id": "E58HNCqoaA",
+    "title": "Establishing Best Practices in Building Rigorous Agentic Benchmarks",
+    "relevance_score": 3,
+    "reason": "Analyzes rigor of agentic benchmarks for code (SWE-bench), relevant to reliability of LLM workflows for programming.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00125",
+    "paper_id": "Di30GwhQSX",
+    "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+    "relevance_score": 3,
+    "reason": "Benchmark for safety of LLM-based computer use agents, includes tasks with code editors and data exfiltration.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00097",
+    "paper_id": "AOe1aUhEQQ",
+    "title": "Benford’s Curse: Tracing Digit Bias to Numerical Hallucination in LLMs",
+    "relevance_score": 3,
+    "reason": "Analyzes hallucination patterns (digit bias) in LLM reasoning, relevant to reliability and statistical correctness.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00084",
+    "paper_id": "8wWHCzsTxS",
+    "title": "Learning from Disjoint Views: A Contrastive Prototype Matching Network for Fully Incomplete Multi-View Clustering",
+    "relevance_score": 3,
+    "reason": "Presents GraLoRA, a PEFT method evaluated on code generation (HumanEval+), showing +8.5% Pass@1 improvement.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00078",
+    "paper_id": "8FZ4oRWJjq",
+    "title": "CPRet: A Dataset, Benchmark, and Model for Retrieval in Competitive Programming",
+    "relevance_score": 3,
+    "reason": "Proposes retrieval models for competitive programming to detect duplicate problems, addressing benchmark reliability for LLM code generation evaluation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00052",
+    "paper_id": "5HGBErIHuV",
+    "title": "PSMBench: A Benchmark and Dataset for Evaluating LLMs Extraction of Protocol State Machines from RFC Specifications",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM extraction of state machines from specs, aligning with formal reasoning and semantic correctness checks.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00038",
+    "paper_id": "3k70Vt0YFS",
+    "title": "ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code",
+    "relevance_score": 3,
+    "reason": "Benchmarks LLM code generation for novel ML research, directly testing implementation correctness of unseen ideas.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00023",
+    "paper_id": "2R6y4Ku9kG",
+    "title": "CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance",
+    "relevance_score": 3,
+    "reason": "Benchmark for multi-turn LLM code assistance in realistic project contexts, directly testing reliability on SE tasks.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00014",
+    "paper_id": "1UL4dxvfcJ",
+    "title": "Measuring the Faithfulness of Thinking Drafts in Large Reasoning Models",
+    "relevance_score": 3,
+    "reason": "Measures faithfulness of multi-path reasoning drafts in LLMs, relevant to reliability of reasoning workflows for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00514",
+    "paper_id": "t7QJDaQsrI",
+    "title": "The Impact of Coreset Selection on Spurious Correlations and Group Robustness",
+    "relevance_score": 2,
+    "reason": "Analyzes reliability of data selection methods, weakly relates to workflow correctness for code via data bias.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00490",
+    "paper_id": "qj8y1MjzLk",
+    "title": "Provable Watermarking for Data Poisoning Attacks",
+    "relevance_score": 2,
+    "reason": "Proposes provable watermarking for data poisoning; weak link to dataset integrity for code/model reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00481",
+    "paper_id": "pmLMrqhIpb",
+    "title": "Absence Bench: Language Models Can’t See What’s Missing",
+    "relevance_score": 2,
+    "reason": "Evaluates LLM failure mode (detecting omissions), relevant to reliability/hallucination reduction.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00477",
+    "paper_id": "pQ8DeHXKMh",
+    "title": "Are Large Language Models Sensitive to the Motives Behind Communication?",
+    "relevance_score": 2,
+    "reason": "Studies LLM sensitivity to communication motives; relates to trust/reliability for AI agents processing human-generated specs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00397",
+    "paper_id": "gkcU26BOml",
+    "title": "Cross-modal Associations in Vision and Language Models: Revisiting the Bouba-Kiki Effect",
+    "relevance_score": 2,
+    "reason": "Investigates cross-modal reasoning in VLMs, peripherally related to semantic alignment for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00253",
+    "paper_id": "RRBve5GwjS",
+    "title": "Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control",
+    "relevance_score": 2,
+    "reason": "Method for improving reliability of neural networks (SNNs) in control tasks; weak connection to code agent reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00160",
+    "paper_id": "HZJiIog5XH",
+    "title": "When No Paths Lead to Rome: Benchmarking Systematic Neural Relational Reasoning",
+    "relevance_score": 2,
+    "reason": "Benchmarks neuro-symbolic AI for systematic reasoning, touching on compositional generalization relevant to code reasoning.",
+    "tags": [
+      "NEURO_SYMBOLIC",
+      "REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00050",
+    "paper_id": "4zea5Bcemp",
+    "title": "Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data",
+    "relevance_score": 2,
+    "reason": "Method for efficient data influence estimation could be applied to analyze code fine-tuning data for reliability.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00267",
+    "paper_id": "SlhLRh810S",
+    "title": "Fantastic Bugs and Where to Find Them in AI Benchmarks",
+    "relevance_score": 1,
+    "reason": "Framework for benchmark revision using LLM judges; touches LLM evaluation reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00161",
+    "paper_id": "HkTOnCUQ1z",
+    "title": "Single-pass Adaptive Image Tokenization for Minimum Program Search",
+    "relevance_score": 1,
+    "reason": "Touches program search via Kolmogorov complexity, but is primarily about image tokenization, not code reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00047",
+    "paper_id": "4jWuS5hye1",
+    "title": "WISA: World simulator assistant for physics-aware text-to-video generation",
+    "relevance_score": 1,
+    "reason": "WISA framework's structured decomposition of requirements into textual/qualitative/quantitative levels is weakly related to ambiguity analysis in specs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00027",
+    "paper_id": "2h8vXbEufN",
+    "title": "Denoising Trajectory Biases for Zero-Shot AI-Generated Image Detection",
+    "relevance_score": 1,
+    "reason": "Zero-shot detection method analyzes generation process trajectories, weakly related to semantic consistency checks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00022",
+    "paper_id": "2KKqp7MWJM",
+    "title": "AgentAuditor: Human-level Safety and Security Evaluation for LLM Agents",
+    "relevance_score": 1,
+    "reason": "Safety evaluation framework for LLM agents; peripheral connection to agent reliability for code.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00020",
+    "paper_id": "article-35234",
+    "title": "Advancing Intelligent Software Development and Trustworthy Models Through the Synergy of Software Engineering and LLMs",
+    "relevance_score": 3,
+    "reason": "Focuses on LLM reliability/safety for software engineering tasks, aligning with reliability for code theme.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00010",
+    "paper_id": "article-34857",
+    "title": "ACPBench: Reasoning About Action, Change, and Planning",
+    "relevance_score": 3,
+    "reason": "Benchmark for LLM reasoning on formal planning domains; connects to structured reasoning for multi-step tasks.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00076",
+    "paper_id": "article-34811",
+    "title": "DOMAINEVAL: An Auto-Constructed Benchmark for Multi-Domain Code Generation",
+    "relevance_score": 3,
+    "reason": "Automated benchmark for multi-domain code generation; evaluates LLM correctness on specialized tasks like cryptography.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00332",
+    "paper_id": "article-34789",
+    "title": "Unveiling the Impact of Coding Data Instruction Fine-Tuning on Large Language Models Reasoning",
+    "relevance_score": 3,
+    "reason": "Studies impact of coding data in fine-tuning on LLM reasoning, relevant to reliability of LLMs for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00174",
+    "paper_id": "article-34742",
+    "title": "InverseCoder: Self-improving Instruction-Tuned Code LLMs with Inverse-Instruct",
+    "relevance_score": 3,
+    "reason": "Self-improving method for code LLMs via data augmentation, improving code generation benchmarks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00059",
+    "paper_id": "article-34717",
+    "title": "CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification",
+    "relevance_score": 3,
+    "reason": "Systematically studies code hallucinations via execution-based verification, directly aligning with reliability and correctness for LLM-generated code.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00128",
+    "paper_id": "article-34566",
+    "title": "Falcon: Faster and Parallel Inference of Large Language Models Through Enhanced Semi-Autoregressive Drafting and Custom-Designed Decoding Tree",
+    "relevance_score": 3,
+    "reason": "Speculative decoding for faster LLM inference; validated on HumanEval (code generation) benchmark.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00011",
+    "paper_id": "article-34009",
+    "title": "AIA: Autoregression-Based Injection Attacks Against Text2SQL Models",
+    "relevance_score": 3,
+    "reason": "Presents an attack on Text2SQL models, relevant to reliability and correctness of LLM-generated code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00093",
+    "paper_id": "article-32140",
+    "title": "Does GPT Really Get It? A Hierarchical Scale to Quantify Human and AI’s Understanding of Algorithms",
+    "relevance_score": 3,
+    "reason": "Proposes a hierarchy for quantifying AI's understanding of algorithms, directly relevant to LLM program reasoning reliability.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00034",
+    "paper_id": "article-35169",
+    "title": "Automated Assessment of Student Self-Explanation in Code Comprehension Using Pre-Trained Language Models",
+    "relevance_score": 2,
+    "reason": "Automated assessment of code-related natural language explanations using LLMs; touches code comprehension.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00041",
+    "paper_id": "article-34961",
+    "title": "Bias Unveiled: Investigating Social Bias in LLM-Generated Code",
+    "relevance_score": 1,
+    "reason": "Evaluates social bias in LLM-generated code and tests mitigation strategies, weakly touching code reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  },
+  {
+    "batch_id": "batch_00265",
+    "paper_id": "article-34832",
+    "title": "RepeatLeakage: Leak Prompts from Repeating as Large Language Model Is a Good Repeater",
+    "relevance_score": 1,
+    "reason": "Explores LLM behavior via repetition for prompt leakage; tangential to reliability/hallucination.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS"
+  }
+]

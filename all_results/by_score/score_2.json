@@ -1,0 +1,636 @@
+[
+  {
+    "batch_id": "batch_00015",
+    "paper_id": "article-35502",
+    "title": "Acting Beyond Learning: Imagination-Assisted Decision-Making in the Visual-based Multi-Agent Cooperative Scenarios",
+    "relevance_score": 2,
+    "reason": "Model-based multi-agent planning with imagination for policy optimization; peripheral link to agent reasoning.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00034",
+    "paper_id": "article-35169",
+    "title": "Automated Assessment of Student Self-Explanation in Code Comprehension Using Pre-Trained Language Models",
+    "relevance_score": 2,
+    "reason": "Automated assessment of code-related natural language explanations using LLMs; touches code comprehension.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00058",
+    "paper_id": "article-33434",
+    "title": "CoT4Rec: Revealing User Preferences Through Chain of Thought for Recommender Systems",
+    "relevance_score": 2,
+    "reason": "Uses LLM chain-of-thought for user preference analysis in recommendation; tangential connection to structured reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00078",
+    "paper_id": "article-35344",
+    "title": "Data Wrangling Task Automation Using Code-Generating Language Models",
+    "relevance_score": 2,
+    "reason": "Uses LLMs to generate code for data wrangling automation.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00134",
+    "paper_id": "article-32771",
+    "title": "First Line of Defense: A Robust First Layer Mitigates Adversarial Attacks",
+    "relevance_score": 2,
+    "reason": "Proposes architectural defense against adversarial attacks; weak link to LLM reliability for code via robustness theme.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00147",
+    "paper_id": "article-33593",
+    "title": "Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner",
+    "relevance_score": 2,
+    "reason": "Uses LLM for in-context learning to generate code-like scripts for simulation, a weak signal of tool-using agents.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00150",
+    "paper_id": "article-32416",
+    "title": "Granularity-Adaptive Spatial Evidence Tokenization for Video Question Answering",
+    "relevance_score": 2,
+    "reason": "Multi-granular tokenization for video QA; weak link to structured reasoning for code via intermediate state handling.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00165",
+    "paper_id": "article-34525",
+    "title": "Imitate Before Detect: Aligning Machine Stylistic Preference for Machine-Revised Text Detection",
+    "relevance_score": 2,
+    "reason": "Detects LLM-revised text by modeling stylistic preferences; weak link to code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00168",
+    "paper_id": "article-34934",
+    "title": "In Search of Trees: Decision-Tree Policy Synthesis for Black-Box Systems via Search",
+    "relevance_score": 2,
+    "reason": "Synthesizes decision-tree policies for black-box systems; relates to structured reasoning and verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00172",
+    "paper_id": "article-33610",
+    "title": "Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation",
+    "relevance_score": 2,
+    "reason": "LLM agent for planning using PDDL; connects abstract reasoning to grounded actions, but domain is robotics.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00260",
+    "paper_id": "article-34079",
+    "title": "ReX: A Framework for Incorporating Temporal Information in Model-Agnostic Local Explanation Techniques",
+    "relevance_score": 2,
+    "reason": "Framework for model explanations on variable-length inputs; weakly relates to reliability of AI workflows.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00328",
+    "paper_id": "article-33733",
+    "title": "Understanding Individual Agent Importance in Multi-Agent System via Counterfactual Reasoning",
+    "relevance_score": 2,
+    "reason": "Evaluates agent importance in multi-agent systems via counterfactual reasoning, potentially applicable to code-generating agent teams.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00045",
+    "paper_id": "7GKbQ1WT1C",
+    "title": "Prompting Fairness: Integrating Causality to Debias Large Language Models",
+    "relevance_score": 2,
+    "reason": "Causality-guided prompting for debiasing LLMs; weak connection to code reliability via decision-making frameworks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00075",
+    "paper_id": "BwR8t91yqh",
+    "title": "Interactive Speculative Planning: Enhance Agent Efficiency through Co-design of System and User Interface",
+    "relevance_score": 2,
+    "reason": "LLM agent planning with human-in-the-loop interaction for efficiency, but focus is on HCI, not code reasoning/reliability.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00097",
+    "paper_id": "FrFQpAgnGE",
+    "title": "The Semantic Hub Hypothesis: Language Models Share Semantic Representations Across Languages and Modalities",
+    "relevance_score": 2,
+    "reason": "Shows LLMs share semantic representations for code with other modalities, relevant to semantic reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00112",
+    "paper_id": "II81zQUS1x",
+    "title": "Multiplicative Logit Adjustment Approximates Neural-Collapse-Aware Decision Boundary Adjustment",
+    "relevance_score": 2,
+    "reason": "Long-tailed recognition via logit adjustment; weak link to reliability for classification, but not code or LLMs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00142",
+    "paper_id": "NHhjczmJjo",
+    "title": "On the Learn-to-Optimize Capabilities of Transformers in In-Context Sparse Recovery",
+    "relevance_score": 2,
+    "reason": "In-context learning as gradient descent for LASSO; relates to structured reasoning for optimization.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00171",
+    "paper_id": "SThJXvucjQ",
+    "title": "Conservative Contextual Bandits: Beyond Linear Representations",
+    "relevance_score": 2,
+    "reason": "Weak connection: safe bandits for sequential decisions; could inspire verifier-guided LLM action selection.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00175",
+    "paper_id": "TDyE2iuvyc",
+    "title": "Efficient Model Editing with Task-Localized Sparse Fine-tuning",
+    "relevance_score": 2,
+    "reason": "Task arithmetic for model editing relates to reliability of LLM workflows, but is not specifically applied to code or program reasoning.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00223",
+    "paper_id": "bqv7M0wc4x",
+    "title": "LoRanPAC: Low-rank Random Features and Pre-trained Models for Bridging Theory and Practice in Continual Learning",
+    "relevance_score": 2,
+    "reason": "Applies structured SVD truncation for stable continual learning, a reliability mechanism potentially applicable to LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00238",
+    "paper_id": "eHfq8Q3LeD",
+    "title": "Matrix Product Sketching via Coordinated Sampling",
+    "relevance_score": 2,
+    "reason": "Applies sketching to approximate attention matrices in transformers, a weak signal for model efficiency in code-related reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00239",
+    "paper_id": "eU39PDsZtT",
+    "title": "GraphRouter: A Graph-based Router for LLM Selections",
+    "relevance_score": 2,
+    "reason": "LLM selection for cost/performance trade-offs; weak signal for reliability via workflow optimization.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00263",
+    "paper_id": "iVxxgZlXh6",
+    "title": "LLaRA: Supercharging Robot Learning Data for Vision-Language Policy",
+    "relevance_score": 2,
+    "reason": "Presents a VLA agent framework for robot control via instruction tuning; relevant to LLM agents for structured tasks.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00308",
+    "paper_id": "qIbbBSzH6n",
+    "title": "MMDT: Decoding the Trustworthiness and Safety of Multimodal Foundation Models",
+    "relevance_score": 2,
+    "reason": "Evaluates hallucination and safety in multimodal models; weak connection to code reliability via hallucination detection.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00313",
+    "paper_id": "rJ5g8ueQaI",
+    "title": "SEMDICE: Off-policy State Entropy Maximization via Stationary Distribution Correction Estimation",
+    "relevance_score": 2,
+    "reason": "Presents an algorithm for policy learning via stationary distribution optimization; weakly related to structured reasoning about program states.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00314",
+    "paper_id": "rTCJ29pkuA",
+    "title": "Reasoning of Large Language Models over Knowledge Graphs with Super-Relations",
+    "relevance_score": 2,
+    "reason": "LLM reasoning over structured graphs (KGs) with improved retrieval; weak code link but structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00320",
+    "paper_id": "sGpCzsfd1K",
+    "title": "ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation",
+    "relevance_score": 2,
+    "reason": "Evaluates code generation from visual charts, touching on LMM reliability for program synthesis from specs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00322",
+    "paper_id": "sb1HgVDLjN",
+    "title": "Offline Model-Based Optimization by Learning to Rank",
+    "relevance_score": 2,
+    "reason": "Proposes learning-to-rank for offline optimization; relates to consensus/selection for improving output reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00345",
+    "paper_id": "vo4AHjowKi",
+    "title": "Training-free LLM-generated Text Detection by Mining Token Probability Sequences",
+    "relevance_score": 2,
+    "reason": "Training-free detection of LLM-generated text via token probability analysis; relates to reliability and hallucination detection.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00363",
+    "paper_id": "yVQcr4qjD6",
+    "title": "Robust Function-Calling for On-Device Language Model via Function Masking",
+    "relevance_score": 2,
+    "reason": "Improves LLM function-calling for tool use, a core agent capability, but lacks explicit link to code/program reasoning.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00369",
+    "paper_id": "zfeso8ceqr",
+    "title": "Deconstructing What Makes a Good Optimizer for Autoregressive Language Models",
+    "relevance_score": 2,
+    "reason": "Weakly touches LLM reliability via optimizer analysis for code generation models.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00001",
+    "paper_id": "02qdHz1LU0",
+    "title": "Model-Guided Dual-Role Alignment for High-Fidelity Open-Domain Video-to-Audio Generation",
+    "relevance_score": 2,
+    "reason": "Proposes model-guided training for cross-modal alignment; weak connection to reliability methods for generation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00049",
+    "paper_id": "4qVWY12KQT",
+    "title": "QiMeng-NeuComBack: Self-Evolving Translation from IR to Assembly Code",
+    "relevance_score": 2,
+    "reason": "LLM-based code generation (IR-to-assembly) with self-debugging to improve functional correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00050",
+    "paper_id": "4zea5Bcemp",
+    "title": "Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data",
+    "relevance_score": 2,
+    "reason": "Method for efficient data influence estimation could be applied to analyze code fine-tuning data for reliability.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00074",
+    "paper_id": "7kQjbCQwtT",
+    "title": "Discovering Important Experts for Mixture-of-Experts Models Pruning Through a Theoretical Perspective",
+    "relevance_score": 2,
+    "reason": "LLM pruning via Shapley values relates to reliability/statistical correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00106",
+    "paper_id": "BOEZYnC8nR",
+    "title": "Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs",
+    "relevance_score": 2,
+    "reason": "LLM used for adaptive kernel design in Bayesian optimization, a form of structured reasoning for task optimization.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00145",
+    "paper_id": "FfsxgSZW0c",
+    "title": "Large Language Models Miss the Multi-agent Mark",
+    "relevance_score": 2,
+    "reason": "Critiques multi-agent LLM systems; relevant to our interest in reliable agent reasoning for code, but lacks explicit programming/verification focus.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00159",
+    "paper_id": "HMVQ00vabY",
+    "title": "Probabilistic Reasoning with LLMs for Privacy Risk Estimation",
+    "relevance_score": 2,
+    "reason": "LLM probabilistic reasoning for risk estimation; method involves structured reasoning but not directly applied to code/programs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00160",
+    "paper_id": "HZJiIog5XH",
+    "title": "When No Paths Lead to Rome: Benchmarking Systematic Neural Relational Reasoning",
+    "relevance_score": 2,
+    "reason": "Benchmarks neuro-symbolic AI for systematic reasoning, touching on compositional generalization relevant to code reasoning.",
+    "tags": [
+      "NEURO_SYMBOLIC",
+      "REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00222",
+    "paper_id": "O8Ifwhylnr",
+    "title": "Conformal Online Learning of Deep Koopman Linear Embeddings",
+    "relevance_score": 2,
+    "reason": "Conformal online learning for model updates relates to reliability and workflow-level correctness for dynamical systems.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00247",
+    "paper_id": "Qvj8s2rRUs",
+    "title": "MemEIC: A Step Toward Continual and Compositional Knowledge Editing",
+    "relevance_score": 2,
+    "reason": "Proposes a method for continual compositional editing of multimodal knowledge, tangentially related to reliability and structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00253",
+    "paper_id": "RRBve5GwjS",
+    "title": "Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control",
+    "relevance_score": 2,
+    "reason": "Method for improving reliability of neural networks (SNNs) in control tasks; weak connection to code agent reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00307",
+    "paper_id": "X5B2yTT97A",
+    "title": "SimpleStrat: Diversifying Language Model Generation with Stratification",
+    "relevance_score": 2,
+    "reason": "Generates diverse code solutions for underspecified prompts; relates to ambiguity in specs.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00342",
+    "paper_id": "axlGOT58e8",
+    "title": "LLM Safety Alignment is Divergence Estimation in Disguise",
+    "relevance_score": 2,
+    "reason": "Theoretical link between LLM alignment and divergence estimation; safety alignment relevant to reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00359",
+    "paper_id": "ckq032sarb",
+    "title": "Relieving the Over-Aggregating Effect in Graph Transformers",
+    "relevance_score": 2,
+    "reason": "Addresses over-aggregation in graph attention; potential relevance to structured program reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00360",
+    "paper_id": "cnrwqlr8dg",
+    "title": "What Moves the Eyes: Doubling Mechanistic Model Performance Using Deep Networks to Discover and Test Cognitive Hypotheses",
+    "relevance_score": 2,
+    "reason": "Uses deep models to discover/test interpretable mechanisms, a workflow relevant to neuro-symbolic reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00397",
+    "paper_id": "gkcU26BOml",
+    "title": "Cross-modal Associations in Vision and Language Models: Revisiting the Bouba-Kiki Effect",
+    "relevance_score": 2,
+    "reason": "Investigates cross-modal reasoning in VLMs, peripherally related to semantic alignment for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00440",
+    "paper_id": "lGyXq0LOeQ",
+    "title": "EAP-GP: Mitigating Saturation Effect in Gradient-based Automated Circuit Identification",
+    "relevance_score": 2,
+    "reason": "Methods for circuit identification in LLMs (GPT-2) could inform reliability/interpretability of code generation models.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00444",
+    "paper_id": "loznSxLomv",
+    "title": "FACE: A General Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens",
+    "relevance_score": 2,
+    "reason": "Maps collaborative filtering embeddings to LLM tokens for interpretability, weakly touching LLM+code via semantic alignment.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00477",
+    "paper_id": "pQ8DeHXKMh",
+    "title": "Are Large Language Models Sensitive to the Motives Behind Communication?",
+    "relevance_score": 2,
+    "reason": "Studies LLM sensitivity to communication motives; relates to trust/reliability for AI agents processing human-generated specs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00481",
+    "paper_id": "pmLMrqhIpb",
+    "title": "Absence Bench: Language Models Can’t See What’s Missing",
+    "relevance_score": 2,
+    "reason": "Evaluates LLM failure mode (detecting omissions), relevant to reliability/hallucination reduction.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00490",
+    "paper_id": "qj8y1MjzLk",
+    "title": "Provable Watermarking for Data Poisoning Attacks",
+    "relevance_score": 2,
+    "reason": "Proposes provable watermarking for data poisoning; weak link to dataset integrity for code/model reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00514",
+    "paper_id": "t7QJDaQsrI",
+    "title": "The Impact of Coreset Selection on Spurious Correlations and Group Robustness",
+    "relevance_score": 2,
+    "reason": "Analyzes reliability of data selection methods, weakly relates to workflow correctness for code via data bias.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "10.1145/3720482",
+    "title": "Multi-Language Probabilistic Programming.",
+    "relevance_score": 2,
+    "reason": "Multi-language PPL foundation; uses neural network for soft evidence in program analysis.",
+    "tags": [
+      "PL_LLMS",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_oopsla.json"
+  }
+]

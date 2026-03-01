@@ -1,0 +1,39 @@
+{
+  "batches_total": 5,
+  "parse_failures": 0,
+  "kept_total": 4,
+  "kept": [
+    {
+      "batch_id": "batch_00001",
+      "paper_id": "09FiNmvNMw",
+      "title": "Divide and Translate: Compositional First-Order Logic Translation and Verification for Complex Logical Reasoning",
+      "relevance_score": 4,
+      "reason": "Neurosymbolic method using LLMs for formal logic translation, verified by SAT solver for reliable reasoning.",
+      "tags": "FORMAL_METHODS;NEUROSYMBOLIC"
+    },
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "0K1OaL6XuK",
+      "title": "Planning Anything with Rigor: General-Purpose Zero-Shot Planning with LLM-based Formalized Programming",
+      "relevance_score": 4,
+      "reason": "LLM tool-use for formal planning; frames problems as code-based optimization, aligning with structured reasoning for correctness.",
+      "tags": "AGENTS;TOOL_USE;PROGRAM_REASONING"
+    },
+    {
+      "batch_id": "batch_00003",
+      "paper_id": "0bmGL4q7vJ",
+      "title": "Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage",
+      "relevance_score": 3,
+      "reason": "Presents method for tuning VLM agents for tool use, relevant to LLM-based agents for code tasks.",
+      "tags": "AGENTS;TOOL_USE"
+    },
+    {
+      "batch_id": "batch_00005",
+      "paper_id": "0yvZm2AjUr",
+      "title": "Monitoring Latent World States in Language Models with Propositional Probes",
+      "relevance_score": 3,
+      "reason": "Probes extract latent logical propositions from LM states; connects to monitoring faithfulness for code correctness.",
+      "tags": "OTHER"
+    }
+  ]
+}

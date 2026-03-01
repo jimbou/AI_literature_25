@@ -1,0 +1,64 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/NEURIPS/raw_batches_10.jsonl",
+  "batches_total": 10,
+  "batches_with_kept": 5,
+  "parse_failures": 0,
+  "kept_total": 5,
+  "kept": [
+    {
+      "batch_id": "batch_00008",
+      "paper_id": "0pbUfmwNTy",
+      "title": "DyFlow: Dynamic Workflow Framework for Agentic Reasoning",
+      "relevance_score": 4,
+      "reason": "Dynamic LLM agent framework for code generation with feedback-driven workflow adaptation and structured reasoning.",
+      "tags": [
+        "AGENTS",
+        "PROGRAM_REASONING",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00010",
+      "paper_id": "14B5d6NEaH",
+      "title": "Reinforcement Learning with Backtracking Feedback",
+      "relevance_score": 3,
+      "reason": "LLM safety alignment via RL with backtracking feedback for error correction, relates to reliability mechanisms.",
+      "tags": [
+        "RELIABILITY",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00007",
+      "paper_id": "0i8ClSr3kQ",
+      "title": "Latent Chain-of-Thought for Visual Reasoning",
+      "relevance_score": 3,
+      "reason": "Proposes a method for generating diverse, reliable reasoning chains (latent CoT) for LVLMs, aligning with structured reasoning and reliability themes.",
+      "tags": [
+        "RELIABILITY",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00006",
+      "paper_id": "0Zri6HSYaK",
+      "title": "More Than Just Functional: LLM-as-a-Critique for Efficient Code Generation",
+      "relevance_score": 3,
+      "reason": "Uses LLM as a 'critique' to improve code efficiency, a reliability method for LLM-generated code.",
+      "tags": [
+        "RELIABILITY"
+      ]
+    },
+    {
+      "batch_id": "batch_00004",
+      "paper_id": "0NdS4xCngO",
+      "title": "Reinforcement Learning Finetunes Small Subnetworks in Large Language Models",
+      "relevance_score": 3,
+      "reason": "Analyzes RL fine-tuning for LLMs, showing sparse parameter updates. Relevant to reliability and statistical properties of LLM workflows.",
+      "tags": [
+        "RELIABILITY",
+        "WORKFLOW_STATS"
+      ]
+    }
+  ]
+}

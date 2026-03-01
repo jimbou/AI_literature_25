@@ -1,0 +1,890 @@
+[
+  {
+    "batch_id": "batch_00026",
+    "paper_id": "article-35194",
+    "title": "An XAI Social Media Platform for Teaching K-12 Students AI-Driven Profiling, Clustering, and Engagement-Based Recommending",
+    "relevance_score": 1,
+    "reason": "LLM agent for analog circuit design via code generation and self-correcting feedback.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00041",
+    "paper_id": "article-34961",
+    "title": "Bias Unveiled: Investigating Social Bias in LLM-Generated Code",
+    "relevance_score": 1,
+    "reason": "Evaluates social bias in LLM-generated code and tests mitigation strategies, weakly touching code reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00105",
+    "paper_id": "article-33597",
+    "title": "Efficient Language-instructed Skill Acquisition via Reward-Policy Co-Evolution",
+    "relevance_score": 1,
+    "reason": "LLMs generate reward functions for robotic skill acquisition; weak connection to code/verification.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00208",
+    "paper_id": "article-34915",
+    "title": "MetaSymNet: A Tree-like Symbol Network with Adaptive Architecture and Activation Functions",
+    "relevance_score": 1,
+    "reason": "Symbolic regression with neural networks; peripheral connection to neuro-symbolic methods for formula discovery.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00217",
+    "paper_id": "article-34652",
+    "title": "Multi-View Empowered Structural Graph Wordification for Language Models",
+    "relevance_score": 1,
+    "reason": "Aligns LLMs with graph-structured data for explainable reasoning, touching on structured knowledge integration.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00265",
+    "paper_id": "article-34832",
+    "title": "RepeatLeakage: Leak Prompts from Repeating as Large Language Model Is a Good Repeater",
+    "relevance_score": 1,
+    "reason": "Explores LLM behavior via repetition for prompt leakage; tangential to reliability/hallucination.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00275",
+    "paper_id": "article-34102",
+    "title": "SLR-MVTC: Smooth Low-Rank Multi-View Tensor Clustering",
+    "relevance_score": 1,
+    "reason": "Uses tensor methods for multi-view clustering; weak connection to structured reasoning via latent feature analysis.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json"
+  },
+  {
+    "batch_id": "batch_00056",
+    "paper_id": "93XT0lKOct",
+    "title": "Data Pruning by Information Maximization",
+    "relevance_score": 1,
+    "reason": "Method for instruction tuning LLMs via data pruning; weakly related to reliability of LLM workflows.",
+    "tags": [
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00062",
+    "paper_id": "9qS3HzSDNv",
+    "title": "Integrating Protein Dynamics into Structure-Based Drug Design via Full-Atom Stochastic Flows",
+    "relevance_score": 1,
+    "reason": "Uses generative modeling for structure-based drug design, but domain is bio/pharma, not software engineering or code reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00104",
+    "paper_id": "GtpubstM1D",
+    "title": "Advancing Mathematical Reasoning in Language Models: The Impact of Problem-Solving Data, Data Synthesis Methods, and Training Stages",
+    "relevance_score": 1,
+    "reason": "Barely relevant: Studies LLM training for math reasoning, which is adjacent to code reasoning but not our core focus.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00133",
+    "paper_id": "LvDwwAgMEW",
+    "title": "Eliciting Human Preferences with Language Models",
+    "relevance_score": 1,
+    "reason": "LM-based method for eliciting programming spec ambiguity; weakly touches our theme of ambiguity in NL prompts.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00146",
+    "paper_id": "O9YTt26r2P",
+    "title": "Arithmetic Without Algorithms: Language Models Solve Math with a Bag of Heuristics",
+    "relevance_score": 1,
+    "reason": "Mechanistic analysis of LLM reasoning for arithmetic; relates to reliability and understanding code reasoning failures.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00150",
+    "paper_id": "OlzB6LnXcS",
+    "title": "One Step Diffusion via Shortcut Models",
+    "relevance_score": 1,
+    "reason": "Technically connected via steering discrete diffusion models for non-differentiable rewards, applicable to code generation.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00153",
+    "paper_id": "P6G1Z6jkf3",
+    "title": "Modeling Fine-Grained Hand-Object Dynamics for Egocentric Video Representation Learning",
+    "relevance_score": 1,
+    "reason": "Proposes EgoVideo model with motion adapter for fine-grained dynamics; peripheral connection to structured reasoning about states.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00180",
+    "paper_id": "TsBDfe8Ra5",
+    "title": "FreCaS: Efficient Higher-Resolution Image Generation via Frequency-aware Cascaded Sampling",
+    "relevance_score": 1,
+    "reason": "Barely relevant: training-free method for structured generation, but focused on images, not code or reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00221",
+    "paper_id": "bc2H72hGxB",
+    "title": "Human-Aligned Chess With a Bit of Search",
+    "relevance_score": 1,
+    "reason": "Uses MCTS for inference-time scaling/calibration, a potential reliability mechanism for agent decision-making.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00230",
+    "paper_id": "cyPMEXdqQ2",
+    "title": "Overcoming Lower-Level Constraints in Bilevel Optimization: A Novel Approach with Regularized Gap Functions",
+    "relevance_score": 1,
+    "reason": "Bilevel optimization applied to constrained meta-learning; peripheral connection to reliability in learning workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00235",
+    "paper_id": "dh78yRFVK9",
+    "title": "Provable unlearning in topic modeling and downstream tasks",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of model adaptation/fine-tuning, but only weakly connected to code/verification via generic task reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00240",
+    "paper_id": "eajZpoQkGK",
+    "title": "DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian Splat Generation",
+    "relevance_score": 1,
+    "reason": "Uses diffusion models for 3D generation; only weakly related via 'consistency' checks, not core to code/verification.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00250",
+    "paper_id": "gTwRMU3lJ5",
+    "title": "LoRA-Pro: Are Low-Rank Adapters Properly Optimized?",
+    "relevance_score": 1,
+    "reason": "Method improves fine-tuning for LLMs, validated on code generation, but core contribution is optimization, not reasoning/reliability.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00275",
+    "paper_id": "kRBQwlkFSP",
+    "title": "Diffusion State-Guided Projected Gradient for Inverse Problems",
+    "relevance_score": 1,
+    "reason": "Method projects gradients to a subspace for robustness; weak link to structured reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00277",
+    "paper_id": "kpq3IIjUD3",
+    "title": "Learning local equivariant representations for quantum operators",
+    "relevance_score": 1,
+    "reason": "Generates logical circuits with strict equivalence; relates to formal methods for code synthesis.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00319",
+    "paper_id": "s7DkcgpRxL",
+    "title": "Train Small, Infer Large: Memory-Efficient LoRA Training for Large Language Models",
+    "relevance_score": 1,
+    "reason": "Memory-efficient fine-tuning for LLMs; peripheral to reliability of LLM workflows for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00343",
+    "paper_id": "vRvVVb0NAz",
+    "title": "When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of task vectors for model editing, validated on code model Phi-1.5 for unlearning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00365",
+    "paper_id": "ywFOSIT9ik",
+    "title": "Revisiting Zeroth-Order Optimization: Minimum-Variance Two-Point Estimators and Directionally Aligned Perturbations",
+    "relevance_score": 1,
+    "reason": "Zeroth-order optimization for black-box functions; potential application to optimizing LLM-based code generation workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00370",
+    "paper_id": "zqtql1YmlS",
+    "title": "Fewer May Be Better: Enhancing Offline Reinforcement Learning with Reduced Dataset",
+    "relevance_score": 1,
+    "reason": "Method for selecting data subsets to improve offline RL; weak link to code agent reliability via data efficiency.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "0Az25lvdT2",
+    "title": "Theory-Driven Label-Specific Representation for Incomplete Multi-View Multi-Label Learning",
+    "relevance_score": 1,
+    "reason": "Framework for multi-view learning with theoretical guarantees on representation learning; weak connection to code reliability via 'generalization performance' analysis.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00020",
+    "paper_id": "22CqLfjiVl",
+    "title": "Learning to Think: Information-Theoretic Reinforcement Fine-Tuning for LLMs",
+    "relevance_score": 1,
+    "reason": "Optimizes LLM reasoning efficiency; weak connection to code generation reliability.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00022",
+    "paper_id": "2KKqp7MWJM",
+    "title": "AgentAuditor: Human-level Safety and Security Evaluation for LLM Agents",
+    "relevance_score": 1,
+    "reason": "Safety evaluation framework for LLM agents; peripheral connection to agent reliability for code.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00027",
+    "paper_id": "2h8vXbEufN",
+    "title": "Denoising Trajectory Biases for Zero-Shot AI-Generated Image Detection",
+    "relevance_score": 1,
+    "reason": "Zero-shot detection method analyzes generation process trajectories, weakly related to semantic consistency checks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00028",
+    "paper_id": "2p4AtivyZz",
+    "title": "OPHR: Mastering Volatility Trading with Multi-Agent Deep Reinforcement Learning",
+    "relevance_score": 1,
+    "reason": "Multi-agent RL for trading; only barely relevant as an agent architecture example.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00047",
+    "paper_id": "4jWuS5hye1",
+    "title": "WISA: World simulator assistant for physics-aware text-to-video generation",
+    "relevance_score": 1,
+    "reason": "WISA framework's structured decomposition of requirements into textual/qualitative/quantitative levels is weakly related to ambiguity analysis in specs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00058",
+    "paper_id": "5szmKUMhB7",
+    "title": "DMol: A Highly Efficient and Chemical Motif-Preserving Molecule Generation Platform",
+    "relevance_score": 1,
+    "reason": "Molecule generation model; relevance is weak, only tangential via 'motif' structure preservation, not code/verification.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00060",
+    "paper_id": "6AbM9UG4aD",
+    "title": "InfMasking: Unleashing Synergistic Information by Contrastive Multimodal Interactions",
+    "relevance_score": 1,
+    "reason": "Multimodal contrastive learning method; weak connection to code reliability via information theory concepts.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00063",
+    "paper_id": "6X5NGHe35l",
+    "title": "Efficiently Verifiable Proofs of Data Attribution",
+    "relevance_score": 1,
+    "reason": "Presents verifiable ML for data attribution; weak link to reliability of LLM-generated code workflows.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00085",
+    "paper_id": "95plu1Mo20",
+    "title": "Prompted Policy Search: Reinforcement Learning through Linguistic and Numerical Reasoning in LLMs",
+    "relevance_score": 1,
+    "reason": "LLM-centric policy optimization; potential for code agent reasoning but not validated on programming tasks.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00105",
+    "paper_id": "BKLS9IMrNZ",
+    "title": "Dynamic View Synthesis as an Inverse Problem",
+    "relevance_score": 1,
+    "reason": "Method for structured latent manipulation (inverse problem) could be loosely related to reasoning about program states.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00107",
+    "paper_id": "BZ0igCEeoU",
+    "title": "Fractional Langevin Dynamics for Combinatorial Optimization via Polynomial-Time Escape",
+    "relevance_score": 1,
+    "reason": "Applies fractional Langevin dynamics to combinatorial optimization, which is a form of structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00131",
+    "paper_id": "EJZKxsS1Bl",
+    "title": "Purest Quantum State Identification",
+    "relevance_score": 1,
+    "reason": "Barely relevant: quantum property learning framework for identifying 'purest' states, tangentially relates to reliability/selection themes.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00157",
+    "paper_id": "H1NGlLNaVC",
+    "title": "CoCoA: A Minimum Bayes Risk Framework Bridging Confidence and Consistency for Uncertainty Quantification in LLMs",
+    "relevance_score": 1,
+    "reason": "Uncertainty quantification for LLMs; potential relevance to reliability/abstention for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00161",
+    "paper_id": "HkTOnCUQ1z",
+    "title": "Single-pass Adaptive Image Tokenization for Minimum Program Search",
+    "relevance_score": 1,
+    "reason": "Touches program search via Kolmogorov complexity, but is primarily about image tokenization, not code reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00167",
+    "paper_id": "IHX5V6zQpY",
+    "title": "LayerCraft: Enhancing Text-to-Image Generation with CoT Reasoning and Layered Object Integration",
+    "relevance_score": 1,
+    "reason": "LLM agent framework for structured, CoT-driven scene composition. Adjacent to code agent reasoning.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00183",
+    "paper_id": "JxxKj8pow1",
+    "title": "Scaling Speculative Decoding with Lookahead Reasoning",
+    "relevance_score": 1,
+    "reason": "Speculative decoding for reasoning LLMs; touches reliability via verification but not code-specific.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00187",
+    "paper_id": "KQoVgPOM1S",
+    "title": "Hybrid Boundary Physics-Informed Neural Networks for Solving Navier-Stokes Equations with Complex Boundary",
+    "relevance_score": 1,
+    "reason": "Uses PINNs for solving Navier-Stokes equations; peripheral connection to neuro-symbolic methods for complex systems.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00197",
+    "paper_id": "LZrRvYBqsJ",
+    "title": "Delta Attention: Fast and Accurate Sparse Attention Inference by Delta Correction",
+    "relevance_score": 1,
+    "reason": "Method improves LLM inference efficiency; tangential to reliability via sparse attention correction.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00230",
+    "paper_id": "P4xaLYXBRe",
+    "title": "SPACE: Noise Contrastive Estimation Stabilizes Self-Play Fine-Tuning for Large Language Models",
+    "relevance_score": 1,
+    "reason": "Method for stabilizing LLM fine-tuning; weak connection to code reliability via general LLM improvement.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00239",
+    "paper_id": "QBjuYL4gAX",
+    "title": "When and how can inexact generative models still sample from the data manifold?",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of generative model robustness; peripheral connection to reliability of model outputs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00240",
+    "paper_id": "QIXdI207nq",
+    "title": "LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation",
+    "relevance_score": 1,
+    "reason": "Weak connection: caching for diffusion models; reliability/consistency angle is peripheral to code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00252",
+    "paper_id": "REIo9ZLSYo",
+    "title": "Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling",
+    "relevance_score": 1,
+    "reason": "Uses LLM for sequential decoding; tangential connection to structured reasoning but application is fMRI, not code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00267",
+    "paper_id": "SlhLRh810S",
+    "title": "Fantastic Bugs and Where to Find Them in AI Benchmarks",
+    "relevance_score": 1,
+    "reason": "Framework for benchmark revision using LLM judges; touches LLM evaluation reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00289",
+    "paper_id": "VD22PY0fZm",
+    "title": "Rethinking Out-of-Distribution Detection and Generalization with Collective Behavior Dynamics",
+    "relevance_score": 1,
+    "reason": "Theoretical OOD detection method; only tangentially related to LLM reliability for code via 'generalization' concept.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00322",
+    "paper_id": "Yhfx12Azz1",
+    "title": "Coreset for Robust Geometric Median: Eliminating Size Dependency on Outliers",
+    "relevance_score": 1,
+    "reason": "Barely relevant: coresets for robust median could theoretically relate to consensus/abstention for code reliability, but no explicit link.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00329",
+    "paper_id": "Za7IcsXIRV",
+    "title": "MiNT: Multi-Network Transfer Benchmark for Temporal Graph Learning",
+    "relevance_score": 1,
+    "reason": "Benchmark for ML on relational DBs, adjacent to code/data structure analysis but not core to LLM code reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00330",
+    "paper_id": "Zfk5IoAtP0",
+    "title": "Gate to the Vessel: Residual Experts Restore What SAM Overlooks",
+    "relevance_score": 1,
+    "reason": "Uses Mixture-of-Experts for refining segmentation; peripheral connection to structured reasoning for code via error correction.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00357",
+    "paper_id": "cZzA2Z0ehX",
+    "title": "Quantifying Task-relevant Similarities in Representations Using Decision Variable Correlations",
+    "relevance_score": 1,
+    "reason": "Method for quantifying task-relevant similarity in representations; peripheral connection to reliability analysis of model decisions.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00361",
+    "paper_id": "cujJ9AXZO3",
+    "title": "Generalized and Invariant Single-Neuron In-Vivo Activity Representation Learning",
+    "relevance_score": 1,
+    "reason": "Uses adversarial training for invariant representation learning, tangentially related to reliability/robustness themes.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00372",
+    "paper_id": "e5QEGDVsqn",
+    "title": "Theoretical Guarantees for the Retention of Strict Nash Equilibria by Coevolutionary Algorithms",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of coevolutionary algorithms for finding Nash equilibria; tenuous link to game-theoretic aspects of multi-agent reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00378",
+    "paper_id": "eiLzaZqXas",
+    "title": "Universal Few-shot Spatial Control for Diffusion Models",
+    "relevance_score": 1,
+    "reason": "LLM reasoning as model-free RL; connects 'thinking' actions to policy improvement, relevant to agent reasoning.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00384",
+    "paper_id": "fbDHv2LQZJ",
+    "title": "Training-Free Safe Text Embedding Guidance for Text-to-Image Diffusion Models",
+    "relevance_score": 1,
+    "reason": "Training-free guidance method for safety; weak connection to code reliability via constraint enforcement.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00406",
+    "paper_id": "hhjnvIfvpa",
+    "title": "Efficiently Escaping Saddle Points under Generalized Smoothness via Self-Bounding Regularity",
+    "relevance_score": 1,
+    "reason": "Touches on optimization for non-convex functions, which is a weak link to reliability of LLM training workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00430",
+    "paper_id": "kMQju9SFBP",
+    "title": "Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models",
+    "relevance_score": 1,
+    "reason": "VLA model for autonomous driving; weak link to code/verification but involves planning-oriented reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00439",
+    "paper_id": "l8QMnn6wfb",
+    "title": "Weak-shot Keypoint Estimation via Keyness and Correspondence Transfer",
+    "relevance_score": 1,
+    "reason": "Barely touches program reasoning via structured intermediate representations (keypoints as semantic parts).",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00448",
+    "paper_id": "mGjmPnzGQo",
+    "title": "SAP: Exact Sorting in Splatting via Screen-Aligned Primitives",
+    "relevance_score": 1,
+    "reason": "Proposes structured reasoning for novel view synthesis via screen-aligned primitives and global sorting, touching on intermediate representations.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00473",
+    "paper_id": "p27bSdc3FS",
+    "title": "Fair Deepfake Detectors Can Generalize",
+    "relevance_score": 1,
+    "reason": "Weak connection: causal analysis for generalization/fairness could inspire reliability methods for LLM workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00474",
+    "paper_id": "p7WHZy8TCG",
+    "title": "Memory-Enhanced Neural Solvers for Routing Problems",
+    "relevance_score": 1,
+    "reason": "Uses RL for combinatorial optimization (routing); peripheral connection to learned program synthesis heuristics.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00482",
+    "paper_id": "prm9Y3jM0R",
+    "title": "Online robust locally differentially private learning for nonparametric regression",
+    "relevance_score": 1,
+    "reason": "Weak connection via online learning for robustness, but no code/verification focus.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00500",
+    "paper_id": "rdeCalg68L",
+    "title": "More effort is needed to protect pedestrian privacy in the era of AI",
+    "relevance_score": 1,
+    "reason": "Neuro-symbolic analysis of concept-based models for reliable OOD behavior.",
+    "tags": [
+      "NEURO_SYMBOLIC",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00504",
+    "paper_id": "s9NkfkUuEr",
+    "title": "Iterative Self-Incentivization Empowers Large Language Models as Agentic Searchers",
+    "relevance_score": 1,
+    "reason": "Proposes an LLM agent framework (ExSearch) for iterative reasoning and retrieval, but is applied to information search, not code/program reasoning.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00523",
+    "paper_id": "u1lNQH5upa",
+    "title": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
+    "relevance_score": 1,
+    "reason": "LLM fine-tuned for 3D spatial reasoning; only weakly related to code/formal methods.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00532",
+    "paper_id": "uwL0vbeEVn",
+    "title": "SuffixDecoding: Extreme Speculative Decoding for Emerging AI Applications",
+    "relevance_score": 1,
+    "reason": "Speculative decoding for LLM agents on SWE-Bench; technical but narrowly focused on inference optimization.",
+    "tags": [
+      "AGENTS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00534",
+    "paper_id": "vCej5sO61x",
+    "title": "AHa-Bench: Benchmarking Audio Hallucinations in Large Audio-Language Models",
+    "relevance_score": 1,
+    "reason": "Benchmarks hallucination, a core reliability issue for LLMs, but focuses on audio, not code or formal reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00538",
+    "paper_id": "vZfqDwF09z",
+    "title": "Let Brain Rhythm Shape Machine Intelligence for Connecting Dots on Graphs",
+    "relevance_score": 1,
+    "reason": "Uses formal Kuramoto model for synchronization; potential link to structured reasoning for graphs, but connection to code/verification is weak.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00543",
+    "paper_id": "w9gEF4Iwtx",
+    "title": "CLIPTTA: Robust Contrastive Vision-Language Test-Time Adaptation",
+    "relevance_score": 1,
+    "reason": "Method for test-time adaptation of vision-language models; weakly connects to reliability/robustness but not for code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00569",
+    "paper_id": "yjLew3Nd7z",
+    "title": "PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding",
+    "relevance_score": 1,
+    "reason": "Proposes PLUM model using span tagging & feedback for structured reasoning; potential for code reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00576",
+    "paper_id": "zSrb8rtH9M",
+    "title": "On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of MoE expressive power; peripheral connection to structured reasoning architectures in LLMs.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00577",
+    "paper_id": "zZLfHw4Erp",
+    "title": "UltraLED: Learning to See Everything in Ultra-High Dynamic Range Scenes",
+    "relevance_score": 1,
+    "reason": "Method involves structured reasoning pipeline (two-stage framework) for image processing, but application is computer vision, not code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json"
+  },
+  {
+    "batch_id": "batch_00007",
+    "paper_id": "10.1145/3729309",
+    "title": "First-Class Verification Dialects for MLIR.",
+    "relevance_score": 1,
+    "reason": "Uses SMT solvers for formal verification of compiler IR semantics, but lacks a core LLM/AI component.",
+    "tags": [
+      "FORMAL_METHODS",
+      "SMT",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_pldi.json"
+  },
+  {
+    "batch_id": "batch_00008",
+    "paper_id": "10.1145/3729328",
+    "title": "Efficient Linearizability Monitoring.",
+    "relevance_score": 1,
+    "reason": "Uses LLM to learn heuristics for program lifting into DSLs, a synthesis/compilation task.",
+    "tags": [
+      "PL_LLMS",
+      "SYNTHESIS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_pldi.json"
+  }
+]

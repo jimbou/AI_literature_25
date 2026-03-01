@@ -1,0 +1,142 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/OOPSLA/raw_batches_oopsla.jsonl",
+  "batches_total": 22,
+  "batches_with_kept": 11,
+  "parse_failures": 0,
+  "kept_total": 11,
+  "kept": [
+    {
+      "batch_id": "batch_00020",
+      "paper_id": "10.1145/3763174",
+      "title": "AutoVerus: Automated Proof Generation for Rust Code.",
+      "relevance_score": 5,
+      "reason": "LLM agent network for automated proof generation in Rust verifier Verus, integrating formal verification.",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "VERIFICATION",
+        "AGENTS"
+      ]
+    },
+    {
+      "batch_id": "batch_00019",
+      "paper_id": "10.1145/3763163",
+      "title": "Large Language Model Powered Symbolic Execution.",
+      "relevance_score": 5,
+      "reason": "LLMs directly integrated with symbolic execution for program analysis, using path constraints and semantic reasoning.",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "SYMBOLIC_EXEC",
+        "VERIFICATION"
+      ]
+    },
+    {
+      "batch_id": "batch_00012",
+      "paper_id": "10.1145/3763102",
+      "title": "Active Learning for Neurosymbolic Program Synthesis.",
+      "relevance_score": 5,
+      "reason": "Active learning for neurosymbolic program synthesis; handles neural mispredictions via conformal evaluation for semantic correctness.",
+      "tags": [
+        "PL_LLMS",
+        "SYNTHESIS",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "batch_id": "batch_00001",
+      "paper_id": "10.1145/3720499",
+      "title": "Laurel: Unblocking Automated Verification with Large Language Models.",
+      "relevance_score": 5,
+      "reason": "LLMs generate assertions to unblock SMT-based program verifiers (Dafny), integrating formal verification with AI.",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "FORMAL_METHODS",
+        "VERIFICATION",
+        "SMT"
+      ]
+    },
+    {
+      "batch_id": "batch_00011",
+      "paper_id": "10.1145/3763090",
+      "title": "Memory-Safety Verification of Open Programs with Angelic Assumptions.",
+      "relevance_score": 4,
+      "reason": "LLM mines code patterns for formal synthesis of angelic assumptions in memory-safety verification, integrating AI with program analysis.",
+      "tags": [
+        "PL_LLMS",
+        "VERIFICATION",
+        "SYNTHESIS"
+      ]
+    },
+    {
+      "batch_id": "batch_00010",
+      "paper_id": "10.1145/3763079",
+      "title": "Interleaving Large Language Models for Compiler Testing.",
+      "relevance_score": 4,
+      "reason": "LLMs generate code for compiler testing; method focuses on semantic correctness via miscompilation bug finding.",
+      "tags": [
+        "PL_LLMS",
+        "RELIABILITY",
+        "SYNTHESIS"
+      ]
+    },
+    {
+      "batch_id": "batch_00004",
+      "paper_id": "10.1145/3720488",
+      "title": "Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis.",
+      "relevance_score": 4,
+      "reason": "Uses LLM-assisted static taint analysis for detecting SSRF vulnerabilities, integrating AI with program analysis for semantic correctness.",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "VERIFICATION"
+      ]
+    },
+    {
+      "batch_id": "batch_00006",
+      "paper_id": "10.1145/3720471",
+      "title": "Verification of Bit-Flip Attacks against Quantized Neural Networks.",
+      "relevance_score": 4,
+      "reason": "Formal verification (abstract interpretation, MILP) of neural network robustness against bit-flip attacks, integrating PL/formal methods with AI model security.",
+      "tags": [
+        "FORMAL_METHODS",
+        "VERIFICATION"
+      ]
+    },
+    {
+      "batch_id": "batch_00014",
+      "paper_id": "10.1145/3763121",
+      "title": "Automated Discovery of Tactic Libraries for Interactive Theorem Proving.",
+      "relevance_score": 3,
+      "reason": "Automates discovery of custom tactics for ITPs (Lean, Rocq), a formal tool, using learned proof strategies.",
+      "tags": [
+        "FORMAL_METHODS",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00013",
+      "paper_id": "10.1145/3763112",
+      "title": "What's in the Box: Ergonomic and Expressive Capture Tracking over Generic Data Structures.",
+      "relevance_score": 3,
+      "reason": "Presents a formal type system (capture tracking) for effect/resource safety, with mechanized proofs. LLM connection is weak, but PL/formal methods contribution is strong.",
+      "tags": [
+        "FORMAL_METHODS",
+        "TYPE_SYSTEMS"
+      ]
+    },
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "10.1145/3720482",
+      "title": "Multi-Language Probabilistic Programming.",
+      "relevance_score": 2,
+      "reason": "Multi-language PPL foundation; uses neural network for soft evidence in program analysis.",
+      "tags": [
+        "PL_LLMS",
+        "PROGRAM_REASONING",
+        "OTHER"
+      ]
+    }
+  ]
+}

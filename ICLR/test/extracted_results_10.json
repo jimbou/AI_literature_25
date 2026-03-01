@@ -1,0 +1,87 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/ICLR/test/raw_batches_10.jsonl",
+  "batches_total": 10,
+  "batches_with_kept": 7,
+  "parse_failures": 0,
+  "kept_total": 7,
+  "kept": [
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "0K1OaL6XuK",
+      "title": "Planning Anything with Rigor: General-Purpose Zero-Shot Planning with LLM-based Formalized Programming",
+      "relevance_score": 4,
+      "reason": "LLM tool-use for formalizing and solving planning as optimization problems, aligning with structured reasoning for code/plans.",
+      "tags": [
+        "AGENTS",
+        "TOOL_USE",
+        "PROGRAM_REASONING"
+      ]
+    },
+    {
+      "batch_id": "batch_00001",
+      "paper_id": "09FiNmvNMw",
+      "title": "Divide and Translate: Compositional First-Order Logic Translation and Verification for Complex Logical Reasoning",
+      "relevance_score": 4,
+      "reason": "Neurosymbolic LLM method for translating NL to formal logic, verified by SAT solver for complex reasoning.",
+      "tags": [
+        "FORMAL_METHODS",
+        "NEUROSYMBOLIC"
+      ]
+    },
+    {
+      "batch_id": "batch_00009",
+      "paper_id": "1hQKHHUsMx",
+      "title": "Procedural Knowledge in Pretraining Drives Reasoning in Large Language Models",
+      "relevance_score": 3,
+      "reason": "Analyzes LLM reasoning strategies, specifically procedural knowledge for math tasks, related to structured reasoning for code.",
+      "tags": [
+        "REASONING",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00007",
+      "paper_id": "1Iuw1jcIrf",
+      "title": "MathCoder2: Better Math Reasoning from Continued Pretraining on Model-translated Mathematical Code",
+      "relevance_score": 3,
+      "reason": "Generates code to enhance mathematical reasoning, aligning with structured reasoning for code correctness.",
+      "tags": [
+        "PROGRAM_REASONING",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00006",
+      "paper_id": "1BdPHbuimc",
+      "title": "Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models",
+      "relevance_score": 3,
+      "reason": "Proposes Chain-of-Action for LLM QA with reasoning-retrieval, multi-source actions, and faith scoring for hallucination reduction.",
+      "tags": [
+        "RELIABILITY",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00005",
+      "paper_id": "0yvZm2AjUr",
+      "title": "Monitoring Latent World States in Language Models with Propositional Probes",
+      "relevance_score": 3,
+      "reason": "Probes extract structured propositions from LM internals; could monitor code-related reasoning states for faithfulness.",
+      "tags": [
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00003",
+      "paper_id": "0bmGL4q7vJ",
+      "title": "Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage",
+      "relevance_score": 3,
+      "reason": "Builds VLM-based agent for tool usage; data synthesis for reliable tool-usage reasoning.",
+      "tags": [
+        "AGENTS",
+        "TOOL_USE",
+        "RELIABILITY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "raw_jsonl": "/home/jim/AI_papers/PLDI/raw_batches_pldi.jsonl",
+  "batches_total": 9,
+  "batches_with_kept": 6,
+  "parse_failures": 0,
+  "kept_total": 6,
+  "kept": [
+    {
+      "batch_id": "batch_00002",
+      "paper_id": "10.1145/3729274",
+      "title": "Type-Constrained Code Generation with Language Models.",
+      "relevance_score": 4,
+      "reason": "LLM code generation guided by formal type systems for semantic correctness and reduced errors.",
+      "tags": [
+        "PL_LLMS",
+        "TYPE_SYSTEMS",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "batch_id": "batch_00004",
+      "paper_id": "10.1145/3729294",
+      "title": "Verified Foundations for Differential Privacy.",
+      "relevance_score": 3,
+      "reason": "Verified DP foundation (Lean) with production use; adjacent to formal verification but lacks LLM/AI component.",
+      "tags": [
+        "FORMAL_METHODS",
+        "VERIFICATION"
+      ]
+    },
+    {
+      "batch_id": "batch_00005",
+      "paper_id": "10.1145/3729265",
+      "title": "DR.FIX: Automatically Fixing Data Races at Industry Scale.",
+      "relevance_score": 3,
+      "reason": "LLMs integrated with program analysis for automated data race fixing in Go, targeting semantic correctness.",
+      "tags": [
+        "PL_LLMS",
+        "REPAIR",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "batch_id": "batch_00003",
+      "paper_id": "10.1145/3729255",
+      "title": "",
+      "relevance_score": 3,
+      "reason": "LLMs integrated with compiler analysis for input-centric optimization, combining PL and AI",
+      "tags": [
+        "PL_LLMS",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00008",
+      "paper_id": "10.1145/3729328",
+      "title": "Efficient Linearizability Monitoring.",
+      "relevance_score": 1,
+      "reason": "Uses LLM to learn heuristics for program lifting into DSLs, a synthesis/compilation task.",
+      "tags": [
+        "PL_LLMS",
+        "SYNTHESIS",
+        "OTHER"
+      ]
+    },
+    {
+      "batch_id": "batch_00007",
+      "paper_id": "10.1145/3729309",
+      "title": "First-Class Verification Dialects for MLIR.",
+      "relevance_score": 1,
+      "reason": "Uses SMT solvers for formal verification of compiler IR semantics, but lacks a core LLM/AI component.",
+      "tags": [
+        "FORMAL_METHODS",
+        "SMT",
+        "VERIFICATION"
+      ]
+    }
+  ]
+}

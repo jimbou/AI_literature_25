@@ -1,0 +1,1010 @@
+[
+  {
+    "batch_id": "batch_00227",
+    "paper_id": "cRnCcuLvyr",
+    "title": "CViT: Continuous Vision Transformer for Operator Learning",
+    "relevance_score": 5,
+    "reason": "Uses code verification and execution feedback to improve LLM instruction-following for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00117",
+    "paper_id": "JAMxRSXLFz",
+    "title": "Active Task Disambiguation with LLMs",
+    "relevance_score": 5,
+    "reason": "Directly addresses ambiguity in NL specs for tasks, proposing active disambiguation via LLMs to improve correctness.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00070",
+    "paper_id": "BAglD6NGy0",
+    "title": "ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL",
+    "relevance_score": 5,
+    "reason": "Text-to-SQL via multitask tuning & agent collaboration to reduce hallucinations, directly improving code generation reliability.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00367",
+    "paper_id": "zGej22CBnS",
+    "title": "Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles",
+    "relevance_score": 3,
+    "reason": "Improves tokenizer reliability for code (FIM tasks), relevant to LLM sampling semantics for programming.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00359",
+    "paper_id": "xoXn62FzD0",
+    "title": "Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo",
+    "relevance_score": 3,
+    "reason": "Uses SMC for controlled Python code generation, aligning with structured reasoning for code correctness.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00318",
+    "paper_id": "rx0TCew0Lj",
+    "title": "Beyond the convexity assumption: Realistic tabular data generation under quantifier-free real linear constraints",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic method enforcing quantifier-free linear constraints on generated data, aligning with hybrid neuro-symbolic AI themes.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00281",
+    "paper_id": "lOi6FtIwR8",
+    "title": "Model Editing as a Robust and Denoised variant of DPO: A Case Study on Toxicity",
+    "relevance_score": 3,
+    "reason": "Model editing for LLM safety (toxicity reduction) connects to reliability/hallucination reduction, but focus is not specifically on code.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00216",
+    "paper_id": "ac93gRzxxV",
+    "title": "IterGen: Iterative Semantic-aware Structured LLM Generation with Backtracking",
+    "relevance_score": 3,
+    "reason": "Iterative grammar-guided LLM generation with backtracking for structured outputs like code, improving reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00208",
+    "paper_id": "Z0eiiV3Yyh",
+    "title": "FlexCAD: Unified and Versatile Controllable CAD Generation with Fine-tuned Large Language Models",
+    "relevance_score": 3,
+    "reason": "Fine-tunes LLMs for structured code generation (CAD) via hierarchical text representation, aligning with structured reasoning for code.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00182",
+    "paper_id": "U49N5V51rU",
+    "title": "A Formal Framework for Understanding Length Generalization in Transformers",
+    "relevance_score": 3,
+    "reason": "Theoretical analysis of transformer length generalization for algorithmic reasoning tasks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00173",
+    "paper_id": "SqoL14HDm0",
+    "title": "When Prompt Engineering Meets Software Engineering: CNL-P as Natural and Robust \"APIs'' for Human-AI Interaction",
+    "relevance_score": 3,
+    "reason": "Proposes CNL-P, a structured prompt language with static analysis to reduce ambiguity and improve LLM code/output reliability.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00149",
+    "paper_id": "OfjIlbelrT",
+    "title": "FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference",
+    "relevance_score": 3,
+    "reason": "Improves LLM inference for long sequences; relevant for efficient program reasoning workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00109",
+    "paper_id": "HvSytvg3Jh",
+    "title": "AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models",
+    "relevance_score": 3,
+    "reason": "Null-space projection for LLM knowledge editing reduces side effects on preserved code knowledge.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00071",
+    "paper_id": "BLWaTeucYX",
+    "title": "Generating CAD Code with Vision-Language Models for 3D Designs",
+    "relevance_score": 3,
+    "reason": "Self-refinement method using VLM feedback to verify/correct generated CAD code, aligning with LLM reliability for code correctness.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00054",
+    "paper_id": "8g4XgC8HPF",
+    "title": "Controllable Generation via Locally Constrained Resampling",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic method for constrained generation; applies formal constraints to LLM outputs, relevant to formal methods+LLMs.",
+    "tags": [
+      "NEURO_SYMBOLIC",
+      "FORMAL_METHODS",
+      "CONSTRAINTS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00019",
+    "paper_id": "328vch6tRs",
+    "title": "From Tokens to Words: On the Inner Lexicon of LLMs",
+    "relevance_score": 3,
+    "reason": "Studies LLM internal representations for words, relevant to structured reasoning about code semantics and token-level ambiguity.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00009",
+    "paper_id": "1i6lkavJ94",
+    "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
+    "relevance_score": 3,
+    "reason": "Conformal prediction for generative models provides statistical guarantees, relevant to reliability and correctness of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00005",
+    "paper_id": "0yvZm2AjUr",
+    "title": "Monitoring Latent World States in Language Models with Propositional Probes",
+    "relevance_score": 3,
+    "reason": "Probes extract logical propositions (worksAs(Greg, nurse)) from LM states, connecting to structured semantic reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00314",
+    "paper_id": "rTCJ29pkuA",
+    "title": "Reasoning of Large Language Models over Knowledge Graphs with Super-Relations",
+    "relevance_score": 2,
+    "reason": "LLM reasoning over structured graphs (KGs) with improved retrieval; weak code link but structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00365",
+    "paper_id": "ywFOSIT9ik",
+    "title": "Revisiting Zeroth-Order Optimization: Minimum-Variance Two-Point Estimators and Directionally Aligned Perturbations",
+    "relevance_score": 1,
+    "reason": "Zeroth-order optimization for black-box functions; potential application to optimizing LLM-based code generation workflows.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00343",
+    "paper_id": "vRvVVb0NAz",
+    "title": "When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of task vectors for model editing, validated on code model Phi-1.5 for unlearning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00319",
+    "paper_id": "s7DkcgpRxL",
+    "title": "Train Small, Infer Large: Memory-Efficient LoRA Training for Large Language Models",
+    "relevance_score": 1,
+    "reason": "Memory-efficient fine-tuning for LLMs; peripheral to reliability of LLM workflows for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00275",
+    "paper_id": "kRBQwlkFSP",
+    "title": "Diffusion State-Guided Projected Gradient for Inverse Problems",
+    "relevance_score": 1,
+    "reason": "Method projects gradients to a subspace for robustness; weak link to structured reasoning for code.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00250",
+    "paper_id": "gTwRMU3lJ5",
+    "title": "LoRA-Pro: Are Low-Rank Adapters Properly Optimized?",
+    "relevance_score": 1,
+    "reason": "Method improves fine-tuning for LLMs, validated on code generation, but core contribution is optimization, not reasoning/reliability.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00240",
+    "paper_id": "eajZpoQkGK",
+    "title": "DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian Splat Generation",
+    "relevance_score": 1,
+    "reason": "Uses diffusion models for 3D generation; only weakly related via 'consistency' checks, not core to code/verification.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00235",
+    "paper_id": "dh78yRFVK9",
+    "title": "Provable unlearning in topic modeling and downstream tasks",
+    "relevance_score": 1,
+    "reason": "Theoretical analysis of model adaptation/fine-tuning, but only weakly connected to code/verification via generic task reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00180",
+    "paper_id": "TsBDfe8Ra5",
+    "title": "FreCaS: Efficient Higher-Resolution Image Generation via Frequency-aware Cascaded Sampling",
+    "relevance_score": 1,
+    "reason": "Barely relevant: training-free method for structured generation, but focused on images, not code or reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00150",
+    "paper_id": "OlzB6LnXcS",
+    "title": "One Step Diffusion via Shortcut Models",
+    "relevance_score": 1,
+    "reason": "Technically connected via steering discrete diffusion models for non-differentiable rewards, applicable to code generation.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00007",
+    "paper_id": "10.1145/3776708",
+    "title": "ChopChop: A Programmable Framework for Semantically Constraining the Output of Language Models.",
+    "relevance_score": 5,
+    "reason": "LLM constrained decoding for semantic program properties (type safety, equivalence) via realizability analysis",
+    "tags": [
+      "PL_LLMS",
+      "PROGRAM_REASONING",
+      "RELIABILITY",
+      "SYNTHESIS"
+    ],
+    "source_file": "extracted_results_popl.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "10.1145/3729274",
+    "title": "Type-Constrained Code Generation with Language Models.",
+    "relevance_score": 4,
+    "reason": "LLM code generation guided by formal type systems for semantic correctness and reduced errors.",
+    "tags": [
+      "PL_LLMS",
+      "TYPE_SYSTEMS",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_pldi.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00039",
+    "paper_id": "3nza35A6I4",
+    "title": "Training Language Models to Generate Quality Code with Program Analysis Feedback",
+    "relevance_score": 5,
+    "reason": "Uses program analysis (static analysis + unit tests) for RL-based LLM code generation, directly targeting code quality and reliability.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00575",
+    "paper_id": "zNLlglSOwD",
+    "title": "AdaSPEC: Selective Knowledge Distillation for Efficient Speculative Decoders",
+    "relevance_score": 3,
+    "reason": "Improves speculative decoding for LLMs via token selection, aligning with code generation reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00571",
+    "paper_id": "yzHiEmLSk8",
+    "title": "Visual Instruction Bottleneck Tuning",
+    "relevance_score": 3,
+    "reason": "Information bottleneck method improves LLM robustness; relates to reliability and semantic consistency for generated outputs.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00568",
+    "paper_id": "yfYgwjj5F8",
+    "title": "Generalizing Verifiable Instruction Following",
+    "relevance_score": 3,
+    "reason": "Focuses on verifiable instruction following for constraints, aligning with reliability and correctness for LLM outputs.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00567",
+    "paper_id": "ycMpNwzUAA",
+    "title": "MetaDefense: Defending Fine-tuning based Jailbreak Attack Before and During Generation",
+    "relevance_score": 3,
+    "reason": "Two-stage defense for LLM safety; methods for detecting harmful queries/responses relate to reliability and consistency.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00558",
+    "paper_id": "xlDmm4r98R",
+    "title": "FACT: Mitigating Inconsistent Hallucinations in LLMs via Fact-Driven Alternating Code-Text Training",
+    "relevance_score": 3,
+    "reason": "Uses code structure to enforce logical consistency in LLM outputs, addressing hallucination reduction via code-text training.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00491",
+    "paper_id": "qr5uMEs6iR",
+    "title": "Large Language Models as End-to-end Combinatorial Optimization Solvers",
+    "relevance_score": 3,
+    "reason": "Uses LLM fine-tuning and RL for direct constraint satisfaction and optimization in combinatorial problems, related to structured reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00449",
+    "paper_id": "mJEBhuCim2",
+    "title": "DiCoFlex: Model-Agnostic Diverse Counterfactuals with Flexible Control",
+    "relevance_score": 3,
+    "reason": "Generates code for mathematical formulations via MCTS-guided search, relating to LLM-based program synthesis.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00438",
+    "paper_id": "l6C6Pw30Gl",
+    "title": "Mixture of Inputs: Text Generation Beyond Discrete Token Sampling",
+    "relevance_score": 3,
+    "reason": "Method improves reasoning/code generation via continuous token distributions, validated on code generation tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00405",
+    "paper_id": "heJ7NRInjs",
+    "title": "RSafe: Incentivizing proactive reasoning to build robust and adaptive LLM safeguards",
+    "relevance_score": 3,
+    "reason": "LLM safety guardrail uses structured reasoning (step-by-step analysis) and RL for robust alignment, related to reliable workflows.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00305",
+    "paper_id": "WrYWolqKh3",
+    "title": "Broken Tokens? Your Language Model can Secretly Handle Non-Canonical Tokenizations",
+    "relevance_score": 3,
+    "reason": "Investigates tokenization robustness for code understanding; shows character-level tokenization improves code tasks by 15%.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00294",
+    "paper_id": "VhGUS8kyaC",
+    "title": "$\\texttt{STRCMP}$: Integrating Graph Structural Priors with Language Models for Combinatorial Optimization",
+    "relevance_score": 3,
+    "reason": "LLM generates solver code for combinatorial optimization, integrating structural priors (GNNs) for correctness.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00282",
+    "paper_id": "UKt31LbRPI",
+    "title": "When Are Concepts Erased From Diffusion Models?",
+    "relevance_score": 3,
+    "reason": "Explores verifier-guided decoding for RLHF, improving code correctness via reasoning task verifiers and hybrid reward systems.",
+    "tags": [
+      "RELIABILITY",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00251",
+    "paper_id": "RDbuSCWhad",
+    "title": "Structured Sparse Transition Matrices to Enable State Tracking in State-Space Models",
+    "relevance_score": 3,
+    "reason": "Explicitly models state tracking for finite-state automata, relevant to structured reasoning about program semantics.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00202",
+    "paper_id": "M1b7IuY6Co",
+    "title": "Constrained Sampling for Language Models Should Be Easy: An MCMC Perspective",
+    "relevance_score": 3,
+    "reason": "Constrained LM sampling for program fuzzing; ensures valid program inputs, relates to reliability via structured generation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00189",
+    "paper_id": "KaYMGsnZ4R",
+    "title": "DINGO: Constrained Inference for Diffusion LLMs",
+    "relevance_score": 3,
+    "reason": "DINGO enables formal constraint enforcement (regex) for diffusion LLMs, relevant to structured output reliability for code generation.",
+    "tags": [
+      "RELIABILITY",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00175",
+    "paper_id": "J4w4RtwLyB",
+    "title": "Graph-KV: Breaking Sequence via Injecting Structural Biases into Large Language Models",
+    "relevance_score": 3,
+    "reason": "Injects structural inductive biases into LLMs for RAG; relevant for structured reasoning over code dependencies (e.g., CFGs).",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00170",
+    "paper_id": "IVWHe60vfA",
+    "title": "Distribution-Aligned Decoding for Efficient LLM Task Adaptation",
+    "relevance_score": 3,
+    "reason": "Decoding-time method (SVDecode) to steer LLM outputs for task adaptation, improving reliability via distribution alignment.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00151",
+    "paper_id": "GSE3oaiDL2",
+    "title": "DeltaFormer: Unlock the state space of Transformer",
+    "relevance_score": 3,
+    "reason": "Analyzes Transformer limitations for code evaluation and state tracking, proposing architecture to improve reasoning capabilities.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00147",
+    "paper_id": "FrdX7K4Gli",
+    "title": "A learnability analysis on neuro-symbolic learning",
+    "relevance_score": 3,
+    "reason": "Theoretical analysis of neuro-symbolic learning, connecting constraint satisfaction to reasoning shortcuts, relevant to hybrid neuro-symbolic methods.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00146",
+    "paper_id": "FrQd4NoQ16",
+    "title": "CReFT-CAD: Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning",
+    "relevance_score": 3,
+    "reason": "Reinforcement fine-tuning for CAD reasoning, focusing on constraint-driven synthesis and improving programmatic correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00111",
+    "paper_id": "ByQdHPGKgU",
+    "title": "Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space",
+    "relevance_score": 3,
+    "reason": "Improves LLM reasoning for code via continuous concept tokens, evaluated on coding benchmarks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00098",
+    "paper_id": "AQsko3PPUe",
+    "title": "Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains",
+    "relevance_score": 3,
+    "reason": "Structured reasoning compression for LLMs; reduces CoT length while maintaining performance on code-adjacent math tasks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00083",
+    "paper_id": "8nOMhDFpkU",
+    "title": "Traversal Verification for Speculative Tree Decoding",
+    "relevance_score": 3,
+    "reason": "LLM acceleration via speculative decoding with sequence-level verification; relates to reliability/sampling semantics of code generation workflows.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00444",
+    "paper_id": "loznSxLomv",
+    "title": "FACE: A General Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens",
+    "relevance_score": 2,
+    "reason": "Maps collaborative filtering embeddings to LLM tokens for interpretability, weakly touching LLM+code via semantic alignment.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00440",
+    "paper_id": "lGyXq0LOeQ",
+    "title": "EAP-GP: Mitigating Saturation Effect in Gradient-based Automated Circuit Identification",
+    "relevance_score": 2,
+    "reason": "Methods for circuit identification in LLMs (GPT-2) could inform reliability/interpretability of code generation models.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00342",
+    "paper_id": "axlGOT58e8",
+    "title": "LLM Safety Alignment is Divergence Estimation in Disguise",
+    "relevance_score": 2,
+    "reason": "Theoretical link between LLM alignment and divergence estimation; safety alignment relevant to reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00001",
+    "paper_id": "02qdHz1LU0",
+    "title": "Model-Guided Dual-Role Alignment for High-Fidelity Open-Domain Video-to-Audio Generation",
+    "relevance_score": 2,
+    "reason": "Proposes model-guided training for cross-modal alignment; weak connection to reliability methods for generation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00569",
+    "paper_id": "yjLew3Nd7z",
+    "title": "PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding",
+    "relevance_score": 1,
+    "reason": "Proposes PLUM model using span tagging & feedback for structured reasoning; potential for code reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00058",
+    "paper_id": "5szmKUMhB7",
+    "title": "DMol: A Highly Efficient and Chemical Motif-Preserving Molecule Generation Platform",
+    "relevance_score": 1,
+    "reason": "Molecule generation model; relevance is weak, only tangential via 'motif' structure preservation, not code/verification.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00022",
+    "paper_id": "article-34990",
+    "title": "Aligning Large Language Models for Faithful Integrity Against Opposing Argument",
+    "relevance_score": 3,
+    "reason": "Proposes DPO-based alignment for response integrity under opposition, relates to reliability/hallucination reduction for reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00298",
+    "paper_id": "article-34962",
+    "title": "Stream Aligner: Efficient Sentence-Level Alignment via Distribution Induction",
+    "relevance_score": 3,
+    "reason": "Proposes sentence-level alignment for LLM generation, relates to reliability and structured reasoning workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00324",
+    "paper_id": "article-34787",
+    "title": "TrustUQA: A Trustful Framework for Unified Structured Data Question Answering",
+    "relevance_score": 3,
+    "reason": "LLM-based QA over structured data using formal graph queries; relates to structured reasoning for correctness.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00157",
+    "paper_id": "article-34782",
+    "title": "Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs",
+    "relevance_score": 3,
+    "reason": "Optimizes repository-level code completion for Code LLMs, a core software engineering task, improving reliability via context pruning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00066",
+    "paper_id": "article-34740",
+    "title": "Content-free Logical Modification of Large Language Model by Disentangling and Modifying Logic Representation",
+    "relevance_score": 3,
+    "reason": "Modifies LLM logic representations for consistency; relates to structured reasoning and hallucination reduction for code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00170",
+    "paper_id": "article-34718",
+    "title": "Infer Human’s Intentions Before Following Natural Language Instructions",
+    "relevance_score": 3,
+    "reason": "Explicitly reasons about ambiguity in NL instructions for embodied tasks, aligning with ambiguity detection/repair theme.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00068",
+    "paper_id": "article-34668",
+    "title": "Controlling Equational Reasoning in Large Language Models with Prompt Interventions",
+    "relevance_score": 3,
+    "reason": "Systematically controls LLM hallucination rates for symbolic derivation generation, linking to reliability/consistency.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00017",
+    "paper_id": "article-34647",
+    "title": "Adaptive Draft-Verification for Efficient Large Language Model Decoding",
+    "relevance_score": 3,
+    "reason": "LLM decoding acceleration via adaptive draft-verification; improves efficiency of code generation workflows.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00040",
+    "paper_id": "article-34586",
+    "title": "Beyond Prompt Engineering: A Reinforced Token-Level Input Refinement for Large Language Models",
+    "relevance_score": 3,
+    "reason": "Token-level input refinement for LLMs via RL; relevant to prompt ambiguity repair for code tasks.",
+    "tags": [
+      "AMBIGUITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00345",
+    "paper_id": "article-34559",
+    "title": "Zero-resource Hallucination Detection for Text Generation via Graph-based Contextual Knowledge Triples Modeling",
+    "relevance_score": 3,
+    "reason": "Graph-based method for hallucination detection in LLM text generation via contextual knowledge triples.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00070",
+    "paper_id": "article-34547",
+    "title": "CrAM: Credibility-Aware Attention Modification in LLMs for Combating Misinformation in RAG",
+    "relevance_score": 3,
+    "reason": "Presents CrAM, a plug-and-play method to reduce LLM hallucinations in RAG by modifying attention based on credibility.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00032",
+    "paper_id": "article-34536",
+    "title": "Attributive Reasoning for Hallucination Diagnosis of Large Language Models",
+    "relevance_score": 3,
+    "reason": "Proposes DPD decoding for LLM hallucination reduction via internal state analysis, relevant to reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00209",
+    "paper_id": "article-34512",
+    "title": "Mitigating Hallucinations in Large Vision-Language Models by Adaptively Constraining Information Flow",
+    "relevance_score": 3,
+    "reason": "Proposes VIB method to mitigate LLM hallucinations; aligns with reliability/hallucination reduction themes for generated content.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00124",
+    "paper_id": "article-33843",
+    "title": "Extracting Interpretable Task-Specific Circuits from Large Language Models for Faster Inference",
+    "relevance_score": 3,
+    "reason": "Extracts task-specific circuits from LLMs; relates to structured reasoning and interpretability for code tasks.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00212",
+    "paper_id": "article-33571",
+    "title": "Moonshine: Distilling Game Content Generators into Steerable Generative Models",
+    "relevance_score": 3,
+    "reason": "Uses LLM to label synthetic game content for controllable generation; connects LLMs to procedural content generation.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00046",
+    "paper_id": "article-33284",
+    "title": "Bridging the User-side Knowledge Gap in Knowledge-aware Recommendations with Large Language Models",
+    "relevance_score": 3,
+    "reason": "LLM infers user interests for recommendation system, addressing knowledge gap via structured reasoning.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00286",
+    "paper_id": "article-32305",
+    "title": "Semantic Ambiguity Modeling and Propagation for Fine-Grained Visual Cross View Geo-Localization",
+    "relevance_score": 3,
+    "reason": "Explicitly models semantic ambiguity in specs (images) and propagates uncertainty to improve downstream task reliability.",
+    "tags": [
+      "AMBIGUITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00346",
+    "paper_id": "article-32061",
+    "title": "dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen",
+    "relevance_score": 3,
+    "reason": "Uses AlphaFold2 for structural prediction and flow matching for dynamic simulation, aligning with hybrid neuro-symbolic reasoning for complex systems.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00290",
+    "paper_id": "article-32018",
+    "title": "Simulate and Eliminate: Revoke Backdoors for Generative Large Language Models",
+    "relevance_score": 3,
+    "reason": "Method (SANDE) to revoke backdoors in LLMs; relates to reliability and safety of generative models.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00134",
+    "paper_id": "article-32771",
+    "title": "First Line of Defense: A Robust First Layer Mitigates Adversarial Attacks",
+    "relevance_score": 2,
+    "reason": "Proposes architectural defense against adversarial attacks; weak link to LLM reliability for code via robustness theme.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  }
+]

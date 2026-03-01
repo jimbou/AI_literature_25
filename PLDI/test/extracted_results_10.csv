@@ -1,0 +1,5 @@
+batch_id,paper_id,title,relevance_score,reason,tags
+batch_00002,10.1145/3729274,Type-Constrained Code Generation with Language Models.,5,LLM code generation with type system constraints for semantic correctness and reduced compilation errors,PL_LLMS;TYPE_SYSTEMS;RELIABILITY
+batch_00005,10.1145/3729265,DR.FIX: Automatically Fixing Data Races at Industry Scale.,4,"LLMs + program analysis for automated data race fixing, integrated into industrial workflows for semantic correctness.",PL_LLMS;REPAIR;RELIABILITY
+batch_00003,10.1145/3729300,Membership Testing for Semantic Regular Expressions.,3,"Integrates LLMs as semantic oracles for formal language membership testing, combining formal methods (SemREs) with modern AI.",PL_LLMS;FORMAL_METHODS;OTHER
+batch_00004,10.1145/3729289,A Hybrid Approach to Semi-automated Rust Verification.,1,Hybrid Rust verifier (Gillian-Rust) integrates automated reasoning; LLMs not mentioned but adjacent to verifier-guided synthesis.,VERIFICATION;OTHER

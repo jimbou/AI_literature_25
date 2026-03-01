@@ -1,0 +1,170 @@
+[
+  {
+    "batch_id": "batch_00079",
+    "paper_id": "CjwERcAU7w",
+    "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+    "relevance_score": 3,
+    "reason": "LLM self-correction training method (SCoRe) improves code correctness on HumanEval benchmark.",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00068",
+    "paper_id": "AqfUa08PCH",
+    "title": "Training Language Models on Synthetic Edit Sequences Improves Code Synthesis",
+    "relevance_score": 3,
+    "reason": "Method for iterative code synthesis via edit sequences, improving reliability and scaling on code benchmarks.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00052",
+    "paper_id": "8KQzoD5XAr",
+    "title": "CraftRTL: High-quality Synthetic Data Generation for Verilog Code Models with Correct-by-Construction Non-Textual Representations and Targeted Code Repair",
+    "relevance_score": 3,
+    "reason": "Automated code repair framework for LLM-generated Verilog, targeting correctness via error injection and correction.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00005",
+    "paper_id": "10.1145/3729265",
+    "title": "DR.FIX: Automatically Fixing Data Races at Industry Scale.",
+    "relevance_score": 3,
+    "reason": "LLMs integrated with program analysis for automated data race fixing in Go, targeting semantic correctness.",
+    "tags": [
+      "PL_LLMS",
+      "REPAIR",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_pldi.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00508",
+    "paper_id": "sYk6ZMmrOz",
+    "title": "Let's Revise Step-by-Step: A Unified Local Search Framework for Code Generation with LLMs",
+    "relevance_score": 3,
+    "reason": "LLM code revision via local search; improves code generation reliability through iterative improvement.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00497",
+    "paper_id": "rRrswElWIW",
+    "title": "ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests",
+    "relevance_score": 3,
+    "reason": "Benchmark for LLM code reasoning with iterative repair (Refine@K), evaluating execution feedback for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00472",
+    "paper_id": "on6Hf0KP20",
+    "title": "SQLens: An End-to-End Framework for Error Detection and Correction in Text-to-SQL",
+    "relevance_score": 3,
+    "reason": "LLM error detection/correction for SQL generation with database & LLM signal integration",
+    "tags": [
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00443",
+    "paper_id": "lg2rP98oTf",
+    "title": "Pin the Tail on the Model: Blindfolded Repair of User-Flagged Failures in Text-to-Image Services",
+    "relevance_score": 3,
+    "reason": "Presents a model editing framework for diffusion models, a form of program repair for AI models, touching on reliability and correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00135",
+    "paper_id": "EgArbnS0BA",
+    "title": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning",
+    "relevance_score": 3,
+    "reason": "Uses RL for code reasoning, with verification-based training on code tasks.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00072",
+    "paper_id": "7Z25QbOv4a",
+    "title": "MigGPT: Harnessing Large Language Models for Automated Migration of Out-of-Tree Linux Kernel Patches Across Versions",
+    "relevance_score": 3,
+    "reason": "LLM-based automation of code migration for Linux kernel patches, addressing program correctness.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00049",
+    "paper_id": "4qVWY12KQT",
+    "title": "QiMeng-NeuComBack: Self-Evolving Translation from IR to Assembly Code",
+    "relevance_score": 2,
+    "reason": "LLM-based code generation (IR-to-assembly) with self-debugging to improve functional correctness.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_neurips.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00069",
+    "paper_id": "article-32046",
+    "title": "Counterexample Guided Program Repair Using Zero-Shot Learning and MaxSAT-based Fault Localization",
+    "relevance_score": 5,
+    "reason": "Combines LLMs with formal methods (MaxSAT fault localization) for program repair, following a CEGIS loop.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "PROGRAM_REPAIR"
+  },
+  {
+    "batch_id": "batch_00190",
+    "paper_id": "article-31988",
+    "title": "Less Is More: Adaptive Program Repair with Bug Localization and Preference Learning",
+    "relevance_score": 3,
+    "reason": "Automated program repair with bug localization and consistency-focused patch generation; aligns with code debugging/reliability.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_aaai.json",
+    "category": "PROGRAM_REPAIR"
+  }
+]

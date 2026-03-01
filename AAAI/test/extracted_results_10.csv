@@ -1,0 +1,4 @@
+batch_id,paper_id,title,relevance_score,reason,tags
+batch_00004,article-33658,A Logical Analysis of Hanabi,3,"Formal logical analysis of multi-agent epistemic reasoning, relevant to structured agent reasoning.",FORMAL_METHODS;OTHER
+batch_00007,article-33635,A Syntactic Approach to Computing Complete and Sound Abstraction in the Situation Calculus,3,Syntactic method for sound/complete abstraction in Situation Calculus; relates to formal reasoning about actions and programs.,FORMAL_METHODS;OTHER
+batch_00002,article-33224,A Complete Algorithm for Optimization Modulo Nonlinear Real Arithmetic,3,"Complete algorithm for Optimization Modulo Nonlinear Real Arithmetic, applicable to program verification.",FORMAL_METHODS;VERIFICATION

@@ -1,0 +1,7 @@
+batch_id,paper_id,title,relevance_score,reason,tags
+batch_00002,10.1145/3729274,Type-Constrained Code Generation with Language Models.,4,LLM code generation guided by formal type systems for semantic correctness and reduced errors.,PL_LLMS;TYPE_SYSTEMS;RELIABILITY
+batch_00004,10.1145/3729294,Verified Foundations for Differential Privacy.,3,Verified DP foundation (Lean) with production use; adjacent to formal verification but lacks LLM/AI component.,FORMAL_METHODS;VERIFICATION
+batch_00005,10.1145/3729265,DR.FIX: Automatically Fixing Data Races at Industry Scale.,3,"LLMs integrated with program analysis for automated data race fixing in Go, targeting semantic correctness.",PL_LLMS;REPAIR;RELIABILITY
+batch_00003,10.1145/3729255,,3,"LLMs integrated with compiler analysis for input-centric optimization, combining PL and AI",PL_LLMS;OTHER
+batch_00008,10.1145/3729328,Efficient Linearizability Monitoring.,1,"Uses LLM to learn heuristics for program lifting into DSLs, a synthesis/compilation task.",PL_LLMS;SYNTHESIS;OTHER
+batch_00007,10.1145/3729309,First-Class Verification Dialects for MLIR.,1,"Uses SMT solvers for formal verification of compiler IR semantics, but lacks a core LLM/AI component.",FORMAL_METHODS;SMT;VERIFICATION

@@ -1,0 +1,6 @@
+batch_id,paper_id,title,relevance_score,reason,tags
+batch_00008,0pbUfmwNTy,DyFlow: Dynamic Workflow Framework for Agentic Reasoning,4,Dynamic LLM agent framework for code generation with feedback-driven workflow adaptation and structured reasoning.,AGENTS;PROGRAM_REASONING;OTHER
+batch_00010,14B5d6NEaH,Reinforcement Learning with Backtracking Feedback,3,"LLM safety alignment via RL with backtracking feedback for error correction, relates to reliability mechanisms.",RELIABILITY;OTHER
+batch_00007,0i8ClSr3kQ,Latent Chain-of-Thought for Visual Reasoning,3,"Proposes a method for generating diverse, reliable reasoning chains (latent CoT) for LVLMs, aligning with structured reasoning and reliability themes.",RELIABILITY;OTHER
+batch_00006,0Zri6HSYaK,More Than Just Functional: LLM-as-a-Critique for Efficient Code Generation,3,"Uses LLM as a 'critique' to improve code efficiency, a reliability method for LLM-generated code.",RELIABILITY
+batch_00004,0NdS4xCngO,Reinforcement Learning Finetunes Small Subnetworks in Large Language Models,3,"Analyzes RL fine-tuning for LLMs, showing sparse parameter updates. Relevant to reliability and statistical properties of LLM workflows.",RELIABILITY;WORKFLOW_STATS
