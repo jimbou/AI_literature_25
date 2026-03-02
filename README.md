@@ -142,6 +142,57 @@ all_results/
 
 ---
 
+# Processed Conferences (2025–2026)
+
+| Venue        | Submissions | Accepted | Acceptance |
+| ------------ | ----------: | -------: | ---------: |
+| AAAI 2025    |      12,957 |    3,032 |      23.4% |
+| NeurIPS 2025 |      21,575 |    5,290 |      24.5% |
+| ICLR 2025    |      11,603 |    3,704 |      31.9% |
+| PLDI 2025    |         316 |       90 |      28.5% |
+| POPL 2026    |         371 |       91 |      24.5% |
+| OOPSLA 2025  |         581 |      179 |      30.8% |
+
+**Totals**
+
+* Submissions: **77,403**
+* Accepted: **12,386**
+* Papers kept as relevant: **879**
+* Relevant fraction of accepted: **7.1%**
+
+This reflects how narrow the intersection (PL + LLMs + semantic correctness) is within top-tier venues.
+
+---
+
+# Understanding `all_results/`
+
+All final outputs are stored in:
+
+```
+all_results/
+```
+
+**Core files**
+
+* `combined.json` → all relevant papers (merged)
+* `all_kept_with_category.json` → full enriched dataset (score + category)
+* `category_counts.csv` → category distribution summary
+* `raw_classify_in_categories.jsonl` → full LLM audit log
+
+**Subdirectories**
+
+* `by_score/` → split by relevance score (1–5)
+* `by_category/` → split by research mechanism
+
+For most analyses, use:
+
+* `all_kept_with_category.json` (complete dataset)
+* `by_score/score_5.json` (highest alignment)
+* `by_category/` (mechanism-specific review)
+
+---
+
+
 This repository is a **scalable literature discovery tool**, not a perfect classifier.
 Prompts and categories are fully configurable in the /prompts subdir.
 
