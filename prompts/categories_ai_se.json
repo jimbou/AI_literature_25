@@ -1,0 +1,45 @@
+{
+  "unclassified": "UNCLASSIFIED",
+  "categories": [
+    {
+      "name": "AGENTS_FOR_CODE",
+      "definition": "tool-using / multi-step agents for programming (repo exploration, planning+execution, SWE-bench, multi-agent coding)"
+    },
+    {
+      "name": "FORMAL_VERIFICATION",
+      "definition": "LLMs inside formal verification (contracts/invariants/assertions, SMT/provers, Dafny/Verus/Lean/Coq/Rocq)"
+    },
+    {
+      "name": "SYMBOLIC_EXECUTION",
+      "definition": "LLMs integrated with symbolic execution (constraints, path exploration, modeling), or SE guiding LLMs"
+    },
+    {
+      "name": "TEST_GENERATION",
+      "definition": "generating tests/oracles (unit/property/regression/differential), execution-feedback loops"
+    },
+    {
+      "name": "FUZZING",
+      "definition": "coverage/grammar fuzzing, LLM-guided mutators, fuzzing guidance/prioritization, fuzzing+analysis"
+    },
+    {
+      "name": "PROGRAM_REPAIR",
+      "definition": "patch generation / bug fixing where deliverable is a patch, often with validators"
+    },
+    {
+      "name": "STATIC_ANALYSIS_SECURITY",
+      "definition": "LLMs enhancing static analyses (taint/vuln detection, audits, path-sensitive analysis)"
+    },
+    {
+      "name": "CONSTRAINED_DECODING_AND_GUARDS",
+      "definition": "constraining outputs (type/grammar constraints, realizability, constrained decoding, semantic guards)"
+    },
+    {
+      "name": "CONSENSUS_AND_SELECTION",
+      "definition": "best-of-N, self-consistency, voting, abstention, calibration for correctness"
+    },
+    {
+      "name": "BENCHMARKS_AND_EVAL_FOR_CODE_AGENTS",
+      "definition": "benchmarks/evals for code-agent reliability/security (prompt injection, tool misuse, sabotage, vuln find/patch)"
+    }
+  ]
+}

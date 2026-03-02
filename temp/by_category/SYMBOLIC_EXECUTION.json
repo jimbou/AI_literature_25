@@ -1,0 +1,41 @@
+[
+  {
+    "batch_id": "batch_00096",
+    "paper_id": "FiyS0ecSm0",
+    "title": "Proving Olympiad Inequalities by Synergizing LLMs and Symbolic Reasoning",
+    "relevance_score": 4,
+    "reason": "Neuro-symbolic integration of LLMs with symbolic methods for theorem proving on inequalities, aligning with hybrid reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00283",
+    "paper_id": "ljAS7cPAU0",
+    "title": "Symbolic regression via MDLformer-guided search: from minimizing prediction error to minimizing description length",
+    "relevance_score": 3,
+    "reason": "Symbolic regression via MDL; neuro-symbolic search for formulas aligns with structured reasoning themes.",
+    "tags": [
+      "SYMBOLIC_EXEC",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  },
+  {
+    "batch_id": "batch_00211",
+    "paper_id": "Zes7Wyif8G",
+    "title": "KLay: Accelerating Arithmetic Circuits for Neurosymbolic AI",
+    "relevance_score": 3,
+    "reason": "Neurosymbolic AI with arithmetic circuits for enforcing symbolic constraints on neural networks.",
+    "tags": [
+      "NEUROSYMBOLIC_AI",
+      "FORMAL_METHODS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "SYMBOLIC_EXECUTION"
+  }
+]

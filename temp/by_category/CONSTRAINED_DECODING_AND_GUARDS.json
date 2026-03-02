@@ -1,0 +1,202 @@
+[
+  {
+    "batch_id": "batch_00227",
+    "paper_id": "cRnCcuLvyr",
+    "title": "CViT: Continuous Vision Transformer for Operator Learning",
+    "relevance_score": 5,
+    "reason": "Uses code verification and execution feedback to improve LLM instruction-following for correctness.",
+    "tags": [
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00070",
+    "paper_id": "BAglD6NGy0",
+    "title": "ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL",
+    "relevance_score": 5,
+    "reason": "Text-to-SQL via multitask tuning & agent collaboration to reduce hallucinations, directly improving code generation reliability.",
+    "tags": [
+      "AGENTS",
+      "RELIABILITY",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00349",
+    "paper_id": "wN3KaUXA5X",
+    "title": "Diffusion On Syntax Trees For Program Synthesis",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic diffusion model for program synthesis; reasons over syntax trees and execution results for debugging.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00035",
+    "paper_id": "5X5Z7Ffrjb",
+    "title": "Steering Large Language Models between Code Execution and Textual Reasoning",
+    "relevance_score": 4,
+    "reason": "Explicitly studies steering LLMs between code execution and textual reasoning for complex tasks, aligning with our focus on code-based agents and reliability.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00367",
+    "paper_id": "zGej22CBnS",
+    "title": "Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles",
+    "relevance_score": 3,
+    "reason": "Improves tokenizer reliability for code (FIM tasks), relevant to LLM sampling semantics for programming.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00359",
+    "paper_id": "xoXn62FzD0",
+    "title": "Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo",
+    "relevance_score": 3,
+    "reason": "Uses SMC for controlled Python code generation, aligning with structured reasoning for code correctness.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00332",
+    "paper_id": "tpD1rs25Uu",
+    "title": "Hydra-SGG: Hybrid Relation Assignment for One-stage Scene Graph Generation",
+    "relevance_score": 3,
+    "reason": "Explores LLM planning improvement via action sequence analysis, relevant to structured reasoning for agents.",
+    "tags": [
+      "AGENTS",
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00318",
+    "paper_id": "rx0TCew0Lj",
+    "title": "Beyond the convexity assumption: Realistic tabular data generation under quantifier-free real linear constraints",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic method enforcing quantifier-free linear constraints on generated data, aligning with hybrid neuro-symbolic AI themes.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00306",
+    "paper_id": "pymXpl4qvi",
+    "title": "Understanding and Mitigating Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing",
+    "relevance_score": 3,
+    "reason": "Analyzes SSM bottlenecks for long-context modeling; relevant to reliability of LLM workflows for long code reasoning tasks.",
+    "tags": [
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00251",
+    "paper_id": "gc8QAQfXv6",
+    "title": "Unlocking the Power of Function Vectors for Characterizing and Mitigating Catastrophic Forgetting in Continual Instruction Tuning",
+    "relevance_score": 3,
+    "reason": "Analyzes LLM forgetting via function vectors; proposes mitigation for instruction tuning, relevant to reliability of LLM workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00248",
+    "paper_id": "fvkElsJOsN",
+    "title": "Eliminating Position Bias of Language Models: A Mechanistic Approach",
+    "relevance_score": 3,
+    "reason": "Addresses LM reliability and bias, validates on math reasoning; connects to verifier-guided evaluation.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00247",
+    "paper_id": "frsg32u0rO",
+    "title": "Block Verification Accelerates Speculative Decoding",
+    "relevance_score": 3,
+    "reason": "Improves speculative decoding verification; relates to reliability and efficiency of LLM code generation workflows.",
+    "tags": [
+      "RELIABILITY",
+      "WORKFLOW_STATS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00222",
+    "paper_id": "bhOysNJvWm",
+    "title": "Diffusion Transformers for Tabular Data Time Series Generation",
+    "relevance_score": 3,
+    "reason": "LLM agents for automated research & peer review, simulating full scientific workflow with feedback.",
+    "tags": [
+      "AGENTS",
+      "WORKFLOW_STATS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00216",
+    "paper_id": "ac93gRzxxV",
+    "title": "IterGen: Iterative Semantic-aware Structured LLM Generation with Backtracking",
+    "relevance_score": 3,
+    "reason": "Iterative grammar-guided LLM generation with backtracking for structured outputs like code, improving reliability.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  },
+  {
+    "batch_id": "batch_00208",
+    "paper_id": "Z0eiiV3Yyh",
+    "title": "FlexCAD: Unified and Versatile Controllable CAD Generation with Fine-tuned Large Language Models",
+    "relevance_score": 3,
+    "reason": "Fine-tunes LLMs for structured code generation (CAD) via hierarchical text representation, aligning with structured reasoning for code.",
+    "tags": [
+      "PROGRAM_REASONING",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "CONSTRAINED_DECODING_AND_GUARDS"
+  }
+]

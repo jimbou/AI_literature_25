@@ -3362,19 +3362,6 @@
     "source_file": "extracted_results_neurips.json"
   },
   {
-    "batch_id": "batch_00180",
-    "paper_id": "JcEqp4aPmb",
-    "title": "InfinityStar: Uniﬁed Spacetime AutoRegressive Modeling for Visual Generation",
-    "relevance_score": 5,
-    "reason": "Direct hit on LLM agents for code: adversarial self-play to evolve a critic for evaluating reasoning steps, improving correctness.",
-    "tags": [
-      "AGENTS",
-      "RELIABILITY",
-      "PROGRAM_REASONING"
-    ],
-    "source_file": "extracted_results_neurips.json"
-  },
-  {
     "batch_id": "batch_00171",
     "paper_id": "IbOacMF5qd",
     "title": "CLEVER: A Curated Benchmark for Formally Verified Code Generation",

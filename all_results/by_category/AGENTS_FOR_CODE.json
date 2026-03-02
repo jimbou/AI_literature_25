@@ -1129,20 +1129,6 @@
     "category": "AGENTS_FOR_CODE"
   },
   {
-    "batch_id": "batch_00180",
-    "paper_id": "JcEqp4aPmb",
-    "title": "InfinityStar: Uniﬁed Spacetime AutoRegressive Modeling for Visual Generation",
-    "relevance_score": 5,
-    "reason": "Direct hit on LLM agents for code: adversarial self-play to evolve a critic for evaluating reasoning steps, improving correctness.",
-    "tags": [
-      "AGENTS",
-      "RELIABILITY",
-      "PROGRAM_REASONING"
-    ],
-    "source_file": "extracted_results_neurips.json",
-    "category": "AGENTS_FOR_CODE"
-  },
-  {
     "batch_id": "batch_00094",
     "paper_id": "9yusqX9DpR",
     "title": "Self-Challenging Language Model Agents",
@@ -1152,20 +1138,6 @@
       "AGENTS",
       "TOOL_USE",
       "PROGRAM_REASONING",
-      "RELIABILITY"
-    ],
-    "source_file": "extracted_results_neurips.json",
-    "category": "AGENTS_FOR_CODE"
-  },
-  {
-    "batch_id": "batch_00059",
-    "paper_id": "63ljkCGMhE",
-    "title": "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold",
-    "relevance_score": 5,
-    "reason": "Directly addresses scaling training data for software engineering agents, creating a large dataset for code repair tasks.",
-    "tags": [
-      "AGENTS",
-      "SOFTWARE_ENGINEERING",
       "RELIABILITY"
     ],
     "source_file": "extracted_results_neurips.json",

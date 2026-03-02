@@ -1,0 +1,20 @@
+{
+  "raw_jsonl": "logs/neurips2025.raw.jsonl",
+  "batches_total": 3,
+  "batches_with_kept": 1,
+  "parse_failures": 0,
+  "kept_total": 1,
+  "kept": [
+    {
+      "batch_id": "batch_00001",
+      "paper_id": "02qdHz1LU0",
+      "title": "Model-Guided Dual-Role Alignment for High-Fidelity Open-Domain Video-to-Audio Generation",
+      "relevance_score": 3,
+      "reason": "Model-guided dual-role alignment for cross-modal coherence; method for improving output fidelity via internal guidance.",
+      "tags": [
+        "RELIABILITY",
+        "OTHER"
+      ]
+    }
+  ]
+}

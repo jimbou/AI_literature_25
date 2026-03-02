@@ -1,0 +1,2 @@
+batch_id,paper_id,title,relevance_score,reason,tags
+batch_00001,02qdHz1LU0,Model-Guided Dual-Role Alignment for High-Fidelity Open-Domain Video-to-Audio Generation,3,Model-guided dual-role alignment for cross-modal coherence; method for improving output fidelity via internal guidance.,RELIABILITY;OTHER

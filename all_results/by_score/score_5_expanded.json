@@ -10,7 +10,8 @@
       "VERIFICATION",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_aaai.json"
+    "source_file": "extracted_results_aaai.json",
+    "source_file_screening": "extracted_results_aaai.json"
   },
   {
     "batch_id": "batch_00181",
@@ -23,7 +24,8 @@
       "SYMBOLIC_EXEC",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_aaai.json"
+    "source_file": "extracted_results_aaai.json",
+    "source_file_screening": "extracted_results_aaai.json"
   },
   {
     "batch_id": "batch_00276",
@@ -36,7 +38,8 @@
       "TOOL_USE",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_aaai.json"
+    "source_file": "extracted_results_aaai.json",
+    "source_file_screening": "extracted_results_aaai.json"
   },
   {
     "batch_id": "batch_00336",
@@ -50,7 +53,8 @@
       "PROGRAM_REASONING",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_aaai.json"
+    "source_file": "extracted_results_aaai.json",
+    "source_file_screening": "extracted_results_aaai.json"
   },
   {
     "batch_id": "batch_00027",
@@ -62,7 +66,8 @@
       "RELIABILITY",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00028",
@@ -75,7 +80,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00059",
@@ -88,7 +94,8 @@
       "PROGRAM_REASONING",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00070",
@@ -101,7 +108,8 @@
       "RELIABILITY",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00100",
@@ -115,7 +123,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00110",
@@ -129,7 +138,8 @@
       "FORMAL_METHODS",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00117",
@@ -141,7 +151,8 @@
       "AMBIGUITY",
       "OTHER"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00127",
@@ -153,7 +164,8 @@
       "AGENTS",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00147",
@@ -166,7 +178,8 @@
       "TOOL_USE",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00165",
@@ -179,7 +192,8 @@
       "VERIFICATION",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00186",
@@ -192,7 +206,8 @@
       "FORMAL_METHODS",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00188",
@@ -204,7 +219,8 @@
       "AGENTS",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00212",
@@ -217,7 +233,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00226",
@@ -230,7 +247,8 @@
       "PROGRAM_REASONING",
       "CONSENSUS"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00227",
@@ -242,7 +260,8 @@
       "RELIABILITY",
       "PROGRAM_REASONING"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00234",
@@ -258,7 +277,8 @@
       "SYMBOLIC_EXEC",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_iclr.json"
+    "source_file": "extracted_results_iclr.json",
+    "source_file_screening": "extracted_results_iclr.json"
   },
   {
     "batch_id": "batch_00039",
@@ -270,7 +290,8 @@
       "RELIABILITY",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00094",
@@ -284,7 +305,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00113",
@@ -296,7 +318,8 @@
       "RELIABILITY",
       "AMBIGUITY"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00118",
@@ -309,7 +332,8 @@
       "FORMAL_METHODS",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00171",
@@ -321,7 +345,8 @@
       "FORMAL_METHODS",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00244",
@@ -335,7 +360,8 @@
       "RELIABILITY",
       "CONSENSUS"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00389",
@@ -350,7 +376,8 @@
       "VERIFICATION",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00420",
@@ -364,7 +391,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00432",
@@ -378,7 +406,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00460",
@@ -391,7 +420,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00494",
@@ -404,7 +434,8 @@
       "RELIABILITY",
       "WORKFLOW_STATS"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00578",
@@ -417,7 +448,8 @@
       "PROGRAM_REASONING",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_neurips.json"
+    "source_file": "extracted_results_neurips.json",
+    "source_file_screening": "extracted_results_neurips.json"
   },
   {
     "batch_id": "batch_00001",
@@ -432,7 +464,8 @@
       "VERIFICATION",
       "SMT"
     ],
-    "source_file": "extracted_results_oopsla.json"
+    "source_file": "extracted_results_oopsla.json",
+    "source_file_screening": "extracted_results_oopsla.json"
   },
   {
     "batch_id": "batch_00012",
@@ -445,7 +478,8 @@
       "SYNTHESIS",
       "RELIABILITY"
     ],
-    "source_file": "extracted_results_oopsla.json"
+    "source_file": "extracted_results_oopsla.json",
+    "source_file_screening": "extracted_results_oopsla.json"
   },
   {
     "batch_id": "batch_00019",
@@ -459,7 +493,8 @@
       "SYMBOLIC_EXEC",
       "VERIFICATION"
     ],
-    "source_file": "extracted_results_oopsla.json"
+    "source_file": "extracted_results_oopsla.json",
+    "source_file_screening": "extracted_results_oopsla.json"
   },
   {
     "batch_id": "batch_00020",
@@ -473,7 +508,8 @@
       "VERIFICATION",
       "AGENTS"
     ],
-    "source_file": "extracted_results_oopsla.json"
+    "source_file": "extracted_results_oopsla.json",
+    "source_file_screening": "extracted_results_oopsla.json"
   },
   {
     "batch_id": "batch_00007",
@@ -487,6 +523,7 @@
       "RELIABILITY",
       "SYNTHESIS"
     ],
-    "source_file": "extracted_results_popl.json"
+    "source_file": "extracted_results_popl.json",
+    "source_file_screening": "extracted_results_popl.json"
   }
 ]

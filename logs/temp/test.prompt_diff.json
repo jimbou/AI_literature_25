@@ -1,0 +1,126 @@
+{
+  "old_file": "temp/extracted_results_iclr.json",
+  "new_file": "temp/extracted_results_iclr2.json",
+  "counts": {
+    "old_total_unique": 248,
+    "new_total_unique": 248,
+    "added": 2,
+    "dropped": 2,
+    "score_changed": 2,
+    "unchanged": 244,
+    "old_missing_id": 0,
+    "new_missing_id": 0
+  },
+  "score_histograms": {
+    "old": {
+      "1": 19,
+      "2": 19,
+      "3": 170,
+      "4": 24,
+      "5": 16,
+      "invalid": 0
+    },
+    "new": {
+      "1": 20,
+      "2": 19,
+      "3": 172,
+      "4": 20,
+      "5": 17,
+      "invalid": 0
+    }
+  },
+  "added_examples": [
+    {
+      "paper_id": "7o6SG5gVev",
+      "title": "TestGenEval: A Real World Unit Test Generation and Test Completion Benchmark",
+      "relevance_score": 3,
+      "reason": "Benchmark for LLM test generation, evaluates reasoning about execution and correctness.",
+      "tags": [
+        "RELIABILITY",
+        "PROGRAM_REASONING"
+      ],
+      "source_file": "",
+      "batch_id": "batch_00049"
+    },
+    {
+      "paper_id": "BLWaTeucYX",
+      "title": "Generating CAD Code with Vision-Language Models for 3D Designs",
+      "relevance_score": 3,
+      "reason": "Self-refinement method using VLM feedback to verify/correct generated CAD code, aligning with LLM reliability for code correctness.",
+      "tags": [
+        "RELIABILITY"
+      ],
+      "source_file": "",
+      "batch_id": "batch_00071"
+    }
+  ],
+  "dropped_examples": [
+    {
+      "paper_id": "6H4jRWKFc3",
+      "title": "MotherNet: Fast Training and Inference via Hyper-Network Transformers",
+      "relevance_score": 4,
+      "reason": "Proposes hypernetwork for in-context learning on tabular data, relevant to structured reasoning and reliability of LLM workflows.",
+      "tags": [
+        "OTHER"
+      ],
+      "source_file": "",
+      "batch_id": "batch_00039"
+    },
+    {
+      "paper_id": "A6Y7AqlzLW",
+      "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+      "relevance_score": 4,
+      "reason": "Process reward models (PRMs) for LLM reasoning, aligns with verifier-guided decoding and reliability for code correctness.",
+      "tags": [
+        "RELIABILITY",
+        "CONSENSUS"
+      ],
+      "source_file": "",
+      "batch_id": "batch_00064"
+    }
+  ],
+  "changed_examples": [
+    {
+      "paper_id": "5X5Z7Ffrjb",
+      "title": "Steering Large Language Models between Code Execution and Textual Reasoning",
+      "score_old": 4,
+      "score_new": 1,
+      "delta": -3,
+      "reason_old": "Explicitly studies steering LLMs between code execution and textual reasoning for complex tasks, aligning with our focus on code-based agents and reliability.",
+      "reason_new": "Explicitly studies steering LLMs between code execution and textual reasoning for complex tasks, aligning with our focus on code-based agents and reliability.",
+      "tags_old": [
+        "AGENTS",
+        "TOOL_USE",
+        "PROGRAM_REASONING",
+        "RELIABILITY"
+      ],
+      "tags_new": [
+        "AGENTS",
+        "TOOL_USE",
+        "PROGRAM_REASONING",
+        "RELIABILITY"
+      ],
+      "source_file_old": "",
+      "source_file_new": ""
+    },
+    {
+      "paper_id": "4FWAwZtd2n",
+      "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+      "score_old": 4,
+      "score_new": 5,
+      "delta": 1,
+      "reason_old": "Scales test-time compute for reasoning, uses verifier reward models to improve LLM code output correctness.",
+      "reason_new": "Scales test-time compute for reasoning, uses verifier reward models to improve LLM code output correctness.",
+      "tags_old": [
+        "RELIABILITY",
+        "CONSENSUS"
+      ],
+      "tags_new": [
+        "RELIABILITY",
+        "CONSENSUS"
+      ],
+      "source_file_old": "",
+      "source_file_new": ""
+    }
+  ]
+}

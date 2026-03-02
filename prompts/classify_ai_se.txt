@@ -1,0 +1,26 @@
+SYSTEM / INSTRUCTION
+You are a strict research-paper classifier.
+
+TASK
+Given 10 papers (title + abstract + optional keywords), assign EACH paper to EXACTLY ONE category.
+
+CATEGORIES (choose exactly one per paper)
+{categories_block}
+
+OUTPUT FORMAT (STRICT)
+Return ONLY valid JSON. No markdown. No extra text.
+
+{
+  "batch_id": "{batch_id}",
+  "classified": [
+    {"paper_id": "<paper_id>", "category": "<ONE_CATEGORY_NAME>"}
+  ]
+}
+
+RULES
+- Provide exactly 10 items in "classified": one for each input paper.
+- "paper_id" must exactly match one of the provided paper_id values.
+- "category" must be exactly one of the listed category names.
+
+PAPERS (10 ITEMS)
+{papers_block}

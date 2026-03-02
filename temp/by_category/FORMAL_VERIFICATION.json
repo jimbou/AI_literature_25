@@ -1,0 +1,207 @@
+[
+  {
+    "batch_id": "batch_00234",
+    "paper_id": "dWsdJAXjQD",
+    "title": "ImProver: Agent-Based Automated Proof Optimization",
+    "relevance_score": 5,
+    "reason": "LLM agent for automated proof optimization in Lean, uses symbolic reasoning and formal verification.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING",
+      "FORMAL_METHODS",
+      "SYMBOLIC_EXEC",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00186",
+    "paper_id": "Uo4EHT4ZZ8",
+    "title": "LeanAgent: Lifelong Learning for Formal Theorem Proving",
+    "relevance_score": 5,
+    "reason": "LLM-based agent for formal theorem proving, uses structured reasoning (proofs) and lifelong learning for code/verification.",
+    "tags": [
+      "AGENTS",
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00165",
+    "paper_id": "R2834dhBlo",
+    "title": "Neural Interactive Proofs",
+    "relevance_score": 5,
+    "reason": "Neural interactive proofs for code validation with LLMs; directly combines formal verification (prover-verifier games) with code tasks.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00110",
+    "paper_id": "I4YAIwrsXa",
+    "title": "DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search",
+    "relevance_score": 5,
+    "reason": "LLM agents for formal theorem proving using Lean proof assistant feedback, RL, and MCTS for proof search.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00290",
+    "paper_id": "n2NidsYDop",
+    "title": "Transformers Provably Solve Parity Efficiently with Chain of Thought",
+    "relevance_score": 4,
+    "reason": "Theoretical analysis of CoT for parity; shows self-consistency checking improves multi-step reasoning.",
+    "tags": [
+      "RELIABILITY",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00257",
+    "paper_id": "hUb2At2DsQ",
+    "title": "Rethinking and Improving Autoformalization: Towards a Faithful Metric and a Dependency Retrieval-based Approach",
+    "relevance_score": 4,
+    "reason": "Directly addresses LLMs + formal verification for autoformalization, a core theme of formal methods+LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00190",
+    "paper_id": "VQwI055flA",
+    "title": "CARTS: Advancing Neural Theorem Proving with Diversified Tactic Calibration and Bias-Resistant Tree Search",
+    "relevance_score": 4,
+    "reason": "LLM + tree search for neural theorem proving; directly connects formal reasoning (theorem proving) with LLM-based agents.",
+    "tags": [
+      "AGENTS",
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00170",
+    "paper_id": "SOWZ59UyNc",
+    "title": "Lean-STaR: Learning to Interleave Thinking and Proving",
+    "relevance_score": 4,
+    "reason": "LLM reasoning for theorem proving with structured informal thoughts, directly relates to formal methods + LLMs.",
+    "tags": [
+      "FORMAL_METHODS",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00064",
+    "paper_id": "A6Y7AqlzLW",
+    "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+    "relevance_score": 4,
+    "reason": "Process reward models (PRMs) for LLM reasoning, aligns with verifier-guided decoding and reliability for code correctness.",
+    "tags": [
+      "RELIABILITY",
+      "CONSENSUS"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00002",
+    "paper_id": "0K1OaL6XuK",
+    "title": "Planning Anything with Rigor: General-Purpose Zero-Shot Planning with LLM-based Formalized Programming",
+    "relevance_score": 4,
+    "reason": "LLM-based formalized programming for general-purpose planning, solving optimization problems as code, tool-use for complex constraints.",
+    "tags": [
+      "AGENTS",
+      "TOOL_USE",
+      "PROGRAM_REASONING"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00001",
+    "paper_id": "09FiNmvNMw",
+    "title": "Divide and Translate: Compositional First-Order Logic Translation and Verification for Complex Logical Reasoning",
+    "relevance_score": 4,
+    "reason": "Neurosymbolic method using LLMs for logic translation, verified by SAT solver for reliable reasoning.",
+    "tags": [
+      "FORMAL_METHODS",
+      "NEUROSYMBOLIC",
+      "RELIABILITY"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00337",
+    "paper_id": "uUsL07BsMA",
+    "title": "Learning Splitting Heuristics in Divide-and-Conquer SAT Solvers with Reinforcement Learning",
+    "relevance_score": 3,
+    "reason": "Uses RL+GNN for SAT solver heuristics; symbolic reasoning core is adjacent to formal methods/verification.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00254",
+    "paper_id": "h0vC0fm1q7",
+    "title": "Sensitivity Verification for Additive Decision Tree Ensembles",
+    "relevance_score": 3,
+    "reason": "Formal verification framework for tree ensembles using SAT/pseudo-Boolean constraints, relates to symbolic reasoning for ML models.",
+    "tags": [
+      "FORMAL_METHODS",
+      "VERIFICATION"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00228",
+    "paper_id": "cfGpIcOIa5",
+    "title": "GeoILP: A Synthetic Dataset to Guide Large-Scale Rule Induction",
+    "relevance_score": 3,
+    "reason": "Neuro-symbolic dataset for rule induction from geometry problems, aligning with hybrid reasoning interests.",
+    "tags": [
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  },
+  {
+    "batch_id": "batch_00215",
+    "paper_id": "aWLQTbfFgV",
+    "title": "Training Neural Networks as Recognizers of Formal Languages",
+    "relevance_score": 3,
+    "reason": "Connects neural networks (transformers) to formal language recognition, relevant to formal methods + LLMs theme.",
+    "tags": [
+      "FORMAL_METHODS",
+      "OTHER"
+    ],
+    "source_file": "extracted_results_iclr.json",
+    "category": "FORMAL_VERIFICATION"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "004uTlSufe",
+    "title": "How Well Can Differential Privacy Be Audited in One Run?",
+    "abstract": "Recent methods for auditing the privacy of machine learning algorithms have improved computational efficiency by simultaneously intervening on multiple training examples in a single training run. Steinke et al. prove that one-run auditing indeed lower bounds the true privacy parameter of the audited algorithm, and give impressive empirical results. Their work leaves open the question of how precisely one-run auditing can uncover the true privacy parameter of an algorithm, and how that precision depends on the audited algorithm. In this work, we characterize the maximum achievable efficacy of one-run auditing and show that the key barrier to its efficacy is interference between the observable effects of different data elements. We present new conceptual approaches to minimize this barrier, towards improving the performance of one-run auditing of real machine learning algorithms.",
+    "keywords": [
+      "differential privacy",
+      "privacy auditing"
+    ]
+  },
+  {
+    "id": "00Bwl1woOJ",
+    "title": "Uncertainty-Sensitive Privileged Learning",
+    "abstract": "Privileged learning efficiently tackles high-dimensional, partially observable decision-making problems by first training a privileged policy (PP) on low-dimensional privileged observations, and then deriving a deployment policy (DP) either by imitating the PP or coupling it with an observation encoder. However, since the DP relies on local and partial observations, a behavioral divergence (BD) often emerges between the DP and the PP, ultimately degrading deployment performance.  A promising strategy is to train a PP to learn the optimal behaviors attainable under the DP’s observation space by applying reward penalties in regions with large BD. However, producing these behaviors is challenging for the PP because they rely on the DP’s information-gathering progress, which is invisible to the PP. In this paper, we quantify the DP’s information-gathering progress by estimating the prediction uncertainty of privileged observations reconstructed from partial observations, and accordingly propose the framework of Uncertainty-Sensitive Privileged Learning (USPL). USPL feeds this uncertainty estimation to the PP and combines reward transformation with privileged-observation blurring, driving the PP to choose actions that actively reduce uncertainty and thus gather the necessary information. Experiments across nine tasks demonstrate that USPL significantly reduces the behavioral discrepancies, achieving superior deployment performance compared to baselines. Additional visualization results show that the DP accurately quantifies its uncertainty, and the PP effectively adapts to uncertainty variations. Code is available at https://github.com/FanmingL/USPL.",
+    "keywords": [
+      "Imitation Gap",
+      "Reinforcement Learning",
+      "Privileged Learning",
+      "Teacher-Student Learning"
+    ]
+  },
+  {
+    "id": "00oRAPDWsX",
+    "title": "KL Penalty Control via Perturbation for Direct Preference Optimization",
+    "abstract": "Direct Preference Optimization (DPO) demonstrates the advantage of aligning a large language model with human preference using only an offline dataset. However, DPO has the limitation that the KL penalty, which prevents excessive deviation from the reference model, is static throughout the training process. Several methods claim to change this static KL penalty of DPO into a dynamic one, but no approach can adaptively assign different KL penalties for each preference pair. In this paper, we propose $\\varepsilon$-Direct Preference Optimization ($\\varepsilon$-DPO), which allows adaptive control of the KL penalty strength $\\beta$ for each preference pair. Specifically, $\\varepsilon$-DPO adaptively controls $\\beta$ for each preference pair based on the monotonicity of logits as a preference model under the perturbation of $\\beta$ during training. This is equivalent to adjusting the KL penalty by checking whether the change in training-time temperature can lead to better preference confidence as preference models by simply reusing the logit of the current policy and the reference policy. Experimental results show that the simple criterion of $\\varepsilon$-DPO for KL penalty relaxation significantly improves DPO compared to most existing direct alignment algorithms on general chatbot benchmarks and reveal that this KL penalty control criterion can reflect confusion as a preference model and provide an efficient KL trade-off, highlighting the significance of instance-level adaptive KL penalty control in DPO.",
+    "keywords": [
+      "Direct Alignment Algorithm",
+      "Reinforcement Learning from Human Feedback",
+      "Human Preference",
+      "LLM",
+      "Alignment"
+    ]
+  },
+  {
+    "id": "01hPO0uJhS",
+    "title": "Who You Are Matters: Bridging Interests and Social Roles via LLM-Enhanced Logic Recommendation",
+    "abstract": "Recommender systems filter contents/items valuable to users by inferring preferences from user features and historical behaviors. \nMainstream approaches follow the learning-to-rank paradigm, which focus on discovering and modeling item topics (e.g.,\ncategories), and capturing user preferences on these topics based on historical interactions.\nHowever, this paradigm often neglects the modeling of user characteristics and their social roles, which are logical confounders influencing the correlated interest and user preference transition. \nTo bridge this gap, we introduce the user role identification task and the behavioral logic modeling task that aim to explicitly model user roles and learn the logical relations between item topics and user social roles. \nWe show that it is possible to explicitly solve these tasks through an efficient integration framework of Large Language Model (LLM) and recommendation systems, for which we propose TagCF. \nOn the one hand, TagCF exploits the (Multi-modal) LLM's world knowledge and logic inference ability to extract realistic tag-based virtual logic graphs that reveal dynamic and expressive knowledge of users, refining our understanding of user behaviors.\nOn the other hand, TagCF presents empirically effective integration modules that take advantage of the extracted tag-logic information, augmenting the recommendation performance.\nWe conduct both online experiments and offline experiments with industrial and public datasets as verification of TagCF's effectiveness, and we empirically show that the user role modeling strategy is potentially a better choice than the modeling of item topics. \nAdditionally, we provide evidence that the extracted logic graphs are empirically a general and transferable knowledge that can benefit a wide range of recommendation tasks. Our code is available in https://github.com/Code2Q/TagCF.",
+    "keywords": [
+      "recommendation with large language models",
+      "large language models",
+      "recommender systems",
+      "user roles",
+      "collaborative filtering"
+    ]
+  },
+  {
+    "id": "021PIPyOU1",
+    "title": "ALTER: All-in-One Layer Pruning and Temporal Expert Routing for Efficient Diffusion Generation",
+    "abstract": "Diffusion models have demonstrated exceptional capabilities in generating high-fidelity images. However, their iterative denoising process results in significant computational overhead during inference, limiting their practical deployment in resource-constrained environments. \nExisting acceleration methods often adopt uniform strategies that fail to capture the temporal variations during diffusion generation, while the commonly adopted sequential $\\textit{pruning-then-fine-tuning strategy}$ suffers from sub-optimality due to the misalignment between pruning decisions made on pretrained weights and the model’s final parameters. To address these limitations, we introduce $\\textbf{ALTER}$: $\\textbf{A}$ll-in-One $\\textbf{L}$ayer Pruning and $\\textbf{T}$emporal $\\textbf{E}$xpoert $\\textbf{R}$outing, a unified framework that transforms diffusion models into a mixture of efficient temporal experts.\nALTER achieves a single-stage optimization that unifies layer pruning, expert routing, and model fine-tuning by employing a trainable hypernetwork, which dynamically generates layer pruning decisions and manages timestep routing to specialized, pruned expert sub-networks throughout the ongoing fine-tuning of the UNet. This unified co-optimization strategy enables significant efficiency gains while preserving high generative quality. Specifically, ALTER achieves same-level visual fidelity to the original 50-step Stable Diffusion v2.1 model while utilizing only 25.9\\% of its total MACs with just 20 inference steps and delivering a 3.64$\\times$ speedup through 35\\% sparsity.",
+    "keywords": [
+      "Diffusion",
+      "Pruning",
+      "Mixture of Experts",
+      "Efficiency"
+    ]
+  },
+  {
+    "id": "02qdHz1LU0",
+    "title": "Model-Guided Dual-Role Alignment for High-Fidelity Open-Domain Video-to-Audio Generation",
+    "abstract": "We present MGAudio, a novel flow-based framework for open-domain video-to-audio generation, which introduces model-guided dual-role alignment as a central design principle. Unlike prior approaches that rely on classifier-based or classifier-free guidance, MGAudio enables the generative model to guide itself through a dedicated training objective designed for video-conditioned audio generation. The framework integrates three main components: (1) a scalable flow-based Transformer denoiser, (2) a dual-role alignment mechanism where the audio-visual encoder serves both as a conditioning module and as a feature aligner to improve generation quality, and (3) a model-guided objective that enhances cross-modal coherence and audio realism.\nMGAudio achieves state-of-the-art performance on VGGSound, reducing FAD to 0.40, substantially surpassing the best classifier-free guidance baselines, and consistently outperforms existing methods across FD, IS, and alignment metrics. It also generalizes well to the challenging UnAV-100 benchmark. These results highlight model-guided dual-role alignment as a powerful and scalable paradigm for conditional video-to-audio generation. Code is available at: https://github.com/pantheon5100/mgaudio",
+    "keywords": [
+      "Open domain video to audio generation",
+      "FLow based model",
+      "Cross modal alignment",
+      "Transformer denoiser",
+      "Model guided training"
+    ]
+  },
+  {
+    "id": "02ymnxlypN",
+    "title": "SceneSplat++: A Large Dataset and Comprehensive Benchmark for Language Gaussian Splatting",
+    "abstract": "3D Gaussian Splatting (3DGS) serves as a highly performant and efficient encoding of scene geometry, appearance, and semantics. Moreover, grounding language in 3D scenes has proven to be an effective strategy for 3D scene understanding. Current Language Gaussian Splatting line of work fall into three main groups: (i) per-scene optimization-based, (ii) per-scene optimization-free, and (iii) generalizable approach. However, most of them are evaluated only on rendered 2D views of a handful of scenes and viewpoints close to the training views, limiting ability and insight into holistic 3D understanding. To address this gap, we propose the first large-scale benchmark that systematically assesses these three groups of methods directly in 3D space, evaluating on 1060 scenes across three indoor datasets and one outdoor dataset. Benchmark results demonstrate a clear advantage of the generalizable paradigm, particularly in relaxing the scene-specific limitation, enabling fast feed-forward inference on novel scenes, and achieving superior segmentation performance. We further introduce SceneSplat-49K -- a carefully curated 3DGS dataset comprising of around 49K diverse indoor and outdoor scenes trained from multiple sources, with which we demonstrate generalizable approach could harness strong data priors. Our codes, benchmark, and datasets are available.",
+    "keywords": [
+      "open vocabulary",
+      "scene understanding benchmark",
+      "3DGS scene dataset"
+    ]
+  },
+  {
+    "id": "036C670YK6",
+    "title": "Parsimonious Predictions for Strategyproof Scheduling",
+    "abstract": "We consider the problem of scheduling $m$ jobs on $n$ unrelated\n  strategic machines to minimize the maximum load of any machine, but\n  the machines are strategic and may misreport processing times to\n  minimize their own load. The pioneering work of Nisan and Ronen gave\n  an $n$-approximate deterministic strategyproof mechanism for this\n  setting, and this was recently shown to be best possible by the\n  breakthrough results of Christodoulou et al. This large approxation\n  guarantee begs the question: how can we avoid these large worst-case\n  results. In this work, we use the powerful framework of algorithms\n  with (machine-learned) predictions to bypass these strong\n  impossibility results. We show how we can predict $O(m+n)$ values to\n  obtain a deterministic strategyproof algorithm whose makespan is\n  within a constant factor of the optimal makespan when the\n  predictions are correct, and $O(n)$ times the optimum no matter how\n  poor the predictions are.",
+    "keywords": [
+      "algorithmic game theory",
+      "mechanism design",
+      "scheduling",
+      "learning with predictions"
+    ]
+  },
+  {
+    "id": "0398lUtZqs",
+    "title": "Reproducing Kernel Banach Space Models for Neural Networks with Application to Rademacher Complexity Analysis",
+    "abstract": "This paper explores the use of Hermite transform based reproducing kernel Banach space methods to construct exact or un-approximated models of feedforward neural networks of arbitrary width, depth and topology, including ResNet and Transformers networks, assuming only a feedforward topology, finite energy activations and finite (spectral-) norm weights and biases. Using this model, two straightforward but surprisingly tight bounds on Rademacher complexity are derived, precisely (1) a general bound that is width-independent and scales exponentially with depth; and (2) a width- and depth-independent bound for networks with appropriately constrained (below threshold) weights and biases.",
+    "keywords": [
+      "uniform convergence",
+      "rademacher complexity",
+      "resnet",
+      "transformer"
+    ]
+  },
+  {
+    "id": "047VzZEpnu",
+    "title": "Spik-NeRF: Spiking Neural Networks for Neural Radiance Fields",
+    "abstract": "Spiking Neural Networks (SNNs), as a biologically inspired neural network architecture, have garnered significant attention due to their exceptional energy efficiency and increasing potential for various applications. In this work, we extend the use of SNNs to neural rendering tasks and introduce Spik-NeRF (Spiking Neural Radiance Fields). \n    We observe that the binary spike activation map of traditional SNNs lacks sufficient information capacity, leading to information loss and a subsequent decline in the performance of spiking neural rendering models. \n    To address this limitation, we propose the use of ternary spike neurons, which enhance the information-carrying capacity in the spiking neural rendering model. With ternary spike neurons, Spik-NeRF achieves performance that is on par with, or nearly identical to, traditional ANN-based rendering models.\n    Additionally, we present a re-parameterization technique for inference that allows Spik-NeRF with ternary spike neurons to retain the event-driven, multiplication-free advantages typical of binary spike neurons. \n    Furthermore, to further boost the performance of Spik-NeRF, we employ a distillation method, using an ANN-based NeRF to guide the training of our Spik-NeRF model, which is more compatible with the ternary neurons compared to the standard binary neurons. \n    We evaluate Spik-NeRF on both realistic and synthetic scenes, and the experimental results demonstrate that Spik-NeRF achieves rendering performance comparable to ANN-based NeRF models.",
+    "keywords": [
+      "Spiking Neural Networks",
+      "Spiking NeRF",
+      "Neural Radiance Fields"
+    ]
+  },
+  {
+    "id": "04p7u1gIsv",
+    "title": "Quantifying Uncertainty in the Presence of Distribution Shifts",
+    "abstract": "Neural networks make accurate predictions but often fail to provide reliable uncertainty estimates, especially when test-time covariates differ from those seen during training, as occurs with selection bias or shifts over time. To address this, we propose a Bayesian framework for uncertainty estimation that explicitly accounts for covariate shifts. Unlike conventional approaches that rely on fixed priors, a key idea of our method is an adaptive prior, conditioned on both training and new covariates. This prior naturally increases uncertainty for inputs that lie far from the training distribution in regions where predictive performance is likely to degrade. To efficiently approximate the resulting posterior predictive distribution, we employ amortized variational inference. Finally, we construct synthetic environments by drawing small bootstrap samples from the training data, simulating a range of plausible covariate shifts using only the original dataset. We evaluate our method on both synthetic and real-world data, demonstrating that it yields substantially improved uncertainty estimates under distribution shift compared to existing approaches.",
+    "keywords": [
+      "Uncertainty estimation",
+      "distribution shift",
+      "variational inference",
+      "bayesian learning",
+      "out-of-distribution generalization"
+    ]
+  },
+  {
+    "id": "05cVmYJJnb",
+    "title": "BrainMoE: Cognition Joint Embedding via Mixture-of-Expert Towards Robust Brain Foundation Model",
+    "abstract": "Given the large scale of public functional Magnetic Resonance Imaging (fMRI), e.g., UK Biobank (UKB) and Human Connectome Projects (HCP), brain foundation models are emerging. Although the amount of samples under rich environmental variables is unprecedented, existing brain foundation models learn from fMRI derived from a narrow range of cognitive states stimulated by similar environments, causing the limited robustness demonstrated in various applications and datasets acquired with different pipelines and limited sample size. By capitalizing on the variety of cognitive status as subjects performing explicit tasks, we present the mixture of brain experts, namely BrainMoE, pre-training on tasking fMRI with rich behavioral tasks in addition to resting fMRI for a robust brain foundation model. Brain experts are designed to produce embeddings for different behavioral tasks related to cognition. Afterward, these cognition embeddings are mixed by a cognition adapter via cross-attention so that BrainMoE can handle orthogonal embeddings and be robust on those boutique downstream datasets. We have pre-trained two existing self-regressive architectures and one new supervised architecture as brain experts on 68,251 fMRI scans among UKB and HCP, containing 12 different cognitive states. Then, BrainMoE is evaluated on a variety of applications, including sex, age prediction, human behavior recognition, disease early diagnosis of Autism, Parkinson's disease, Alzheimer's disease, and Schizophrenia, and fMRI-EEG multimodal applications, where promising results in eight datasets from three different pipelines indicate great potential to facilitate current neuroimaging applications in clinical routines.",
+    "keywords": [
+      "Mixture-of-Expert",
+      "Brain foundation model",
+      "Large model",
+      "Semi-supervised learning",
+      "Transformer decoder"
+    ]
+  },
+  {
+    "id": "05f6PdEPs2",
+    "title": "E-MoFlow: Learning Egomotion and Optical Flow from Event Data via Implicit Regularization",
+    "abstract": "The estimation of optical flow and 6-DoF ego-motion—two fundamental tasks in 3-D vision—has typically been addressed independently. \nFor neuromorphic vision (e.g., event cameras), however, the lack of robust data association makes solving the two problems separately an ill-posed challenge, especially in the absence of supervision via ground truth.\n\nExisting works mitigate this ill-posedness by either enforcing the smoothness of the flow field via an explicit variational regularizer or leveraging explicit structure-and-motion priors in the parametrization to improve event alignment.\nThe former notably introduces bias in results and computational overhead, while the latter—which parametrizes the optical flow in terms of the scene depth and the camera motion—often converges to suboptimal local minima.\n\nTo address these issues, we propose an unsupervised pipeline that jointly optimizes egomotion and flow via implicit spatial-temporal and geometric regularization. First, by modeling camera's egomotion as a continuous spline and optical flow as an implicit neural representation, our method inherently embeds spatial-temporal coherence through inductive biases. Second, we incorporate structure-and-motion priors through differential geometric constraints, bypassing explicit depth estimation while maintaining rigorous geometric consistency.\n\nAs a result, our framework (called \\textbf{E-MoFlow}) unifies egomotion and optical flow estimation via implicit regularization under a fully unsupervised paradigm. Experiments demonstrate its versatility to general 6-DoF motion scenarios, achieving state-of-the-art performance among unsupervised methods and competitive even with supervised approaches. \nCode will be released upon acceptance.",
+    "keywords": [
+      "Self-Supervised Learning",
+      "3D Vision",
+      "Optical flow Estimation",
+      "Motion Estimation",
+      "Event Camera"
+    ]
+  },
+  {
+    "id": "08mjueZ0Iq",
+    "title": "VLMLight: Safety-Critical Traffic Signal Control via Vision-Language Meta-Control and Dual-Branch Reasoning Architecture",
+    "abstract": "Traffic signal control (TSC) is a core challenge in urban mobility, where real-time decisions must balance efficiency and safety. Existing methods—ranging from rule-based heuristics to reinforcement learning (RL)—often struggle to generalize to complex, dynamic, and safety-critical scenarios. We introduce \\textbf{VLMLight}, a novel TSC framework that integrates vision-language meta-control with dual-branch reasoning. At the core of VLMLight is the first image-based traffic simulator that enables multi-view visual perception at intersections, allowing policies to reason over rich cues such as vehicle type, motion, and spatial density. A large language model (LLM) serves as a safety-prioritized meta-controller, selecting between a fast RL policy for routine traffic and a structured reasoning branch for critical cases. In the latter, multiple LLM agents collaborate to assess traffic phases, prioritize emergency vehicles, and verify rule compliance. Experiments show that VLMLight reduces waiting times for emergency vehicles by up to 65% over RL-only systems, while preserving real-time performance in standard conditions with less than 1% degradation. VLMLight offers a scalable, interpretable, and safety-aware solution for next-generation traffic signal control.",
+    "keywords": [
+      "traffic signal control",
+      "urban systems",
+      "multimodal language model"
+    ]
+  },
+  {
+    "id": "098tsRhmQ7",
+    "title": "Uncover Governing Law of Pathology Propagation Mechanism Through A Mean-Field Game",
+    "abstract": "Alzheimer’s disease (AD) is marked by cognitive decline along with the widespread of tau aggregates across the brain cortex. Due to the challenges of imaging pathology spreading flows *in vivo*, however, quantitative analysis on the cortical pathways of tau propagation and its interaction with the cascade of amyloid-beta (A$\\beta$) plaques lags behind the experimental insights of underlying pathophysiological mechanisms. To address this challenge, we present a physics-informed neural network, empowered by mean-field theory, to uncover the biologically meaningful spreading pathways of tau aggregates between two longitudinal snapshots. Following the notion of `prion-like' mechanism in AD, we first formulate the dynamics of tau propagation as a mean-field game (MFG), where the spread of tau aggregate at each location (aka. agent) depends on the collective behavior of the surrounding agents as well as the potential field formed by amyloid burden. Given the governing equation of propagation dynamics, MFG reaches an equilibrium that allows us to model the evolution of tau aggregates as an optimal transport with the lowest cost in *Wasserstein* space. By leveraging the variational primal-dual structure in MFG, we propose a *Wasserstein*-1 Lagrangian generative adversarial network (GAN), in which a Lipschitz critic seeks the appropriate transport cost at the population level and a generator parameterizes the flow fields of optimal transport across individuals. Additionally, we incorporate a symbolic regression module to derive an explicit formulation capturing the A$\\beta$-tau crosstalk. Experimental results on public neuroimaging datasets demonstrate that our explainable deep model not only yields precise and reliable predictions of future tau progression for unseen new subjects but also provides a new window to uncover new understanding of pathology propagation in AD through learning-based approaches.",
+    "keywords": [
+      "physics-informed deep learning",
+      "reaction–diffusion model",
+      "mean field game",
+      "symbolic regression",
+      "Alzheimer’s disease"
+    ]
+  },
+  {
+    "id": "09BPzrMcKg",
+    "title": "Graph Neural Network Based Action Ranking for Planning",
+    "abstract": "We propose a novel approach to learn relational policies for classical planning based on learning to rank actions. We introduce a new graph representation that explicitly captures action information and propose a Graph Neural Network (GNN) architecture augmented with Gated Recurrent Units (GRUs) to learn action rankings. Unlike value-function based approaches that must learn a globally consistent function, our action ranking method only needs to learn locally consistent ranking. Our model is trained on data generated from small problem instances that are easily solved by planners and is applied to significantly larger instances where planning is computationally prohibitive. Experimental results across standard planning benchmarks demonstrate that our action-ranking approach not only achieves better generalization to larger problems than those used in training but also outperforms multiple baselines (value function and action ranking) methods in terms of success rate and plan quality.",
+    "keywords": [
+      "graph neural networks (GNN)",
+      "policy learning",
+      "planning",
+      "relational learning"
+    ]
+  },
+  {
+    "id": "0Az25lvdT2",
+    "title": "Theory-Driven Label-Specific Representation for Incomplete Multi-View Multi-Label Learning",
+    "abstract": "Multi-view multi-label learning typically suffers from dual data incompleteness\n due to limitations in feature storage and annotation costs. The interplay of hetero\ngeneous features, numerous labels, and missing information significantly degrades\n model performance. To tackle the complex yet highly practical challenges, we\n propose a Theory-Driven Label-Specific Representation (TDLSR) framework.\n Through constructing the view-specific sample topology and prototype association\n graph, we develop the proximity-aware imputation mechanism, while deriving class\n representatives that capture the label correlation semantics. To obtain semantically\n distinct view representations, we introduce principles of information shift, inter\naction and orthogonality, which promotes the disentanglement of representation\n information, and mitigates message distortion and redundancy. Besides, label\nsemantic-guided feature learning is employed to identify the discriminative shared\n and specific representations and refine the label preference across views. Moreover,\n we theoretically investigate the characteristics of representation learning and the\n generalization performance. Finally, extensive experiments on public datasets and\n real-world applications validate the effectiveness of TDLSR.",
+    "keywords": [
+      "Multi-View Multi-Label Learning"
+    ]
+  },
+  {
+    "id": "0BCUXg40r7",
+    "title": "PanTS: The Pancreatic Tumor Segmentation Dataset",
+    "abstract": "PanTS is a large-scale, multi-institutional dataset curated to advance research in pancreatic CT analysis. It contains 36,390 CT scans from 145 medical centers, with expert-validated, voxel-wise annotations of over 993,000 anatomical structures, covering pancreatic tumors, pancreas head, body, and tail, and 24 surrounding anatomical structures such as vascular/skeletal structures and abdominal/thoracic organs. Each scan includes metadata such as patient age, sex, diagnosis, contrast phase, in-plane spacing, slice thickness, etc. AI models trained on PanTS achieve significantly better performance in pancreatic tumor detection, localization, and segmentation than those trained on existing public datasets. Our analysis indicates that these gains are directly attributable to the 16× larger-scale tumor annotations and indirectly supported by the 24 additional surrounding anatomical structures. As the largest and most comprehensive resource of its kind, PanTS offers a new benchmark for developing and evaluating AI models in pancreatic CT analysis.",
+    "keywords": [
+      "Pancreatic Tumor",
+      "Segmentation"
+    ]
+  },
+  {
+    "id": "0BVrpXMr5Y",
+    "title": "SmallKV: Small Model Assisted Compensation of KV Cache Compression for Efficient LLM Inference",
+    "abstract": "KV cache eviction has emerged as an effective solution to alleviate resource constraints faced by LLMs in long-context scenarios. However, existing token-level eviction methods often overlook two critical aspects: (1) their irreversible eviction strategy fails to adapt to dynamic attention patterns during decoding (the saliency shift problem), and (2) they treat both marginally important tokens and truly unimportant tokens uniformly, despite the collective significance of marginal tokens to model performance (the marginal information over-compression problem). To address these issues, we design two compensation mechanisms based on the high similarity of attention matrices between LLMs with different scales. We propose SmallKV, a small model assisted compensation method for KV cache compression. SmallKV can maintain attention matching between different-scale LLMs to: 1) assist the larger model in perceiving globally important information of attention; and 2) use the smaller model’s attention scores to approximate those of marginal tokens in the larger model. Extensive experiments on benchmarks including GSM8K, BBH, MT-Bench, and LongBench demonstrate the effectiveness of SmallKV. Moreover, efficiency evaluations show that SmallKV achieves 1.75 - 2.56 times higher throughput than baseline methods, highlighting its potential for efficient and performant LLM inference in resource constrained environments.",
+    "keywords": [
+      "KV Cache Compression",
+      "Efficient LLM Inference"
+    ]
+  },
+  {
+    "id": "0D3ja9s17M",
+    "title": "FlexSelect: Flexible Token Selection for Efficient Long Video Understanding",
+    "abstract": "Long-form video understanding poses a significant challenge for video large language models (VideoLLMs) due to prohibitively high computational and memory demands. \nIn this paper, We propose $\\textbf{FlexSelect}$, a flexible and efficient token selection strategy for processing long videos.\nFlexSelect identifies and retains the most semantically relevant content by leveraging cross-modal attention patterns from a reference transformer layer.\nIt comprises two key components: (1) $\\textbf{a training-free token ranking pipeline}$ that leverages faithful cross-modal attention weights to estimate each video token’s importance, and (2) $\\textbf{a rank-supervised lightweight selector}$ that is trained to replicate these rankings and filter redundant tokens.\nThis generic approach can be seamlessly integrated into various VideoLLM architectures, such as LLaVA-Video, InternVL and Qwen-VL, serving as a plug-and-play module to extend their temporal context length. Empirically, FlexSelect delivers strong gains across multiple long-video benchmarks – including VideoMME, MLVU, LongVB, and LVBench. Morever, it achieves significant speed-ups ($\\textit{e.g.,}$ up to 9 $\\times$ on a LLaVA-Video-7B model), highlighting FlexSelect’s promise for efficient long-form video understanding. Project page: https://flexselect.github.io",
+    "keywords": [
+      "Multimodel LLM",
+      "long video understanding",
+      "token reduction"
+    ]
+  },
+  {
+    "id": "0DaJaV4vRj",
+    "title": "A Learning-Augmented Approach to Online Allocation Problems",
+    "abstract": "In online allocation problems, an algorithm must choose from a set of options at each step, where each option incurs a set of costs/rewards associated with a set of $d$ agents. The goal is to minimize/maximize a function of the accumulated costs/rewards assigned to the agents over the course of the entire allocation process. Such problems are common in combinatorial optimization, including minimization problems such as machine scheduling and network routing, as well as maximization problems such as fair allocation for welfare maximization.\n\nIn this paper, we develop a general learning-augmented algorithmic framework for online allocation problems that produces a nearly optimal solution using only a single $d$-dimensional vector of learned weights. Using this general framework, we derive learning-augmented online algorithms for a broad range of application problems in routing, scheduling, and fair allocation. Our main tool is convex programming duality, which may also have further implications for learning-augmented algorithms in the future.",
+    "keywords": [
+      "online algorithm",
+      "learning-augmented algorithm",
+      "virtual circuit routing"
+    ]
+  }
+]
