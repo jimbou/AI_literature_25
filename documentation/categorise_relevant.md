@@ -31,15 +31,8 @@ This assigns each paper to **exactly one** category using an LLM, with **categor
 ---
 
 ## Model / API
-
-Default:
-
-* model: `deepseek-reasoner`
-* requires: `CLOSE_API_KEY`
-
-```bash
-export CLOSE_API_KEY=your_api_key_here
-```
+SEE:
+[How to get relevant papers](./get_relevant.md)
 
 ---
 
