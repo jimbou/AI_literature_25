@@ -37,6 +37,13 @@ You can override:
 --base_url <api_url>
 ```
 
+--- 
+### Install dependencies
+
+```bash
+pip install openai
+```
+
 ---
 
 ## Basic Usage
