@@ -3,7 +3,7 @@
 
 We collect conference paper datasets (title, abstract, keywords, DOI when available) via:
 
-1. **PaperCopilot (preferred when available)**
+1. **PaperCopilot (preferred when available but limited to major AI conferences)**
 2. **DBLP PACMPL scraper (fallback / PL venues)**
 
 ---
